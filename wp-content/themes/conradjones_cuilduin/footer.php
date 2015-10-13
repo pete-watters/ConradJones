@@ -7,6 +7,9 @@
  * @since conradjones_cuilduin 1.0
  */
 ?>
+<?php include('navigation.php') ?>
+<footer>
+
 
 				<ul class="footer-widgets"><?php
 					if ( function_exists( 'dynamic_sidebar' ) ) :
@@ -16,5 +19,7 @@
 
 			</div>
 		<?php wp_footer(); ?>
+
+		</footer>
 	</body>
 </html>
