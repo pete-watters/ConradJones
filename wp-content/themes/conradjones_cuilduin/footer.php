@@ -7,7 +7,7 @@
  * @since conradjones_cuilduin 1.0
  */
 ?>
-<?php include('navigation.php') ?>
+<?php include('main-nav.php') ?>
 <footer>
 
 

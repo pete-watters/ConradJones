@@ -26,18 +26,11 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="site">
-
-
 			<header class="site-header">
-
-				<?php include('navigation.php') ?>
-
-				<!-- <?php if ( '' != get_custom_header()->url ) : ?>
-					<img src="<?php header_image(); ?>" class="custom-header" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-				<?php endif; ?> -->
-
 				<a class="logo" href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>">
 					<h1 class="blog-name"><?php bloginfo( 'name' ); ?></h1>
 					<div class="blog-description"><?php bloginfo( 'description' ); ?></div>
 				</a>
 			</header>
+
+							<?php include('main-nav.php') ?>

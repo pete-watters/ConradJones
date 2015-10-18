@@ -45,7 +45,11 @@ $custom_bg_args = array(
 );
 add_theme_support( 'custom-background', $custom_bg_args );
 
-register_nav_menu( 'main-menu', __( 'Your sites main menu', 'conradjones_cuilduin' ) );
+/**
+ * Print custom header styles
+ * @return void
+ */
+register_nav_menu( 'main-menu', __( 'Primary menu', 'conradjones_cuilduin' ) );
 
 if ( function_exists( 'register_sidebars' ) ) {
 	register_sidebar(
