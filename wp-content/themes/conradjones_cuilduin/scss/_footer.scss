@@ -8,3 +8,34 @@
 	margin: 0;
 
 }
+
+.harcourt-developments{
+		float: left;
+		margin-top: 30px;
+		margin-left: 50px;
+}
+.hooke-mcdonald{
+		float: right;
+    width: 300px;
+		padding-top: 30px;
+}
+
+.hooke-mcdonald-logo,.hooke-mcdonald-contact{
+	display:inline-block;
+    width: 150px;
+}
+
+.harcourt-developments-logo{
+	display:block;
+}
+.hooke-mcdonald-logo{
+	background-image: url(images/hooke_logo.png);
+	width: 82px;
+	height:51px;
+}
+.harcourt-developments-logo{
+	background-image: url(images/harcourt_logo.png);
+	width: 99px;
+	height:56px;
+
+}

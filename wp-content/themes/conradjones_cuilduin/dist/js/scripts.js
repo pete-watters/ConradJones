@@ -1,0 +1,5 @@
+(function($) {
+	// jquery goodness
+
+
+})(jQuery);

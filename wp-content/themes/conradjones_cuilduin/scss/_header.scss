@@ -3,7 +3,7 @@
 	overflow: hidden;
 	padding: 3em 0;
 	position:relative;
-	height: 300px;
+	height: 150px;
 	border-bottom: 3px solid $goldGreen;
 }
 
@@ -12,23 +12,37 @@
 	top:0;
 }
 
-.logo {
-	@include span-columns(8);
-	@include shift(2);
-	color: $color2;
-	position: relative;
-	z-index: 2;
+.logo{
+	display: block;
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	background-image: url(images/logo.png);
+	height: 150px;
+	width: 150px;
+}
 
-	.blog-name {
-		margin-bottom: 0.2em;
-		text-align: center;
-		text-shadow: 0 0 .5em $goldGreen;
-	}
+.register-interest{
+	background-color: $goldGreen;
+	color: $white;
+	width: 285px;
+	float: left;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	padding: 5px;
+}
 
-	.blog-description {
-		margin-bottom: 1.5em;
-		text-align: center;
-		font-style: italic;
-		text-shadow: 0 0 .5em $goldGreen;
-	}
+.contact-details{
+	text-align: right;
+	position: absolute;
+	right: 20px;
+	width: 300px;
+	top: 30px;
+
+		.contact-details-number{
+			font-size: 20px;
+			font-weight: bold;
+		}
+
 }
