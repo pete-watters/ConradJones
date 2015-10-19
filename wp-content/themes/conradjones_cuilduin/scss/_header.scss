@@ -1,9 +1,10 @@
 .site-header {
+	background-color: $grayishCyan;
 	overflow: hidden;
 	padding: 3em 0;
 	position:relative;
 	height: 300px;
-	border-bottom: 3px solid $color2;
+	border-bottom: 3px solid $goldGreen;
 }
 
 .custom-header {
@@ -21,13 +22,13 @@
 	.blog-name {
 		margin-bottom: 0.2em;
 		text-align: center;
-		text-shadow: 0 0 .5em $color1;
+		text-shadow: 0 0 .5em $goldGreen;
 	}
 
 	.blog-description {
 		margin-bottom: 1.5em;
 		text-align: center;
 		font-style: italic;
-		text-shadow: 0 0 .5em $color1;
+		text-shadow: 0 0 .5em $goldGreen;
 	}
 }

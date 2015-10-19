@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #fba919;
-  color: #efefef;
+  background: #d8dfe2;
+  color: #000000;
 }
 
 body.custom-background {
@@ -18,12 +18,12 @@ body.custom-background {
 }
 
 a {
-  color: #fba919;
+  color: #ffffff;
   text-decoration: none;
 }
 
-h1 a {
-  color: #efefef;
+h1, h1 a {
+  color: #c9c7ab;
 }
 
 img {
@@ -32,15 +32,15 @@ img {
 }
 
 input, textarea {
-  border: 1px solid #222;
+  border: 1px solid #ffffff;
   background: #efefef;
   padding: 0.3em 0.4em;
-  box-shadow: inset -1px -1px 6px #222;
+  box-shadow: inset -1px -1px 6px #ffffff;
 }
 
 .site {
   overflow: hidden;
-  background: rgba(34, 34, 34, 0.85);
+  background: rgba(216, 223, 226, 0.85);
   *zoom: 1;
   max-width: 980px;
   margin-left: auto;

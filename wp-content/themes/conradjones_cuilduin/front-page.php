@@ -15,6 +15,8 @@ get_header(); ?>
 		endif; ?>
 	</div>
 
+	<?php if( function_exists('cyclone_slider') ) cyclone_slider('house-slideshow'); ?>
+
 	<section class="page-content primary" role="main">
 		<?php
 			if ( have_posts() ) :
@@ -36,6 +38,10 @@ get_header(); ?>
 			<?php get_template_part( 'template-part', 'pagination' ); ?>
 
 		</div>
+	</section>
+
+	<section class="page-content secondary">
+		<?php if( function_exists('cyclone_slider') ) cyclone_slider('location'); ?>
 	</section>
 
 <?php get_footer(); ?>
