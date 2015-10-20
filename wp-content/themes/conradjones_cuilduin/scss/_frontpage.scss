@@ -10,7 +10,9 @@
   height: 50px;
 }
 .slider-description-text{
-  text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 33px;
 }
 
 .page-content.secondary{
@@ -44,7 +46,7 @@
 
 .register-interest{
   @extend .front-page-action-button;
-	width: 285px;
+	width: 255px;
 	float: left;
 	position: absolute;
 	top: 30px;
@@ -56,14 +58,25 @@
 }
 .page-content-primary-article-container{
   width: 70%;
+    margin-right: 60px;
+    margin-top: 25px;
 }
 .page-content-primary-action-aside.download-brochure{
   width: 30%;
   background: url(images/cuilDuin_brochureCover.png);
   min-width: 200px;
-  min-height: 300px;
+  min-height: 300px;    float: right;
+    display: inline-block;
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    margin-top: 25px;
 }
-
+.download-brochure-text{
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
 .page-content-primary-action-container{
   .register-interest{
     position: relative;
@@ -74,12 +87,15 @@
 	text-align: right;
 	position: absolute;
 	right: 20px;
-	width: 300px;
-	top: 30px;
+	width: 200px;
+	top: 20px;
 		.contact-details-number{
-			font-size: 20px;
+			font-size: 24px;
 			font-weight: bold;
 		}
+    .contact-details-text{
+      font-size: 14px;
+    }
 }
 
 

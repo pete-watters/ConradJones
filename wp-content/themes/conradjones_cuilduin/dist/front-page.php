@@ -63,7 +63,7 @@ get_header(); ?>
 
 
 		<aside class="page-content-primary-action-aside download-brochure">
-			<span class="download-brochure-text">VIEW BROCHURE</span>
+			<a href="CuilDuin_Brochure.pdf" target="_blank" class="download-brochure-text">VIEW BROCHURE</a>
 		</aside>
 	</section>
 
