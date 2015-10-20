@@ -146,11 +146,29 @@ module.exports = function(grunt) {
 					]
 				}
 			}
-		}
+		},
+		'ftp-deploy': {
+  build: {
+    auth: {
+			host: 'peterjwatters.com',
+      port: 21,
+      authKey: 'key1'
+			// username: "peterjwa",
+			// pass: "p3t3rW@ttErs!"
+    },
+    src: '../dist/',
+    dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
+    exclusions: ['path/to/source/folder/**/.DS_Store', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
+		forceVerbose: true
+  }
+}
 	});
 
 	// Load NPM's via matchdep
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
+
+grunt.registerTask('default', ['ftpPut']);
 
 	// Development task
 	grunt.registerTask('default', [
@@ -158,6 +176,10 @@ module.exports = function(grunt) {
 		'uglify',
 		'sass:dev',
 		'sass:editorstyles'
+	]);
+
+	grunt.registerTask('ftp', [
+		'ftp-deploy'
 	]);
 
 	// Production task
@@ -169,7 +191,8 @@ module.exports = function(grunt) {
 			'sass:editorstyles',
 			'clean:dist',
 			'copyto:dist',
-			'notify:dist'
+			'notify:dist',
+			'ftpPut'
 		]);
 	});
 };

@@ -39,12 +39,6 @@ get_header(); ?>
 					endif;
 				?>
 
-						<div class="read-more">
-								<span class="read-more-text">
-										read more >>>
-								</span>
-						</div>
-
 						<div class="page-content-primary-action-container">
 								<div class="register-interest">
 										<span class="register-interest-text">
