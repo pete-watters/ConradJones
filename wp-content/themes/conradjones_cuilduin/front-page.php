@@ -23,22 +23,16 @@ get_header(); ?>
 
 	<section class="page-content primary" role="main">
 			<div class="page-content-primary-article-container">
-				<?php
-					if ( have_posts() ) :
 
-						while ( have_posts() ) : the_post();
 
-							get_template_part( 'loop', get_post_format() );
-
-						endwhile;
-
-					else :
-
-						get_template_part( 'loop', 'empty' );
-
-					endif;
-				?>
-
+					<?php
+					$my_id = 276;
+					$post_id_1 = get_post($my_id);
+					$title = $post_id_1->post_title;
+					$content = $post_id_1->post_content;
+					echo '<h1>' . $title . '</h1>';
+					echo '<p>' . $content . '</p>';
+					?>
 						<div class="page-content-primary-action-container">
 								<div class="register-interest">
 										<span class="register-interest-text">
@@ -57,12 +51,12 @@ get_header(); ?>
 
 
 		<aside class="page-content-primary-action-aside download-brochure">
-			<span class="download-brochure-text">VIEW BROCHURE</span>
+			<span class="download-brochure-text">VIEW <br> BROCHURE</span>
 		</aside>
 	</section>
 
 	<section class="page-content secondary">
-		<h1>Country Living City Life</h1>
+		<h1>Country Living &bull; City Life</h1>
 		<?php echo do_shortcode('[print_slider_plus_lightbox]'); ?>
 					<div class="view-gallery">
 							<span class="view-gallery">

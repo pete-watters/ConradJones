@@ -11,3 +11,38 @@
 	position: absolute;
 	top:0;
 }
+
+.logo{
+	display: block;
+	position: absolute;
+	left: 45%;
+	top: 80px;
+	background-image: url(images/CuilDuin_Logo.png);
+	height: 150px;
+	width: 150px;
+	z-index: 22;
+}
+
+.register-interest{
+  @extend .front-page-action-button;
+	float: left;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	padding: 5px;
+}
+
+.contact-details{
+	text-align: left;
+	position: absolute;
+	left: 20px;
+	width: 200px;
+	top: 20px;
+		.contact-details-number{
+			font-size: 24px;
+			font-weight: bold;
+		}
+    .contact-details-text{
+      font-size: 14px;
+    }
+}

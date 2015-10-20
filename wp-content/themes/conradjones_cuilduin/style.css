@@ -616,10 +616,40 @@ p ~ h1 {
   position: absolute;
   top: 0; }
 
+.logo {
+  display: block;
+  position: absolute;
+  left: 45%;
+  top: 80px;
+  background-image: url(images/CuilDuin_Logo.png);
+  height: 150px;
+  width: 150px;
+  z-index: 22; }
+
+.register-interest {
+  float: left;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  padding: 5px; }
+
+.contact-details {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  width: 200px;
+  top: 20px; }
+  .contact-details .contact-details-number {
+    font-size: 24px;
+    font-weight: bold; }
+  .contact-details .contact-details-text {
+    font-size: 14px; }
+
 nav {
   font-size: 12px;
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  width: 100%; }
   nav a {
     color: #444444;
     text-decoration: none;
@@ -640,8 +670,7 @@ nav {
 
 .nav-bottom {
   left: 100px;
-  position: relative;
-  border-top: 1px solid grey; }
+  position: relative; }
 
 .nav-bottom li:nth-child(3) {
   margin-right: 0px; }
@@ -656,11 +685,21 @@ nav {
   /* Sub Menus */
   .nav li {
     border-bottom: none;
-    font-size: 12px;
-    display: inline-block;
-    min-width: 125px; }
-  .nav li:nth-child(3) {
-    margin-right: 230px; }
+    font-weight: bold; }
+  .site-header .nav a {
+    padding-right: 30px; }
+  .site-header .nav li {
+    font-weight: bold;
+    font-size: 15px; }
+  .site-header .nav li:after {
+    content: " \00b7";
+    font-size: 15px; }
+  .site-header .nav li:nth-child(2):after, .site-header .nav li:nth-child(5):after {
+    content: none; }
+  .site-header .nav li.nobullet:after {
+    content: none; }
+  .site-header .nav li:nth-child(3) {
+    margin-right: 250px; }
   .nav a {
     border-bottom: none; }
   .nav > ul > li {
@@ -938,15 +977,58 @@ article {
   .footer-widgets:last-child {
     margin-right: 0; }
 
+.footer-navigation-links {
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px #4a5e69 solid;
+  color: #4a5e69;
+  font-family: 'Muli', sans-serif; }
+  .footer-navigation-links a {
+    color: #4a5e69; }
+  .footer-navigation-links .footer-navigation-links-copyright {
+    display: inline-block;
+    width: 240px;
+    float: left;
+    padding-top: 10px; }
+  .footer-navigation-links .footer-navigation-links-nav-menu {
+    display: inline-block;
+    margin-left: 50px; }
+    .footer-navigation-links .footer-navigation-links-nav-menu nav {
+      left: 0;
+      font-size: 14px; }
+      .footer-navigation-links .footer-navigation-links-nav-menu nav a {
+        color: #4a5e69;
+        font-weight: lighter;
+        font-family: 'Muli', sans-serif; }
+      @media screen and (min-width: 650px) {
+        .footer-navigation-links .footer-navigation-links-nav-menu nav ul .nav li:nth-child(3) {
+          margin-right: 0px; }
+        .footer-navigation-links .footer-navigation-links-nav-menu nav ul .nav li {
+          min-width: 0; } }
+    .footer-navigation-links .footer-navigation-links-nav-menu .nav-bottom li:after {
+      content: " \00b7";
+      font-size: 15px; }
+    .footer-navigation-links .footer-navigation-links-nav-menu .nav-bottom li:nth-child(5):after {
+      content: none; }
+  .footer-navigation-links .footer-navigation-conradjones {
+    display: inline-block;
+    width: 200px;
+    float: right;
+    padding-top: 10px; }
+  .footer-navigation-links .footer-navigation-conradjones-design-by {
+    border-right: 1px #4a5e69 solid;
+    padding-right: 3px; }
+
 .harcourt-developments {
   float: left;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 50px; }
 
 .hooke-mcdonald {
   float: right;
   width: 300px;
-  padding-top: 30px; }
+  margin-top: 20px; }
 
 .hooke-mcdonald-logo, .hooke-mcdonald-contact {
   display: inline-block;
@@ -964,6 +1046,17 @@ article {
   background-image: url(images/harcourt_logo.png);
   width: 99px;
   height: 56px; }
+
+.hooke-mcdonald-contact-phone, .hooke-mcdonald-contact-email {
+  color: #4a5e69; }
+
+.hooke-mcdonald-contact-phone {
+  font-size: 24px;
+  font-weight: bold; }
+
+.hooke-mcdonald-contact-email {
+  font-size: 14px;
+  font-weight: lighter; }
 
 .front-page.slider-area .cycloneslider-template-standard {
   position: relative;
@@ -983,7 +1076,10 @@ article {
 .cycloneslider-template-standard .cycloneslider-prev, .cycloneslider-template-standard .cycloneslider-next {
   top: 80%; }
 
-.front-page-action-button, .slider-description, .register-interest, .view-gallery, .read-more, .download-brochure {
+.sliderimgLi img {
+  background: #d8dfe2 !important; }
+
+.front-page-action-button, .register-interest, .slider-description, .view-gallery, .read-more, .download-brochure {
   background-color: #b59857;
   color: white;
   font-family: 'Open Sans', sans-serif; }
@@ -997,41 +1093,44 @@ article {
   margin-right: 10%;
   font-size: 33px; }
 
+.page-content.primary {
+  margin: 20px 30px; }
+
 .page-content.secondary {
-  background-color: #4a5e69; }
+  min-height: 410px;
+  border-top: 4px solid #b59857;
+  background-color: #4a5e69;
+  padding-left: 20px;
+  padding-right: 70px; }
+  .page-content.secondary h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter; }
+  .page-content.secondary table {
+    background-color: #4a5e69;
+    width: 100%; }
   .page-content.secondary .sliderimgLi img {
     padding: 2px !important; }
+  .page-content.secondary .view-gallery {
+    float: right;
+    margin-right: 50px; }
 
-.page-content.secondary {
-  background-color: #4a5e69; }
-  .page-content.secondary table {
-    background-color: #4a5e69; }
-
-.logo {
-  display: block;
-  position: absolute;
-  left: 45%;
-  top: 80px;
-  background-image: url(images/CuilDuin_Logo.png);
-  height: 150px;
-  width: 150px;
-  z-index: 22; }
-
-.register-interest {
-  width: 255px;
-  float: left;
-  position: absolute;
-  top: 30px;
-  left: 20px;
-  padding: 5px; }
-
-.page-content-primary-article-container, .page-content-primary-action-container, .download-brochure {
+.page-content-primary-article-container, .page-content-primary-action-container, .download-brochure, .view-gallery, .read-more, .download-brochure {
   display: inline-block; }
 
 .page-content-primary-article-container {
   width: 65%;
-  margin-right: 60px;
-  margin-top: 25px; }
+  margin-left: 80px; }
+  .page-content-primary-article-container h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    font-style: italic;
+    border-bottom: 1px solid #b59857;
+    margin-bottom: -15px; }
+  .page-content-primary-article-container .page {
+    font-size: 20px;
+    font-weight: lighter; }
 
 .page-content-primary-action-aside.download-brochure {
   background: url(images/cuilDuin_brochureCover.png);
@@ -1041,8 +1140,11 @@ article {
   display: inline-block;
   background-size: 200px 300px;
   background-repeat: no-repeat;
-  margin-right: 25px;
-  margin-top: 25px; }
+  margin-top: 12.5px;
+  padding-left: 25px;
+  cursor: pointer; }
+  .page-content-primary-action-aside.download-brochure .download-brochure-text {
+    padding: 30px; }
 
 .download-brochure-text {
   position: relative;
@@ -1051,14 +1153,13 @@ article {
 
 .page-content-primary-action-container .register-interest {
   position: relative;
-  width: 195px;
-  margin-left: 50px;
+  margin-left: 20px;
   float: left;
   top: 0; }
-.page-content-primary-action-container .download-brochure {
-  padding: 5px;
+.page-content-primary-action-container .download-brochure, .page-content-primary-action-container .view-gallery, .page-content-primary-action-container .read-more, .page-content-primary-action-container .download-brochure {
   float: right;
-  margin-left: 150px; }
+  margin-left: 110px;
+  padding: 4px; }
 .page-content-primary-action-container .download-brochure-text {
   position: static; }
 
@@ -1067,16 +1168,6 @@ article {
   right: -60px;
   padding: 5px; }
 
-.contact-details {
-  text-align: right;
-  position: absolute;
-  right: 20px;
-  width: 200px;
-  top: 20px; }
-  .contact-details .contact-details-number {
-    font-size: 24px;
-    font-weight: bold; }
-  .contact-details .contact-details-text {
-    font-size: 14px; }
-
+.view-gallery, .read-more, .download-brochure, .view-gallery, .read-more, .download-brochure {
+  cursor: pointer; }
 

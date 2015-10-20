@@ -14,63 +14,76 @@
     margin-right: 10%;
     font-size: 33px;
 }
-
-.page-content.secondary{
-  background-color: $darkBlueGreen;
-
- // need important to over-ride defaults here
-  .sliderimgLi img{
-    padding: 2px !important;
-  }
+.page-content.primary{
+  margin: 20px 30px;
 }
+
 .page-content.secondary{
 
+    min-height: 410px;
+    border-top: 4px solid $goldGreen;
     background-color: $darkBlueGreen;
-    table{
+    padding-left: 20px;
+    padding-right: 70px;
 
+    h1{
+      color: $white;
+      text-align: center;
+      font-size: 28px;
+      font-weight: lighter;
+    }
+
+    table{
         background-color: $darkBlueGreen;
+        width: 100%;
+    }
+     // need important to over-ride defaults here
+      .sliderimgLi img{
+        padding: 2px !important;
+      }
+
+    .view-gallery{
+      float: right;
+      margin-right: 50px;
     }
 
 }
 
-.logo{
-	display: block;
-	position: absolute;
-	left: 45%;
-	top: 80px;
-	background-image: url(images/CuilDuin_Logo.png);
-	height: 150px;
-	width: 150px;
-	z-index: 22;
-}
-
-.register-interest{
-  @extend .front-page-action-button;
-	width: 255px;
-	float: left;
-	position: absolute;
-	top: 30px;
-	left: 20px;
-	padding: 5px;
-}
 .page-content-primary-article-container,.page-content-primary-action-container, .download-brochure{
   display: inline-block;
 }
 .page-content-primary-article-container{
-  width: 65%;
-    margin-right: 60px;
-    margin-top: 25px;
+    width: 65%;
+    margin-left: 80px;
+    h1{
+      font-weight: lighter;
+      font-size: 40px;
+      font-style: italic;
+      border-bottom: 1px solid $goldGreen;
+      margin-bottom: -15px;
+    }
+    .page{
+      font-size: 20px;
+      font-weight: lighter;
+    }
 }
 .page-content-primary-action-aside.download-brochure{
-  background: url(images/cuilDuin_brochureCover.png);
-  min-width: 200px;
-  min-height: 300px;    float: right;
+    background: url(images/cuilDuin_brochureCover.png);
+    min-width: 200px;
+    min-height: 300px;
+    float: right;
     display: inline-block;
     background-size: 200px 300px;
     background-repeat: no-repeat;
-    margin-right: 25px;
-    margin-top: 25px;
+    margin-top: 12.5px;
+    padding-left: 25px;
+       cursor: pointer;
+
+    .download-brochure-text{
+       padding: 30px;
+     }
 }
+
 .download-brochure-text{
   position: relative;
   top: 150px;
@@ -79,15 +92,14 @@
 .page-content-primary-action-container{
   .register-interest{
     position: relative;
-    width: 195px;
-    margin-left: 50px;
+    margin-left: 20px;
     float: left;
     top: 0;
   }
   .download-brochure{
-    padding: 5px;
     float: right;
-    margin-left: 150px;
+    margin-left: 110px;
+    padding: 4px;
   }
  .download-brochure-text{
    position: static;
@@ -101,25 +113,11 @@
 }
 
 
-.contact-details{
-	text-align: right;
-	position: absolute;
-	right: 20px;
-	width: 200px;
-	top: 20px;
-		.contact-details-number{
-			font-size: 24px;
-			font-weight: bold;
-		}
-    .contact-details-text{
-      font-size: 14px;
-    }
-}
-
 
 .view-gallery, .read-more, .download-brochure{
   @extend .front-page-action-button;
-
+  @extend .download-brochure;
+    cursor: pointer;
 }
 
 .view-gallery-text{

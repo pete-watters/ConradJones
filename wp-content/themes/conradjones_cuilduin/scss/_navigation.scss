@@ -21,6 +21,7 @@ nav {
 		font-size: 12px;
     position: absolute;
     bottom: 0;
+		width: 100%;
 
 	a {
 		color: #444;
@@ -50,7 +51,6 @@ nav {
 .nav-bottom{
 		left: 100px;
 		position: relative;
-		border-top: 1px solid grey;
 }
 
 .nav-bottom li:nth-child(3){
@@ -67,19 +67,44 @@ nav {
 
 @media screen and (min-width: 650px) {
   .nav li {
-    // width: 130px;
     border-bottom: none;
-    // height: 50px;
-    // line-height: 50px;
-    font-size: 12px;
-    display: inline-block;
-    //margin-right: -4px;
-    min-width: 125px;
+    font-weight: bold;
   }
-	// give space after 3rd child
-.nav li:nth-child(3){
-	margin-right: 230px;
+
+.site-header{
+	.nav a{
+
+		padding-right: 30px;
+	}
+	 .nav li {
+    font-weight: bold;
+    font-size: 15px;
+  }
+			.nav li:after {
+				content: " \00b7";
+				font-size: 15px;
+			}
+
+			.nav li:nth-child(2):after,
+			.nav li:nth-child(5):after { content: none; }
+
+			.nav li.nobullet:after { content: none; }
+
+
+			// give space after 3rd child
+		.nav li:nth-child(3){
+			margin-right: 250px;
+		}
+		// .nav li:nth-child(4){
+		// 	position: absolute;
+		// 	right: 150px;
+		// }
+		// .nav li:nth-child(5){
+		// 	position: absolute;
+		// 	right: 0;
+		// }
 }
+
 
   .nav a {
     border-bottom: none;

@@ -158,10 +158,11 @@ module.exports = function(grunt) {
     },
     src: '../dist/',
     dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
-    exclusions: ['path/to/source/folder/**/.DS_Store', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
+    exclusions: ['../dist/node_modules/*', '../dist/images/*', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
 		forceVerbose: true
   }
 }
+
 	});
 
 	// Load NPM's via matchdep
@@ -192,7 +193,7 @@ grunt.registerTask('default', ['ftpPut']);
 			'clean:dist',
 			'copyto:dist',
 			'notify:dist',
-			'ftpPut'
+			'ftp'
 		]);
 	});
 };
