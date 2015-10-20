@@ -1,0 +1,21 @@
+.front-page.slider-area .cycloneslider-template-standard {
+    position: relative;
+    margin-bottom: 0px;
+    outline: none;
+    z-index: 0;
+}
+
+.cycloneslider-template-standard div[data-cycle-dynamic-height="off"] .cycloneslider-slide-image{
+  height: auto;
+}
+
+.cycloneslider-pager{
+  display: none;
+}
+
+.cycloneslider-template-standard .cycloneslider-slide{
+  background-color: $goldGreen;
+}
+.cycloneslider-template-standard .cycloneslider-prev, .cycloneslider-template-standard .cycloneslider-next{
+  top: 80%;
+}
