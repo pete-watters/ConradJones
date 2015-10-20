@@ -11,7 +11,7 @@
 
 			<div class="harcourt-developments">
 					<span class="harcourt-developments-logo">
-							
+
 					</span>
 			</div>
 			<div class="hooke-mcdonald">
@@ -31,7 +31,18 @@
 			</div>
 		<?php wp_footer(); ?>
 
-	  	<?php include('nav-bottom.php') ?>
+				<div class="footer-navigation-links">
+						<div class="footer-navigation-links-copyright">
+							Copyright 2015. All Rights Reserved
+						</div>
+						<div class="footer-navigation-links-nav-menu">
+							<?php include('nav-bottom.php') ?>
+						</div>
+	  				<div class="footer-navigation-conradjones">
+	  						design by <a href="http://conardjones.com">conardjones.com</a>
+	  				</div>
+
+				</div>
 		</footer>
 	</body>
 </html>

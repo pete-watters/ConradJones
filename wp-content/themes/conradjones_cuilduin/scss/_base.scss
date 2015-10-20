@@ -1,25 +1,4 @@
-// variables
-$color1: #ffffff;
-$color2: #efefef;
-$color3: #fba919;
-
-$black: #000000;
-$white: #ffffff;
-
-$royalBlue: #0014a0;
-$brightCyan: #42c9ff;
-
-
-$lightBlue: #deebeb;
-$darkBlueGreen: #487784;
-$grayishCyan: #d8dfe2;
-$goldGreen:  #c9c7ab;
-
-
-$colorBodyBackground: #c9c7ab;
-$colorBodyText: #000000;
-$colourPageText: #000000;
-
+@import "colors";
 // default styling
 body {
 	background: $grayishCyan;
