@@ -10,39 +10,14 @@
 get_header(); ?>
 
 	<section class="page-content primary" role="main">
-
 		<?php
-			if ( have_posts() ) : the_post();
-
-				get_template_part( 'loop' ); ?>
-
-				<aside class="post-aside"><?php
-
-					wp_link_pages(
-						array(
-							'before'           => '<div class="linked-page-nav"><p>' . sprintf( __( '<em>%s</em> is separated in multiple parts:', 'conradjones_cuilduin' ), get_the_title() ) . '<br />',
-							'after'            => '</p></div>',
-							'next_or_number'   => 'number',
-							'separator'        => ' ',
-							'pagelink'         => __( '&raquo; Part %', 'conradjones_cuilduin' ),
-						)
-					); ?>
-
-					<?php
-						if ( comments_open() || get_comments_number() > 0 ) :
-							comments_template( '', true );
-						endif;
-					?>
-
-				</aside><?php
-
-			else :
-
-				get_template_part( 'loop', 'empty' );
-
-			endif;
+					$my_id = 16;
+					$post_id_1 = get_post($my_id);
+					$title = $post_id_1->post_title;
+					$content = $post_id_1->post_content;
+					echo '<h1>' . $title . '</h1>';
+					echo '<p>' . $content . '</p>';
 		?>
-
-	</section>
+		</section>
 
 <?php get_footer(); ?>

@@ -472,7 +472,9 @@ p ~ h1 {
   font-size: 40px;
   font-style: italic;
   border-bottom: 1px solid #b59857;
-  margin-bottom: -15px; }
+  margin-bottom: -15px;
+  text-align: left;
+  max-width: 270px; }
 .page-content.primary .post-content {
   font-size: 20px;
   font-weight: lighter;
@@ -660,7 +662,8 @@ nav {
   font-size: 12px;
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  padding-left: 30px; }
   nav a {
     color: #444444;
     text-decoration: none;
@@ -890,6 +893,45 @@ article {
 .secondary-location p {
   margin-top: 10px; }
 
+.secondary-house-container {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto; }
+  .secondary-house-container:before, .secondary-house-container:after {
+    content: " ";
+    display: table; }
+  .secondary-house-container:after {
+    clear: both; }
+
+.house-container {
+  float: left;
+  display: block;
+  margin-right: 3.06748%;
+  width: 22.69939%;
+  width: 30%;
+  padding: 20px; }
+  .house-container:last-child {
+    margin-right: 0; }
+  .house-container img {
+    border: solid white 1px;
+    height: 174px;
+    width: 300px; }
+  .house-container h3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    color: #b59857;
+    margin: 2px; }
+  .house-container p {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 2px; }
+  .house-container a {
+    font-family: 'Muli', sans-serif;
+    background-color: #b59857;
+    padding: 2px; }
+
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;
   padding: 5px 0 0; }
@@ -1074,9 +1116,8 @@ article {
   display: inline-block; }
 
 .page-content-primary-article-container {
-  width: 65%;
-  margin-left: 80px; }
-  .page-content-primary-article-container h1 {
+  width: 65%; }
+  .page-content-primary-article-container .page-content.primary h1 {
     font-weight: lighter;
     font-size: 40px;
     font-style: italic;
@@ -1085,6 +1126,9 @@ article {
   .page-content-primary-article-container .page {
     font-size: 20px;
     font-weight: lighter; }
+
+.page-content-primary-article-container-h1 {
+  max-width: 100% !important; }
 
 .page-content-primary-action-aside.download-brochure {
   background: url(images/cuilDuin_brochureCover.png);

@@ -157,6 +157,8 @@ p ~ h1 { @include leading-rows(2); }
     font-style: italic;
     border-bottom: 1px solid $goldGreen;
     margin-bottom: -15px;
+    text-align: left;
+    max-width: 270px;
   }
   .post-content {
       font-size: 20px;

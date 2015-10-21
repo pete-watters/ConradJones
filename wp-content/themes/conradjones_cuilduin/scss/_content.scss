@@ -186,3 +186,37 @@ article {
     margin-top: 10px;
 	}
 }
+
+.secondary-house-container{
+	@include outer-container;
+}
+
+.house-container{
+	@include span-columns(3);
+    width: 30%;
+    padding: 20px;
+
+		img{
+			border: solid $white 1px;
+			height: 174px;
+      width: 300px;
+		}
+
+		h3{
+				font-family: $googleMuli;
+			font-size: 20px;
+			color: $goldGreen;
+			margin: 2px;
+		}
+		p{
+				font-family: $googleMuli;
+			font-size: 12px;
+			color: $white;
+			margin: 2px;
+		}
+			a{
+					font-family: $googleMuli;
+	    background-color: $goldGreen;
+	    padding: 2px;
+		}
+}

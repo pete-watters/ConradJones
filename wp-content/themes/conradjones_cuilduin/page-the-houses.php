@@ -52,14 +52,18 @@ get_header(); ?>
 	</section>
 
 
-  	<section class="page-content secondary">
+  	<section class="page-content secondary secondary-house-container">
       <?php
         $current_page_id = $post->ID;
         query_posts(array('post_parent' => $current_page_id, 'post_type' => 'page'));
 
         while (have_posts()) { the_post(); ?>
-          <h2><?php the_title(); ?></h2>
+					<div class="house-container">
+						<?php the_content(); ?>
+					</div>
         <?php } ?>
+
+
   	</section>
 
 <?php get_footer(); ?>

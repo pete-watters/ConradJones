@@ -30,7 +30,7 @@ get_header(); ?>
 								$post_id_1 = get_post($my_id);
 								$title = $post_id_1->post_title;
 								$content = $post_id_1->post_content;
-								echo '<h1>' . $title . '</h1>';
+								echo '<h1 class="page-content-primary-article-container-h1">' . $title . '</h1>';
 								echo '<p>' . $content . '</p>';
 					?>
 						<div class="page-content-primary-action-container">

@@ -57,8 +57,7 @@
 }
 .page-content-primary-article-container{
     width: 65%;
-    margin-left: 80px;
-    h1{
+    .page-content.primary h1{
       font-weight: lighter;
       font-size: 40px;
       font-style: italic;
@@ -69,6 +68,9 @@
       font-size: 20px;
       font-weight: lighter;
     }
+}
+.page-content-primary-article-container-h1{
+  max-width: 100%!important;
 }
 .page-content-primary-action-aside.download-brochure{
     background: url(images/cuilDuin_brochureCover.png);
