@@ -8,46 +8,24 @@
  */
 
 get_header(); ?>
+<section class="front-page slider-area">
+	<div class="front-page slider-description">
+			<span class="slider-description-text">Super energy efficient ‘A’-rated houses</span>
+	</div>
+</section>
 	<section class="page-content primary" role="main">
-
-		<?php
-			if ( have_posts() ) : the_post();
-
-				get_template_part( 'loop' ); ?>
-
-				<aside class="post-aside"><?php
-
-					wp_link_pages(
-						array(
-							'before'           => '<div class="linked-page-nav"><p>' . sprintf( __( '<em>%s</em> is separated in multiple parts:', 'conradjones_cuilduin' ), get_the_title() ) . '<br />',
-							'after'            => '</p></div>',
-							'next_or_number'   => 'number',
-							'separator'        => ' ',
-							'pagelink'         => __( '&raquo; Part %', 'conradjones_cuilduin' ),
-						)
-					); ?>
-
-					<?php
-						if ( comments_open() || get_comments_number() > 0 ) :
-							comments_template( '', true );
-						endif;
-					?>
-
-				</aside><?php
-
-			else :
-
-				get_template_part( 'loop', 'empty' );
-
-			endif;
-		?>
-
+		<span class="specifications-warranty-thumb"></span>
+		<span class="specifications-warranty-text">
+			Each home is covered by a <b>10 year structural warranty</b> insurance policy.
+		</span>
 	</section>
 
   <section class="page-content secondary-specifications">
     <?php query_posts('cat=6'); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-       <?php the_content(); ?>
+			<div class="specifications-container">
+	       <?php the_content(); ?>
+			</div>
     <?php endwhile; endif; ?>
   </section>
 

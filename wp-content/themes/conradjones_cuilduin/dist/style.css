@@ -932,6 +932,25 @@ article {
     background-color: #b59857;
     padding: 2px; }
 
+.page-content .secondary-specifications {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-content .secondary-specifications:before, .page-content .secondary-specifications:after {
+    content: " ";
+    display: table; }
+  .page-content .secondary-specifications:after {
+    clear: both; }
+
+.specifications-container {
+  float: left;
+  display: block;
+  margin-right: 3.06748%;
+  width: 22.69939%; }
+  .specifications-container:last-child {
+    margin-right: 0; }
+
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;
   padding: 5px 0 0; }
@@ -1071,6 +1090,10 @@ article {
 
 .sliderimgLi img {
   background: #d8dfe2 !important; }
+
+.cycloneslider-template-standard .cycloneslider-slides {
+  overflow: visible;
+  margin-left: 30px; }
 
 .front-page-action-button, .register-interest, .slider-description, .view-gallery, .read-more, .download-brochure {
   background-color: #b59857;
