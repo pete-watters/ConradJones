@@ -668,79 +668,18 @@ nav {
     float: left;
     padding: 10px; }
 
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: #4a5e69 url(images/menu-icon.svg) center; }
+
 .nav-bottom {
   left: 100px;
   position: relative; }
 
 .nav-bottom li:nth-child(3) {
   margin-right: 0px; }
-
-/*******************************************
-   Style menu for larger screens
-
-   Using 650px (130px each * 5 items), but ems
-   or other values could be used depending on other factors
-********************************************/
-@media screen and (min-width: 650px) {
-  /* Sub Menus */
-  .nav li {
-    border-bottom: none;
-    font-weight: bold; }
-  .site-header .nav a {
-    padding-right: 30px; }
-  .site-header .nav li {
-    font-weight: bold;
-    font-size: 15px; }
-  .site-header .nav li:after {
-    content: " \00b7";
-    font-size: 15px; }
-  .site-header .nav li:nth-child(2):after, .site-header .nav li:nth-child(5):after {
-    content: none; }
-  .site-header .nav li.nobullet:after {
-    content: none; }
-  .site-header .nav li:nth-child(3) {
-    margin-right: 250px; }
-  .nav a {
-    border-bottom: none; }
-  .nav > ul > li {
-    text-align: center; }
-  .nav > ul > li > a {
-    padding-left: 0; }
-  .nav li ul {
-    position: absolute;
-    display: none;
-    width: inherit; }
-  .nav li:hover ul {
-    display: block;
-    max-width: 200px;
-    padding-left: 0; }
-  .nav li ul li {
-    display: block; } }
-
-#menu-icon {
-  display: hidden;
-  width: 40px;
-  height: 40px;
-  background: black url(images/menu-icon.svg) center; }
-
-/*MEDIA QUERY*/
-@media only screen and (max-width: 640px) {
-  #menu-icon {
-    display: inline-block; }
-  nav ul, nav:active ul {
-    display: none;
-    position: fixed;
-    left: 0;
-    width: 50%; }
-  nav:hover ul .sub-menu {
-    display: none; }
-  nav li {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-    margin: 0; }
-  nav:hover ul {
-    display: block; } }
 
 /******************************************************************************\
 	General
@@ -992,8 +931,7 @@ article {
     float: left;
     padding-top: 10px; }
   .footer-navigation-links .footer-navigation-links-nav-menu {
-    display: inline-block;
-    margin-left: 50px; }
+    display: inline-block; }
     .footer-navigation-links .footer-navigation-links-nav-menu nav {
       left: 0;
       font-size: 14px; }
@@ -1013,7 +951,6 @@ article {
       content: none; }
   .footer-navigation-links .footer-navigation-conradjones {
     display: inline-block;
-    width: 200px;
     float: right;
     padding-top: 10px; }
   .footer-navigation-links .footer-navigation-conradjones-design-by {
@@ -1088,6 +1025,9 @@ article {
   width: 100%;
   height: 50px; }
 
+.front-page .slider-area {
+  border-top: 3px solid #b59857; }
+
 .slider-description-text {
   margin-left: 10%;
   margin-right: 10%;
@@ -1114,7 +1054,7 @@ article {
     padding: 2px !important; }
   .page-content.secondary .view-gallery {
     float: right;
-    margin-right: 50px; }
+    padding: 0 2px; }
 
 .page-content-primary-article-container, .page-content-primary-action-container, .download-brochure, .view-gallery, .read-more, .download-brochure {
   display: inline-block; }
@@ -1171,3 +1111,107 @@ article {
 .view-gallery, .read-more, .download-brochure, .view-gallery, .read-more, .download-brochure {
   cursor: pointer; }
 
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+@media screen and (max-width: 950px) {
+  .logo {
+    left: 35%;
+    margin-top: 50px; }
+  .page-content.primary {
+    margin: 0; }
+  .page-content-primary-article-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .page-content-primary-article-container h1 {
+    font-size: 20px; }
+  .page-content-primary-article-container .page {
+    font-size: 12px; }
+  .slider-description {
+    height: 30px;
+    padding-left: 5%; }
+  .slider-description-text {
+    font-size: 18px;
+    margin: 0; }
+  .download-brochure, .view-gallery, .read-more, .download-brochure {
+    float: left;
+    margin: 10px 0;
+    margin-left: 55px; }
+  .page-content-primary-action-container .register-interest {
+    margin-left: 25px; }
+  .page-content-primary-action-container .download-brochure, .page-content-primary-action-container .view-gallery, .page-content-primary-action-container .read-more, .page-content-primary-action-container .download-brochure {
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 90px; }
+  .page-content.secondary h1 {
+    font-size: 20px;
+    margin-left: 45px; }
+  .page-content.secondary .view-gallery {
+    margin: 0;
+    padding: 5px; }
+  .footer-navigation-links-copyright {
+    margin-left: 60px; }
+  .footer-navigation-links .footer-navigation-conradjones {
+    float: left;
+    margin-left: 95px;
+    padding-top: 0; }
+  .page-content-primary-action-aside.download-brochure {
+    float: none; }
+  .mainSliderDiv {
+    max-width: 221px; }
+  .page-content-primary-action-container .download-brochure, .page-content-primary-action-container .view-gallery, .page-content-primary-action-container .read-more, .page-content-primary-action-container .download-brochure {
+    float: left;
+    margin-top: 20px; }
+  .site-header .nav a {
+    padding-right: 15px;
+    border-bottom: none; }
+  .site-header .nav li {
+    font-weight: bold; }
+  .site-header .nav li:after {
+    content: " \00b7";
+    font-size: 15px; }
+  .site-header .nav li:nth-child(6):after {
+    content: none; } }
+
+@media screen and (min-width: 481px) {
+  .logo {
+    left: 35%; } }
+
+@media screen and (min-width: 769px) {
+  /* Sub Menus */
+  .logo {
+    left: 41%; }
+  .nav li {
+    border-bottom: none;
+    font-weight: bold; }
+  .site-header .nav a {
+    padding-right: 30px;
+    border-bottom: none; }
+  .site-header .nav li {
+    font-weight: bold; }
+  .site-header .nav li:after {
+    content: " \00b7";
+    font-size: 15px; }
+  .site-header .nav li:nth-child(3):after, .site-header .nav li:nth-child(6):after {
+    content: none; }
+  .site-header .nav li:nth-child(3) {
+    margin-right: 250px; }
+  .nav > ul > li {
+    text-align: center; }
+  .nav > ul > li > a {
+    padding-left: 0; }
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit; }
+  .nav li:hover ul {
+    display: block;
+    max-width: 200px;
+    padding-left: 0; }
+  .nav li ul li {
+    display: block; } }

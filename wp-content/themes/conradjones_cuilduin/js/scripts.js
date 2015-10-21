@@ -1,7 +1,11 @@
 (function($) {
 	// jquery goodness
 
-	//$("#swipebox-close").click($("#fancybox-close").click());
+	$("#swipebox-close").on("click", function(){
+		$("#fancybox-close").click();
+		$("#fancybox-wrap").hide();
+		$("#fancybox-overlay").hide();
+	});
 
 	$(".post-content a").addClass("read-more");
 

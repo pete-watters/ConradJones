@@ -9,6 +9,9 @@
   width: 100%;
   height: 50px;
 }
+.front-page .slider-area{
+    border-top: 3px solid #b59857;
+}
 .slider-description-text{
     margin-left: 10%;
     margin-right: 10%;
@@ -44,7 +47,7 @@
 
     .view-gallery{
       float: right;
-      margin-right: 50px;
+      padding: 0 2px;
     }
 
 }

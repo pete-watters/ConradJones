@@ -27,7 +27,7 @@
 	}
 	.footer-navigation-links-nav-menu{
     display: inline-block;
-    margin-left: 50px;
+		
 		nav{
 			left: 0;
     	font-size: 14px;
@@ -53,12 +53,11 @@
 			font-size: 15px;
 		}
 
-									.nav-bottom li:nth-child(5):after { content: none; }
+		.nav-bottom li:nth-child(5):after { content: none; }
 
 	}
 	.footer-navigation-conradjones{
     display: inline-block;
-    width: 200px;
     float: right;
     padding-top: 10px;
 	}

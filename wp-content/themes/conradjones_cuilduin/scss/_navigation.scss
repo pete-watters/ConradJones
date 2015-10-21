@@ -1,21 +1,3 @@
-// .main-menu {
-// 	padding-top: 20px;
-//
-// 	.menu, .menu-item {
-// 			display:inline-block;
-// 	}
-//
-// 	.menu-item a {
-// 		color: scale-lightness($color1, 70%);
-// 		white-space: nowrap;
-// 	}
-//
-// 	.menu-item a:hover {
-// 		color: $color2;
-// 	}
-//
-// }
-
 nav {
 
 		font-size: 12px;
@@ -48,6 +30,15 @@ nav {
 	}
 }
 
+
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: $darkBlueGreen url(images/menu-icon.svg) center;
+}
+
+
 .nav-bottom{
 		left: 100px;
 		position: relative;
@@ -55,130 +46,4 @@ nav {
 
 .nav-bottom li:nth-child(3){
 	margin-right: 0px;
-}
-
-
-/*******************************************
-   Style menu for larger screens
-
-   Using 650px (130px each * 5 items), but ems
-   or other values could be used depending on other factors
-********************************************/
-
-@media screen and (min-width: 650px) {
-  .nav li {
-    border-bottom: none;
-    font-weight: bold;
-  }
-
-.site-header{
-	.nav a{
-
-		padding-right: 30px;
-	}
-	 .nav li {
-    font-weight: bold;
-    font-size: 15px;
-  }
-			.nav li:after {
-				content: " \00b7";
-				font-size: 15px;
-			}
-
-			.nav li:nth-child(2):after,
-			.nav li:nth-child(5):after { content: none; }
-
-			.nav li.nobullet:after { content: none; }
-
-
-			// give space after 3rd child
-		.nav li:nth-child(3){
-			margin-right: 250px;
-		}
-		// .nav li:nth-child(4){
-		// 	position: absolute;
-		// 	right: 150px;
-		// }
-		// .nav li:nth-child(5){
-		// 	position: absolute;
-		// 	right: 0;
-		// }
-}
-
-
-  .nav a {
-    border-bottom: none;
-  }
-
-  .nav > ul > li {
-    text-align: center;
-  }
-
-  .nav > ul > li > a {
-    padding-left: 0;
-  }
-
-  /* Sub Menus */
-  .nav li ul {
-    position: absolute;
-    display: none;
-    width: inherit;
-  }
-
-  .nav li:hover ul {
-    display: block;
-    max-width: 200px;
-    padding-left: 0;
-  }
-
-  .nav li ul li {
-    display: block;
-  }
-}
-
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: $black url(images/menu-icon.svg) center;
-}
-
-
-/*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
-	#menu-icon {
-		display:inline-block;
-	}
-
-	nav ul, nav:active ul {
-		 display: none;
-		// position: absolute;
-		// padding: 20px;
-		// background: #fff;
-		// border: 5px solid #444;
-		// right: 20px;
-		// top: 60px;
-		// width: 50%;
-		// border-radius: 4px 0 4px 4px;
-
-		position: fixed;
-		left: 0;
-		width: 50%;
-
-	}
-	// Temporarily hide submenu in mobile
-	nav:hover ul .sub-menu{
-		display:none;
-	}
-
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-	}
-
-	nav:hover ul {
-		display: block;
-	}
 }
