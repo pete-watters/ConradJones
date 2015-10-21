@@ -467,6 +467,17 @@ p, h2, h3 {
 p ~ h1 {
   margin-top: 3rem; }
 
+.page-content.primary h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  font-style: italic;
+  border-bottom: 1px solid #b59857;
+  margin-bottom: -15px; }
+.page-content.primary .post-content {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black; }
+
 .sticky {
   background: none; }
 
@@ -875,6 +886,9 @@ article {
     padding-bottom: 0.25em; }
     .page-content .widgets .read-more:hover {
       border-bottom: 2px solid white; }
+
+.secondary-location p {
+  margin-top: 10px; }
 
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;

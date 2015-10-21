@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-
 	<section class="page-content primary" role="main">
 
 		<?php
@@ -44,5 +43,12 @@ get_header(); ?>
 		?>
 
 	</section>
+
+  <section class="page-content secondary-specifications">
+    <?php query_posts('cat=6'); ?>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+       <?php the_content(); ?>
+    <?php endwhile; endif; ?>
+  </section>
 
 <?php get_footer(); ?>

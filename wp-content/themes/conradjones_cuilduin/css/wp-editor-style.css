@@ -148,6 +148,17 @@ p, h2, h3 {
 p ~ h1 {
   margin-top: 3rem; }
 
+.page-content.primary h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  font-style: italic;
+  border-bottom: 1px solid #b59857;
+  margin-bottom: -15px; }
+.page-content.primary .post-content {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black; }
+
 html .mceContentBody {
   font-size: 100%;
   max-width: 650px; }

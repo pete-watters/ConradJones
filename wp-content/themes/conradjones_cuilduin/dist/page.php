@@ -9,11 +9,6 @@
 
 get_header(); ?>
 
-<section class="front-page slider-area">
-	<div class="front-page slider-description">
-			<span class="slider-description-text">Superb new 2, 3 and 4 bedroom 'A' -rated houses</span>
-	</div>
-</section>
 	<section class="page-content primary" role="main">
 
 		<?php

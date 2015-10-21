@@ -9,6 +9,12 @@
 
 get_header(); ?>
 
+<section class="front-page slider-area">
+			<?php if( function_exists('cyclone_slider') ) cyclone_slider('location-slideshow'); ?>
+	<div class="front-page slider-description">
+			<span class="slider-description-text">Superb new 2, 3 and 4 bedroom 'A' -rated houses</span>
+	</div>
+</section>
 	<section class="page-content primary" role="main">
 
 		<?php
@@ -45,4 +51,10 @@ get_header(); ?>
 
 	</section>
 
+  <section class="page-content secondary secondary-location">
+    <?php query_posts('cat=5'); ?>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+       <?php the_content(); ?>
+    <?php endwhile; endif; ?>
+  </section>
 <?php get_footer(); ?>
