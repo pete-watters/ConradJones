@@ -21,7 +21,16 @@ get_header(); ?>
 	</section>
 
   <section class="page-content secondary-specifications">
-    <?php query_posts('cat=6'); ?>
+    <?php
+		$args = array(
+				'cat'      => 6,
+				'posts_per_page'     => -1,
+				'orderby' => 'date',
+				'order'    => 'ASC'
+				);
+
+		query_posts($args);
+		?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<div class="specifications-container">
 	       <?php the_content(); ?>

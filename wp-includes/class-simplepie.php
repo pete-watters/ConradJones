@@ -2600,7 +2600,7 @@ class SimplePie
 	/**
 	 * Get the latitude coordinates for the item
 	 *
-	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS specifications
+	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS $CenturyGothic
 	 *
 	 * Uses `<geo:lat>` or `<georss:point>`
 	 *
@@ -2629,7 +2629,7 @@ class SimplePie
 	/**
 	 * Get the longitude coordinates for the feed
 	 *
-	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS specifications
+	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS $CenturyGothic
 	 *
 	 * Uses `<geo:long>`, `<geo:lon>` or `<georss:point>`
 	 *

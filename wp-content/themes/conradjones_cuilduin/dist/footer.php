@@ -25,9 +25,7 @@
 					<div class="footer-navigation-links-copyright">
 						&copy; Copyright 2015. All Rights Reserved
 					</div>
-					<div class="footer-navigation-links-nav-menu">
-						<?php include('nav-bottom.php') ?>
-					</div>
+					
 					<div class="footer-navigation-conradjones">
 							<span class="footer-navigation-conradjones-design-by">design by</span>
 							<span><a href="http://conradjones.com" target="_blank">conradjones.com</a></span>

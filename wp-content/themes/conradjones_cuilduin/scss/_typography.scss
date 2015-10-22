@@ -1,19 +1,28 @@
 /******************************************************************************\
 	Settings
 \******************************************************************************/
-// fonts
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300);
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url(fonts/CenturyGothic.otf);
+}
+
+@font-face {
+    font-family: cabrito;
+    src: url(fonts/Cabrito-NorRegIt.otf);
+}
+
+
 // Century Gothic = Muli google
 // Bold for top links, regular for body text
-$googleMuli: 'Muli', sans-serif; //
+$CenturyGothic: CenturyGothic; //
 
 // open sans instead of cabrito - Cabrito  - Norm Regular Italic
-$googleOpenSans: 'Open Sans', sans-serif;
+$Cabrito: cabrito;
 
 // Variables
-$base-font: $googleMuli;
-$header-font: $googleMuli;
+$base-font: $CenturyGothic;
+$header-font: $CenturyGothic;
 $base-line-height: 1.5;
 $base-font-size: 16px;
 

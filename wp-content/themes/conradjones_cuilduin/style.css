@@ -323,7 +323,7 @@ table {
   box-sizing: border-box; }
 
 body {
-  background: #d8dfe2;
+  background: whitesmoke;
   color: black; }
 
 body.custom-background {
@@ -370,8 +370,14 @@ input, textarea {
 /******************************************************************************\
 	Settings
 \******************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300);
+@font-face {
+  font-family: CenturyGothic;
+  src: url(fonts/CenturyGothic.otf); }
+
+@font-face {
+  font-family: cabrito;
+  src: url(fonts/Cabrito-NorRegIt.otf); }
+
 html {
   font-size: 16px; }
   @media screen and (min-width: 481px) {
@@ -388,7 +394,7 @@ html {
 	Standard font styling
 \******************************************************************************/
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: CenturyGothic;
   line-height: 1.5;
   font-weight: 400; }
 
@@ -415,7 +421,7 @@ blockquote {
     margin: 0 15px 15px 0; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: CenturyGothic;
   line-height: 1.2; }
   @media screen and (min-width: 769px) {
     h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
@@ -637,7 +643,8 @@ p ~ h1 {
   background-image: url(images/CuilDuin_Logo.png);
   height: 150px;
   width: 150px;
-  z-index: 22; }
+  z-index: 9999999999999;
+  cursor: pointer; }
 
 .register-interest {
   float: left;
@@ -908,9 +915,9 @@ article {
   float: left;
   display: block;
   margin-right: 3.06748%;
-  width: 22.69939%;
-  width: 30%;
-  padding: 20px; }
+  width: 31.28834%;
+  padding: 20px;
+  margin-right: 0; }
   .house-container:last-child {
     margin-right: 0; }
   .house-container img {
@@ -918,38 +925,59 @@ article {
     height: 174px;
     width: 300px; }
   .house-container h3 {
-    font-family: 'Muli', sans-serif;
+    font-family: CenturyGothic;
     font-size: 20px;
     color: #b59857;
     margin: 2px; }
   .house-container p {
-    font-family: 'Muli', sans-serif;
+    font-family: CenturyGothic;
     font-size: 12px;
     color: white;
     margin: 2px; }
   .house-container a {
-    font-family: 'Muli', sans-serif;
+    font-family: CenturyGothic;
     background-color: #b59857;
     padding: 2px; }
+  .house-container p:nth-child(1) a {
+    background-color: transparent; }
 
-.page-content .secondary-specifications {
+.secondary-specifications, .secondary-amenities {
   *zoom: 1;
   max-width: 980px;
   margin-left: auto;
   margin-right: auto; }
-  .page-content .secondary-specifications:before, .page-content .secondary-specifications:after {
+  .secondary-specifications:before, .secondary-specifications:after, .secondary-amenities:before, .secondary-amenities:after {
     content: " ";
     display: table; }
-  .page-content .secondary-specifications:after {
+  .secondary-specifications:after, .secondary-amenities:after {
     clear: both; }
+  .secondary-specifications h3, .secondary-amenities h3 {
+    font-family: CenturyGothic;
+    font-size: 20px;
+    color: #4a5e69;
+    margin: 2px; }
+  .secondary-specifications p, .secondary-amenities p {
+    font-size: 12px; }
+
+.specifications-warranty-thumb {
+  width: 20px;
+  height: 20px;
+  background: url(images/specifications-warranty-thumb.png); }
 
 .specifications-container {
   float: left;
   display: block;
   margin-right: 3.06748%;
-  width: 22.69939%; }
+  width: 31.28834%;
+  width: 33.28834%;
+  margin-right: 0;
+  min-height: 400px;
+  padding: 2%; }
   .specifications-container:last-child {
     margin-right: 0; }
+
+.specifications-container:nth-child(even) {
+  background-color: whitesmoke; }
 
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;
@@ -997,7 +1025,7 @@ article {
   width: 100%;
   border-top: 1px #4a5e69 solid;
   color: #4a5e69;
-  font-family: 'Muli', sans-serif; }
+  font-family: CenturyGothic; }
   .footer-navigation-links a {
     color: #4a5e69; }
   .footer-navigation-links .footer-navigation-links-copyright {
@@ -1005,25 +1033,6 @@ article {
     width: 240px;
     float: left;
     padding-top: 10px; }
-  .footer-navigation-links .footer-navigation-links-nav-menu {
-    display: inline-block; }
-    .footer-navigation-links .footer-navigation-links-nav-menu nav {
-      left: 0;
-      font-size: 14px; }
-      .footer-navigation-links .footer-navigation-links-nav-menu nav a {
-        color: #4a5e69;
-        font-weight: lighter;
-        font-family: 'Muli', sans-serif; }
-      @media screen and (min-width: 650px) {
-        .footer-navigation-links .footer-navigation-links-nav-menu nav ul .nav li:nth-child(3) {
-          margin-right: 0px; }
-        .footer-navigation-links .footer-navigation-links-nav-menu nav ul .nav li {
-          min-width: 0; } }
-    .footer-navigation-links .footer-navigation-links-nav-menu .nav-bottom li:after {
-      content: " \00b7";
-      font-size: 15px; }
-    .footer-navigation-links .footer-navigation-links-nav-menu .nav-bottom li:nth-child(5):after {
-      content: none; }
   .footer-navigation-links .footer-navigation-conradjones {
     display: inline-block;
     float: right;
@@ -1091,14 +1100,10 @@ article {
 .sliderimgLi img {
   background: #d8dfe2 !important; }
 
-.cycloneslider-template-standard .cycloneslider-slides {
-  overflow: visible;
-  margin-left: 30px; }
-
 .front-page-action-button, .register-interest, .slider-description, .view-gallery, .read-more, .download-brochure {
   background-color: #b59857;
   color: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: cabrito; }
 
 .slider-description {
   width: 100%;
@@ -1192,6 +1197,72 @@ article {
 .view-gallery, .read-more, .download-brochure, .view-gallery, .read-more, .download-brochure {
   cursor: pointer; }
 
+
+/* Picture Styles */
+#sitemap {
+  position: relative;
+  top: 20px;
+  width: 960px;
+  height: 679px;
+  margin: 0px auto;
+  background: white url('http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/CuilDuin_SitePlan_large.jpg');
+  overflow: hidden; }
+
+/* General More Button */
+.more {
+  cursor: pointer;
+  position: absolute;
+  width: 240px;
+  height: 25px;
+  background: url('dim.png');
+  padding: 5px;
+  text-align: right;
+  overflow: hidden; }
+
+.more span {
+  display: none;
+  position: absolute;
+  left: 70px;
+  top: 8px;
+  width: 160px;
+  color: white;
+  font: bold 13px Lucida Grande, Arial, sans-serif;
+  text-shadow: black 1px 1px 0px; }
+
+.more span {
+  position: absolute;
+  left: 150px;
+  text-align: left;
+  padding-left: 2px;
+  padding-top: 2px;
+  top: 8px;
+  color: white;
+  font: bold 13px Lucida Grande, Arial, sans-serif;
+  text-shadow: black 1px 1px 0px;
+  width: 75px;
+  height: 50px;
+  background-color: green; }
+
+/* Item Specific More Button */
+#two-bed-mid-terrace {
+  top: 85px;
+  left: 120px; }
+
+#three-bed-end-of-terrace {
+  top: 190px;
+  left: 120px; }
+
+#three-bed-mid-terrace {
+  top: 120px;
+  left: 120px; }
+
+#four-bed-semi-detached {
+  top: 155px;
+  left: 120px; }
+
+#three-bed-semi-detached {
+  top: 225px;
+  left: 120px; }
 
 /*******************************************
    Style menu for larger screens
@@ -1296,3 +1367,6 @@ article {
     padding-left: 0; }
   .nav li ul li {
     display: block; } }
+
+#fancybox-wrap, #fancybox-overlay {
+  display: none !important; }

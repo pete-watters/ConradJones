@@ -15,44 +15,27 @@ get_header(); ?>
 			<span class="slider-description-text">Citywest is a centre of shopping and business</span>
 	</div>
 </section>
-	<section class="page-content primary" role="main">
 
-		<?php
-			if ( have_posts() ) : the_post();
-
-				get_template_part( 'loop' ); ?>
-
-				<aside class="post-aside"><?php
-
-					wp_link_pages(
-						array(
-							'before'           => '<div class="linked-page-nav"><p>' . sprintf( __( '<em>%s</em> is separated in multiple parts:', 'conradjones_cuilduin' ), get_the_title() ) . '<br />',
-							'after'            => '</p></div>',
-							'next_or_number'   => 'number',
-							'separator'        => ' ',
-							'pagelink'         => __( '&raquo; Part %', 'conradjones_cuilduin' ),
-						)
-					); ?>
-
-					<?php
-						if ( comments_open() || get_comments_number() > 0 ) :
-							comments_template( '', true );
-						endif;
-					?>
-
-				</aside><?php
-
+<!-- print header -->
+<section class="page-content primary" role="main">
+	<?php
+		if ( have_posts() ) : the_post();
+			get_template_part( 'loop' );
 			else :
+			get_template_part( 'loop', 'empty' );
+		endif;
+	?>
+</section>
 
-				get_template_part( 'loop', 'empty' );
-
-			endif;
-		?>
-
-	</section>
+		<!-- print post contents -->
   <section class="page-content secondary-amenities">
     <?php query_posts('cat=14'); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+			<?php
+				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+					the_post_thumbnail();
+				}
+				?>
        <?php the_content(); ?>
     <?php endwhile; endif; ?>
   </section>

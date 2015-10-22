@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #d8dfe2;
+  background: whitesmoke;
   color: black; }
 
 body.custom-background {
@@ -51,8 +51,14 @@ input, textarea {
 /******************************************************************************\
 	Settings
 \******************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300);
+@font-face {
+  font-family: CenturyGothic;
+  src: url(fonts/CenturyGothic.otf); }
+
+@font-face {
+  font-family: cabrito;
+  src: url(fonts/Cabrito-NorRegIt.otf); }
+
 html {
   font-size: 16px; }
   @media screen and (min-width: 481px) {
@@ -69,7 +75,7 @@ html {
 	Standard font styling
 \******************************************************************************/
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: CenturyGothic;
   line-height: 1.5;
   font-weight: 400; }
 
@@ -96,7 +102,7 @@ blockquote {
     margin: 0 15px 15px 0; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: CenturyGothic;
   line-height: 1.2; }
   @media screen and (min-width: 769px) {
     h1, .h1, h2, .h2, h3, .h3, h4, h5, h6 {

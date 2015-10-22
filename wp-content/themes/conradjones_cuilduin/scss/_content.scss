@@ -192,9 +192,9 @@ article {
 }
 
 .house-container{
-	@include span-columns(3);
-    width: 30%;
+	@include span-columns(4);    // width: 30%;
     padding: 20px;
+		margin-right: 0;
 
 		img{
 			border: solid $white 1px;
@@ -203,26 +203,53 @@ article {
 		}
 
 		h3{
-				font-family: $googleMuli;
+				font-family: $CenturyGothic;
 			font-size: 20px;
 			color: $goldGreen;
 			margin: 2px;
 		}
 		p{
-				font-family: $googleMuli;
+				font-family: $CenturyGothic;
 			font-size: 12px;
 			color: $white;
 			margin: 2px;
 		}
 			a{
-					font-family: $googleMuli;
+					font-family: $CenturyGothic;
 	    background-color: $goldGreen;
 	    padding: 2px;
 		}
+		// don't decorate image links
+		p:nth-child(1) a{
+			background-color: transparent;
+		}
 }
-.page-content .secondary-specifications{
+.secondary-specifications , .secondary-amenities{
 	@include outer-container;
+	h3{
+			font-family: $CenturyGothic;
+			font-size: 20px;
+			color: $darkBlueGreen;
+			margin: 2px;
+		}
+		p{
+			font-size: 12px;
+		}
+}
+
+.specifications-warranty-thumb{
+		width: 20px;
+		height: 20px;
+		background:url(images/specifications-warranty-thumb.png);
 }
 .specifications-container{
-	@include span-columns(3);
+	@include span-columns(4);
+
+    width: 33.28834%;
+    margin-right: 0;
+    min-height: 400px;
+    padding: 2%;
+}
+.specifications-container:nth-child(even){
+	background-color: whitesmoke;
 }

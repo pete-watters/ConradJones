@@ -14,7 +14,7 @@
     width: 100%;
     border-top: 1px $darkBlueGreen solid;
 		color: $darkBlueGreen;
-		font-family: $googleMuli;
+		font-family: $CenturyGothic;
 		a{
 			color: $darkBlueGreen;
 		}
@@ -25,37 +25,7 @@
     padding-top: 10px;
 
 	}
-	.footer-navigation-links-nav-menu{
-    display: inline-block;
-		
-		nav{
-			left: 0;
-    	font-size: 14px;
-			a{
-				color: $darkBlueGreen;
-		    font-weight: lighter;
-		    font-family: $googleMuli;
-			}
-			ul{
-				@media screen and (min-width: 650px){
 
-							.nav li:nth-child(3) {
-							    margin-right: 0px;
-							}
-							.nav li{
-								min-width: 0;
-							}
-				}
-			}
-		}
-		.nav-bottom li:after {
-			content: " \00b7";
-			font-size: 15px;
-		}
-
-		.nav-bottom li:nth-child(5):after { content: none; }
-
-	}
 	.footer-navigation-conradjones{
     display: inline-block;
     float: right;

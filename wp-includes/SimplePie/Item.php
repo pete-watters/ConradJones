@@ -2886,7 +2886,7 @@ class SimplePie_Item
 	/**
 	 * Get the latitude coordinates for the item
 	 *
-	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS specifications
+	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS $CenturyGothic
 	 *
 	 * Uses `<geo:lat>` or `<georss:point>`
 	 *
@@ -2914,7 +2914,7 @@ class SimplePie_Item
 	/**
 	 * Get the longitude coordinates for the item
 	 *
-	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS specifications
+	 * Compatible with the W3C WGS84 Basic Geo and GeoRSS $CenturyGothic
 	 *
 	 * Uses `<geo:long>`, `<geo:lon>` or `<georss:point>`
 	 *

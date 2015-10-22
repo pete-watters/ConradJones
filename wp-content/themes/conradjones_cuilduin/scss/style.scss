@@ -25,5 +25,12 @@
 
 @import "cycloneslider";
 @import "frontpage";
+@import "sitemap";
 
 @import "responsive";
+
+
+// force block of second lightbox
+#fancybox-wrap, #fancybox-overlay{
+	display: none !important;
+}

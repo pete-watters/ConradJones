@@ -708,7 +708,7 @@ class getid3_mp3 extends getid3_handler
 						$thisfile_mpeg_audio_lame_raw    = &$thisfile_mpeg_audio_lame['raw'];
 
 						// byte $9B  VBR Quality
-						// This field is there to indicate a quality level, although the scale was not precised in the original Xing specifications.
+						// This field is there to indicate a quality level, although the scale was not precised in the original Xing $CenturyGothic.
 						// Actually overwrites original Xing bytes
 						unset($thisfile_mpeg_audio['VBR_scale']);
 						$thisfile_mpeg_audio_lame['vbr_quality'] = getid3_lib::BigEndian2Int(substr($headerstring, $LAMEtagOffsetContant + 0x9B, 1));

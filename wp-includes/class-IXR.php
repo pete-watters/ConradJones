@@ -1025,7 +1025,7 @@ class IXR_IntrospectionServer extends IXR_Server
             'system.getCapabilities',
             'this:getCapabilities',
             array('struct'),
-            'Returns a struct describing the XML-RPC specifications supported by this server'
+            'Returns a struct describing the XML-RPC $CenturyGothic supported by this server'
         );
         $this->addCallback(
             'system.listMethods',
