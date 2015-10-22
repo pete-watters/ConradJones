@@ -1,0 +1,35 @@
+/* Picture Styles */
+#sitemap{
+  position:relative;
+  top:20px;
+  width:960px;
+  height:679px;
+  margin:0px auto;
+  background:#FFF url('http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/CuilDuin_SitePlan_large.jpg');
+  overflow:hidden;
+}
+  /* General More Button */
+  .more{ cursor:pointer; position:absolute; width:240px; height:25px; background:url('dim.png'); padding:5px; text-align:right; overflow:hidden; }
+  .more span{ display:none;position:absolute; left:70px; top:8px; width:160px;  color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
+
+    .more span{
+      position: absolute;
+      left: 150px;
+      text-align: left;
+      padding-left: 2px;
+      padding-top: 2px;
+      top: 8px;
+      color: #FFF;
+      font: bold 13px Lucida Grande, Arial, sans-serif;
+      text-shadow: #000 1px 1px 0px;
+      width: 75px;
+      height: 50px;
+      background-color: green;
+    }
+
+  /* Item Specific More Button */
+  #two-bed-mid-terrace{ top:85px; left:120px;}
+  #three-bed-end-of-terrace{ top:190px; left:120px; }
+  #three-bed-mid-terrace{ top:120px; left:120px; }
+  #four-bed-semi-detached{ top:155px; left:120px; }
+  #three-bed-semi-detached{ top:225px; left:120px; }
