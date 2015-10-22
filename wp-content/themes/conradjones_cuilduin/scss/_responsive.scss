@@ -83,22 +83,7 @@ $xlarge: new-breakpoint(min-width 1025px);
     float: left;
     margin-top: 20px;
 }
-.site-header{
-    .nav a{
-      padding-right: 15px;
-        border-bottom: none;
-    }
-     .nav li {
-      font-weight: bold;
-    }
-    .nav li:after {
-      content: " \00b7";
-      font-size: 15px;
-    }
-    .nav li:nth-child(6):after {
-      content: none;
-    }
-  }
+
 
 }
 @include media(screen and $medium) {
@@ -114,57 +99,4 @@ $xlarge: new-breakpoint(min-width 1025px);
          }
 
 
-    .nav li {
-      border-bottom: none;
-      font-weight: bold;
-    }
-
-    .site-header{
-      	.nav a{
-      		padding-right: 30px;
-            border-bottom: none;
-      	}
-      	 .nav li {
-          font-weight: bold;
-        }
-  			.nav li:after {
-  				content: " \00b7";
-  				font-size: 15px;
-  			}
-
-  			.nav li:nth-child(3):after,
-  			.nav li:nth-child(6):after {
-          content: none;
-        }
-
-    			// give space after 3rd child
-    		.nav li:nth-child(3){
-    			margin-right: 250px;
-    		}
-      }
-
-    .nav > ul > li {
-      text-align: center;
-    }
-
-    .nav > ul > li > a {
-      padding-left: 0;
-    }
-
-    /* Sub Menus */
-    .nav li ul {
-      position: absolute;
-      display: none;
-      width: inherit;
-    }
-
-    .nav li:hover ul {
-      display: block;
-      max-width: 200px;
-      padding-left: 0;
-    }
-
-    .nav li ul li {
-      display: block;
-    }
 }

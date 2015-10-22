@@ -36,13 +36,7 @@ get_header(); ?>
 						<div class="page-content-primary-action-container">
 								<div class="register-interest">
 									<span class="register-interest-text">
-											<a href="#contact_form_pop" class="fancybox">	REGISTER INTEREST</a>
-												<div style="display:none" class="fancybox-hidden">
-												<div id="contact_form_pop">
-
-													<?php echo do_shortcode('[contact-form-7 id="468" title="Register Interest"]'); ?>
-															 </div>
-												</div>
+												<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">	REGISTER INTEREST</a>
 									</span>
 								</div>
 								<div class="download-brochure">

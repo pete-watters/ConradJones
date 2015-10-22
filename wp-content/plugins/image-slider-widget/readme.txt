@@ -4,15 +4,15 @@ Donate link: http://ghozylab.com/donate
 Tags: image, slider, image slider, plugin slider, slider plugin, best slider, gallery slider, wordpress slider, images, free slider, image slider plugin, wp slider, best slider plugin, meta slider, coin slider, facebook, google, wordpress, twitter, image slideshow, images slider, jquery slider, jquery slideshow, photo slider, picture slider, plugin, plugins, admin, page, post, posts, responsive slider, responsive slideshow, seo, slide, slider shortcode, slider widget, slides, slideshow, slideshow plugin, widget, widget slider, shortcode, widget slideshow, widgets, wordpress slideshow, carousel, carousel slider, slider image
 Requires at least: 3.5
 Tested up to: 4.3
-Stable tag: 1.1.37
+Stable tag: 1.1.39
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Image Slider - Create image slider for posts, page or even in your sidebar just in minutes.
+Slider - Create image slider for posts, page or even in your sidebar just in minutes.
 
 == Description ==
 = Responsive Slider Plugin =
-**Image Slider** is the best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin for your post/page/widget or sidebar area. Allows you to customize the **slider** to looking exactly what you want.
+**Image Slider** plugin is the best **[slider](http://demo.ghozylab.com/plugins/easy-image-slider-plugin/?utm_source=wordpress&utm_medium=description-link&utm_campaign=slider "slider plugin")** plugin for your post/page/widget or sidebar area. Allows you to customize the **slider** to looking exactly what you want.
 
 The [slider image](https://wordpress.org/plugins/image-slider-widget/ "slider image") is 100% **responsive** and compatible with mobile, tablets, desktop computers and all modern web browsers which include iPhone, iPad, Android, Chrome, Safari, Firefox, Opera and Internet Explorer 7/8/9/10/11
 
@@ -161,6 +161,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.39 =
+* Update : Pricing to normal
+
 = 1.1.37 =
 * Update : Pricing Page
 * Fixed : Many other PHP and CSS clean and optimization
@@ -283,5 +286,5 @@ There are no complicated instructions for using Image Slider plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.37 =
+= 1.1.39 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!

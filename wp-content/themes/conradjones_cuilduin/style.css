@@ -372,11 +372,11 @@ input, textarea {
 \******************************************************************************/
 @font-face {
   font-family: CenturyGothic;
-  src: url(fonts/CenturyGothic.otf); }
+  src: local('CenturyGothic'), url(fonts/CenturyGothic.otf) format("opentype"); }
 
 @font-face {
   font-family: cabrito;
-  src: url(fonts/Cabrito-NorRegIt.otf); }
+  src: local('cabrito'), url(fonts/Cabrito-NorRegIt.otf) format("opentype"); }
 
 html {
   font-size: 16px; }
@@ -660,47 +660,65 @@ p ~ h1 {
   width: 200px;
   top: 20px; }
   .contact-details .contact-details-number {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold; }
   .contact-details .contact-details-text {
-    font-size: 14px; }
+    font-size: 12px; }
+
+.menu-ul, .menu {
+  margin: 0;
+  padding: 0; }
+
+.nav {
+  padding-top: 50px; }
 
 nav {
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
   font-size: 12px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-left: 30px; }
+  /* clear'n floats */ }
   nav a {
-    color: #444444;
     text-decoration: none;
-    font-weight: bold; }
+    display: block;
+    color: #444444;
+    font-weight: bold;
+    padding-left: 40px; }
   nav a:hover {
     color: #4c9cf1; }
   nav ul {
     list-style: none;
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
     text-align: center; }
-  nav ul li {
-    display: inline-block;
-    float: left;
-    padding: 10px; }
+  nav li {
+    float: left; }
+  nav ul:after {
+    clear: both; }
+  nav ul:before, nav ul:after {
+    content: " ";
+    display: table; }
 
-#menu-icon {
-  display: hidden;
-  width: 40px;
-  height: 40px;
-  background: #4a5e69 url(images/menu-icon.svg) center; }
+ul.menu-ul li:nth-child(3) a {
+  padding-right: 100px; }
 
-.nav-bottom {
-  left: 100px;
-  position: relative; }
+ul.menu-ul li:last-child a {
+  border-right: none; }
 
-.nav-bottom li:nth-child(3) {
-  margin-right: 0px; }
+ul.menu-ul li a:hover {
+  color: black; }
+
+ul.menu-ul li a:after {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00b7"; }
+
+ul.menu-ul li:nth-child(3) a:after, ul.menu-ul li:nth-child(6) a:after {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"; }
+
+@media only screen and (max-width: 600px) {
+  li {
+    float: none; }
+  ul.primary li:hover ul {
+    display: block; }
+  ul.menu-ul li a:after {
+    content: ""; } }
 
 /******************************************************************************\
 	General
@@ -997,7 +1015,8 @@ article {
   margin-right: 3.06748%;
   width: 48.46626%;
   width: 49.9%;
-  margin: 0; }
+  margin: 0;
+  height: 326px; }
   .secondary-amenities-container-thumbnail:last-child, .secondary-amenities-container-content:last-child {
     margin-right: 0; }
 
@@ -1023,6 +1042,13 @@ article {
 .secondary-amenities-container-thumbnail {
   background-color: #d8dfe2; }
 
+.page-content.primary-contact-page {
+  min-height: 600px;
+  padding: 0 25%; }
+  .page-content.primary-contact-page h1 {
+    margin-bottom: 30px;
+    margin-top: 70px; }
+
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;
   padding: 5px 0 0; }
@@ -1044,6 +1070,12 @@ article {
 
 .format-quote .post-title {
   font-style: italic; }
+
+footer {
+  background: url(images/BottomBanner.jpg);
+  background-size: cover;
+  padding-bottom: 24px;
+  padding-top: 60px; }
 
 .footer-widgets {
   *zoom: 1;
@@ -1069,12 +1101,12 @@ article {
   width: 100%;
   border-top: 1px #4a5e69 solid;
   color: #4a5e69;
-  font-family: CenturyGothic; }
+  font-family: CenturyGothic;
+  padding: 0 1%; }
   .footer-navigation-links a {
     color: #4a5e69; }
   .footer-navigation-links .footer-navigation-links-copyright {
     display: inline-block;
-    width: 240px;
     float: left;
     padding-top: 10px; }
   .footer-navigation-links .footer-navigation-conradjones {
@@ -1246,11 +1278,13 @@ article {
 #sitemap {
   position: relative;
   top: 20px;
-  width: 960px;
-  height: 679px;
+  width: 100%;
+  height: 600px;
   margin: 0px auto;
-  background: white url('http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/CuilDuin_SitePlan_large.jpg');
-  overflow: hidden; }
+  background: white url(images/CuilDuin_SitePlan.jpg);
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 /* General More Button */
 .more {
@@ -1258,7 +1292,6 @@ article {
   position: absolute;
   width: 240px;
   height: 25px;
-  background: url('dim.png');
   padding: 5px;
   text-align: right;
   overflow: hidden; }
@@ -1362,55 +1395,15 @@ article {
     max-width: 221px; }
   .page-content-primary-action-container .download-brochure, .page-content-primary-action-container .view-gallery, .page-content-primary-action-container .read-more, .page-content-primary-action-container .download-brochure {
     float: left;
-    margin-top: 20px; }
-  .site-header .nav a {
-    padding-right: 15px;
-    border-bottom: none; }
-  .site-header .nav li {
-    font-weight: bold; }
-  .site-header .nav li:after {
-    content: " \00b7";
-    font-size: 15px; }
-  .site-header .nav li:nth-child(6):after {
-    content: none; } }
+    margin-top: 20px; } }
 
 @media screen and (min-width: 481px) {
   .logo {
     left: 35%; } }
 
 @media screen and (min-width: 769px) {
-  /* Sub Menus */
   .logo {
-    left: 41%; }
-  .nav li {
-    border-bottom: none;
-    font-weight: bold; }
-  .site-header .nav a {
-    padding-right: 30px;
-    border-bottom: none; }
-  .site-header .nav li {
-    font-weight: bold; }
-  .site-header .nav li:after {
-    content: " \00b7";
-    font-size: 15px; }
-  .site-header .nav li:nth-child(3):after, .site-header .nav li:nth-child(6):after {
-    content: none; }
-  .site-header .nav li:nth-child(3) {
-    margin-right: 250px; }
-  .nav > ul > li {
-    text-align: center; }
-  .nav > ul > li > a {
-    padding-left: 0; }
-  .nav li ul {
-    position: absolute;
-    display: none;
-    width: inherit; }
-  .nav li:hover ul {
-    display: block;
-    max-width: 200px;
-    padding-left: 0; }
-  .nav li ul li {
-    display: block; } }
+    left: 41%; } }
 
 #fancybox-wrap, #fancybox-overlay {
   display: none !important; }

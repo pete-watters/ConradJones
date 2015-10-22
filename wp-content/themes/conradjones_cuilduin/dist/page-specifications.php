@@ -8,12 +8,12 @@
  */
 
 get_header(); ?>
-<section class="front-page slider-area">
+<section class="front-page slider-area ">
 	<div class="front-page slider-description">
 			<span class="slider-description-text">Super energy efficient ‘A’-rated houses</span>
 	</div>
 </section>
-	<section class="page-content primary" role="main">
+	<section class="page-content primary primary-specifications" role="main">
 		<span class="specifications-warranty-thumb"></span>
 		<span class="specifications-warranty-text">
 			Each home is covered by a <b>10 year structural warranty</b> insurance policy.

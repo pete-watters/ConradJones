@@ -153,12 +153,10 @@ module.exports = function(grunt) {
 			host: 'peterjwatters.com',
       port: 21,
       authKey: 'key1'
-			// username: "peterjwa",
-			// pass: "p3t3rW@ttErs!"
     },
     src: '../dist/',
     dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
-    exclusions: ['../dist/node_modules/*', '../dist/images/*', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
+    exclusions: ['../dist/node_modules/*', '../dist/images/*', '../dist/fonts/*','path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
 		forceVerbose: true
   }
 }

@@ -262,6 +262,8 @@ article {
 	@include span-columns(6);
     width: 49.9%;
     margin: 0;
+
+    height: 326px;
 }
 .secondary-amenities-container-content{
     padding: 2% 5%;
@@ -288,4 +290,13 @@ article {
 }
 .secondary-amenities-container-thumbnail{
 		background-color: $grayishCyan;
+}
+
+.page-content.primary-contact-page{
+    min-height: 600px;
+    padding: 0 25%;
+		h1{
+	    margin-bottom: 30px;
+	    margin-top: 70px;
+		}
 }

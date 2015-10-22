@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: CenturyGothic;
-    src: url(fonts/CenturyGothic.otf);
+    src: local('CenturyGothic'), url(fonts/CenturyGothic.otf) format("opentype");
 }
 
 @font-face {
     font-family: cabrito;
-    src: url(fonts/Cabrito-NorRegIt.otf);
+    src: local('cabrito'), url(fonts/Cabrito-NorRegIt.otf) format("opentype");
 }
 
 

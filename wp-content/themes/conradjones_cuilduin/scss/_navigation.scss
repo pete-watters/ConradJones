@@ -1,49 +1,79 @@
+.menu-ul, .menu{
+	margin: 0;
+	padding:0;
+}
+
+.nav{
+	padding-top: 50px;
+}
+
 nav {
-		font-size: 12px;
-    position: absolute;
-    bottom: 0;
-		width: 100%;
-    padding-left: 30px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+			font-size: 12px;
 
 	a {
-		color: #444;
-		text-decoration: none;
-		font-weight: bold;
+	  text-decoration: none;
+	  display: block;
+				color: #444;
+				font-weight: bold;
+				padding-left: 40px;
 	}
+		a:hover {
+			color: #4C9CF1;
+		}
 
-	a:hover {
-		color: #4C9CF1;
-	}
+		ul {
+		  list-style: none;
+			    text-align: center;
+		}
 
-	ul {
-		list-style: none;
-		display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-	}
-	ul li {
-		display: inline-block;
-		float: left;
-		padding: 10px
-	}
+		li {
+		  float: left;
+		}
+
+		/* clear'n floats */
+		ul:after {
+		  clear: both;
+		}
+
+		ul:before,
+		ul:after {
+		    content: " ";
+		    display: table;
+		}
 }
 
-
-#menu-icon {
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: $darkBlueGreen url(images/menu-icon.svg) center;
+ul.menu-ul li:nth-child(3) a{
+	padding-right: 100px;
 }
 
-
-.nav-bottom{
-		left: 100px;
-		position: relative;
+ul.menu-ul li:last-child a {
+  border-right: none;
 }
 
-.nav-bottom li:nth-child(3){
-	margin-right: 0px;
+ul.menu-ul li a:hover {
+  color: #000;
+}
+ul.menu-ul li a:after {
+    content:  "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00b7";
+}
+ul.menu-ul li:nth-child(3) a:after,
+ul.menu-ul li:nth-child(6) a:after{
+    content:  "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+@media only screen and (max-width: 600px) {
+   li {
+    float: none;
+  }
+
+
+  ul.primary li:hover ul {
+    display: block;
+  }
+  ul.menu-ul li a:after{
+    content: ""
+  }
 }

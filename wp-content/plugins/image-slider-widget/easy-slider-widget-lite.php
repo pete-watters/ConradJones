@@ -6,7 +6,7 @@ Description: Image Slider (Lite) - Displaying your image as slider in post/page/
 Author: GhozyLab, Inc.
 Text Domain: image-slider-widget
 Domain Path: /languages
-Version: 1.1.37
+Version: 1.1.39
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -41,7 +41,7 @@ define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
 define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.37' );
+	define( 'EWIC_VERSION', '1.1.39' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -50,7 +50,7 @@ if ( !defined( 'EWIC_NAME' ) ) {
 	
 // Pro Price
 if ( !defined( 'EWIC_PRO' ) ) {
-	define( 'EWIC_PRO', '30' );
+	define( 'EWIC_PRO', '27' );
 }
 
 // Pro+
