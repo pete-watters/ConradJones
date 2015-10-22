@@ -979,6 +979,50 @@ article {
 .specifications-container:nth-child(even) {
   background-color: whitesmoke; }
 
+.secondary-amenities-container {
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px; }
+  .secondary-amenities-container:before, .secondary-amenities-container:after {
+    content: " ";
+    display: table; }
+  .secondary-amenities-container:after {
+    clear: both; }
+
+.secondary-amenities-container-thumbnail, .secondary-amenities-container-content {
+  float: left;
+  display: block;
+  margin-right: 3.06748%;
+  width: 48.46626%;
+  width: 49.9%;
+  margin: 0; }
+  .secondary-amenities-container-thumbnail:last-child, .secondary-amenities-container-content:last-child {
+    margin-right: 0; }
+
+.secondary-amenities-container-content {
+  padding: 2% 5%; }
+
+.secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail {
+  float: right; }
+
+.secondary-amenities-container:nth-of-type(even) {
+  background-color: #4a5e69;
+  color: white; }
+  .secondary-amenities-container:nth-of-type(even) h3 {
+    color: white;
+    border-bottom: 1px solid;
+    font-weight: normal; }
+
+.secondary-amenities-container:nth-of-type(odd) h3 {
+  color: #b59857;
+  border-bottom: 1px solid;
+  font-weight: normal; }
+
+.secondary-amenities-container-thumbnail {
+  background-color: #d8dfe2; }
+
 .format-status .date, .format-link .date, .format-quote .date {
   width: 100%;
   padding: 5px 0 0; }

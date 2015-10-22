@@ -253,3 +253,39 @@ article {
 .specifications-container:nth-child(even){
 	background-color: whitesmoke;
 }
+
+.secondary-amenities-container{
+		@include outer-container;
+		margin-bottom: -8px;
+}
+.secondary-amenities-container-thumbnail,.secondary-amenities-container-content{
+	@include span-columns(6);
+    width: 49.9%;
+    margin: 0;
+}
+.secondary-amenities-container-content{
+    padding: 2% 5%;
+	}
+
+.secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
+	float: right;
+}
+.secondary-amenities-container:nth-of-type(even){
+	background-color: $darkBlueGreen;
+	color: $white;
+	h3{
+		color: $white;
+    border-bottom: 1px solid;
+		font-weight: normal;
+	}
+}
+.secondary-amenities-container:nth-of-type(odd){
+	h3{
+		color:$goldGreen;
+    border-bottom: 1px solid;
+		font-weight: normal;
+	}
+}
+.secondary-amenities-container-thumbnail{
+		background-color: $grayishCyan;
+}

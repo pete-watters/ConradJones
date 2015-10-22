@@ -16,27 +16,32 @@ get_header(); ?>
 	</div>
 </section>
 
-<!-- print header -->
-<section class="page-content primary" role="main">
-	<?php
-		if ( have_posts() ) : the_post();
-			get_template_part( 'loop' );
-			else :
-			get_template_part( 'loop', 'empty' );
-		endif;
-	?>
-</section>
-
 		<!-- print post contents -->
   <section class="page-content secondary-amenities">
-    <?php query_posts('cat=14'); ?>
+		<?php
+		$args = array(
+				'cat'      => 14,
+				'posts_per_page'     => -1,
+				'orderby' => 'date',
+				'order'    => 'ASC'
+				);
+
+		query_posts($args);
+		?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<?php
-				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-					the_post_thumbnail();
-				}
-				?>
-       <?php the_content(); ?>
+			<div class="secondary-amenities-container">
+					<div class="secondary-amenities-container-thumbnail">
+						<?php
+							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+								the_post_thumbnail();
+							}
+							?>
+					</div>
+					<div class="secondary-amenities-container-content">
+	       	     <h3><?php the_title(); ?></h3>
+	       	     <?php the_content(); ?>
+					</div>
+			</div>
     <?php endwhile; endif; ?>
   </section>
 <?php get_footer(); ?>

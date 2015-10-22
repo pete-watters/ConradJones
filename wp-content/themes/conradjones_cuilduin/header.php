@@ -29,19 +29,20 @@
 
 			<header class="site-header">
 					<div class="register-interest">
-							<span class="register-interest-action">
-									REGISTER YOUR INTEREST
-							</span>
+						<span class="register-interest-text">
+								<a href="#contact_form_pop" class="fancybox">	REGISTER INTEREST</a>
+									<div style="display:none" class="fancybox-hidden">
+									<div id="contact_form_pop">
+
+										<?php echo do_shortcode('[contact-form-7 id="468" title="Register Interest"]'); ?>
+												 </div>
+									</div>
+						</span>
 					</div>
 					<div class="contact-details">
 							<span class="contact-details-text">contact Hooke &amp; MacDonald</span>
 							<span class="contact-details-number">01 631 8402</span>
 					</div>
-				<!-- <a class="logo" href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>">
-					 <h1 class="blog-name"><?php bloginfo( 'name' ); ?></h1>
-					<div class="blog-description"><?php bloginfo( 'description' ); ?></div>
-				</a> -->
-
 					<?php include('main-nav.php') ?>
 			</header>
 
