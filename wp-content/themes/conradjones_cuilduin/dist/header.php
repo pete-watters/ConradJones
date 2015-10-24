@@ -28,15 +28,20 @@
 		<div class="site">
 
 			<header class="site-header">
+				<div class="header-nav-container">
+
+					<div class="contact-details">
+						<span class="contact-details-text">contact Hooke &amp; MacDonald</span>
+						<br>
+						<span class="contact-details-number">01 631 8402</span>
+					</div>
 					<div class="register-interest">
 						<span class="register-interest-text">
 								<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">	REGISTER INTEREST</a>
 						</span>
 					</div>
-					<div class="contact-details">
-							<span class="contact-details-text">contact Hooke &amp; MacDonald</span>
-							<span class="contact-details-number">01 631 8402</span>
-					</div>
+				</div>
+
 					<?php include('main-nav.php') ?>
 			</header>
 

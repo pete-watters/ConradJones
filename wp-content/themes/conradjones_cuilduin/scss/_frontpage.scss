@@ -71,6 +71,9 @@
 }
 .page-content-primary-article-container-h1{
   max-width: 100%!important;
+  @include media($small) {
+    font-size: 20px;
+  }
 }
 .page-content-primary-action-aside.download-brochure{
     background: url(images/cuilDuin_brochureCover.png);
@@ -123,6 +126,13 @@
   @extend .front-page-action-button;
   @extend .download-brochure;
     cursor: pointer;
+  width: 190px;
+  min-width: 190px;
+}
+
+.download-brochure{
+  width: 220px;
+  min-width: 220px;
 }
 
 .view-gallery-text{

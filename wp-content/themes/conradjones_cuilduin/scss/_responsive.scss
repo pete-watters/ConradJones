@@ -7,14 +7,118 @@
 ********************************************/
 // min-width: 650px
 
-// Define your breakpoints
-$small: new-breakpoint(max-width 480px);
-$medium: new-breakpoint(min-width 481px);
-$large: new-breakpoint(min-width 769px);
-$xlarge: new-breakpoint(min-width 1025px);
+@include media($small) {
+
+    .site-header{
+      padding: 0;
+    }
+    .logo{
+        left: 35%;
+        top: 15%;
+        height: 75px;
+        width: 75px;
+        background-size: 100% 100%;
+      }
+    .slider-description{
+      height: 30px;
+      padding: 0px 5%;
+
+    }
+
+    .slider-description-text{
+      font-size: 12px;
+      margin: 0;
+    }
+    footer{
+      padding-bottom: 24px;
+      padding-top: 8px;
+      height: 0;
+    }
+
+    .page-content.primary h1{
+      font-size: 20px;
+      margin-top: 0;
+    }
+    .page-content-primary-article-container .page{
+      font-size: 12px;
+    }
+    .page-content-primary-article-container {
+      width: 90%;
+    }
+    .page-content-primary-action-container .register-interest{
+      margin-left: 11%;
+      min-width: 200px;
+      width: 200px;
+      text-align: center;
+      padding: 2%;
+    }
+    .page-content-primary-action-container .download-brochure{
+      float: none;
+      margin: 0;
+      margin-top: 2%;
+      margin-left: 11%;
+      min-width: 200px;
+      width: 200px;
+      text-align: center;
+    }
+    .page-content-primary-action-aside.download-brochure{
+      float: none;
+      margin-left: 10%;
 
 
-@include media(max-width 950px) {
+    }
+
+  .page-content.secondary{
+
+    min-height: 300px;
+    h1{
+      font-size: 16px;
+      margin: 5%;
+    }
+   .view-gallery {
+     float:none;
+     width: 130px;
+     min-width: 130px;
+     margin-left: 30%;
+    }
+  }
+
+
+  }
+
+
+@include media($medium) {
+
+
+  .slider-description{
+    height: 30px;
+    padding: 0px 10%;
+
+  }
+
+  .slider-description-text{
+    font-size: 19px;
+    margin: 0;
+    padding: 0px 4%;
+  }
+
+  .logo{
+    left: 35%;
+  }
+}
+
+@include media($large) {
+
+  .logo{
+    left: 41%;
+  }
+
+
+}
+
+
+
+@include media($large) {
   .logo{
     left: 35%;
     margin-top: 50px;
@@ -83,20 +187,6 @@ $xlarge: new-breakpoint(min-width 1025px);
     float: left;
     margin-top: 20px;
 }
-
-
-}
-@include media(screen and $medium) {
-  .logo{
-    left: 35%;
-  }
-}
-
-     @include media(screen and $large) {
-
-         .logo{
-           left: 41%;
-         }
 
 
 }

@@ -2,24 +2,8 @@
 	Settings
 \******************************************************************************/
 
-@font-face {
-    font-family: CenturyGothic;
-    src: local('CenturyGothic'), url(fonts/CenturyGothic.otf) format("opentype");
-}
-
-@font-face {
-    font-family: cabrito;
-    src: local('cabrito'), url(fonts/Cabrito-NorRegIt.otf) format("opentype");
-}
-
-
-// Century Gothic = Muli google
-// Bold for top links, regular for body text
-$CenturyGothic: CenturyGothic; //
-
-// open sans instead of cabrito - Cabrito  - Norm Regular Italic
+$CenturyGothic: CenturyGothic;
 $Cabrito: cabrito;
-
 // Variables
 $base-font: $CenturyGothic;
 $header-font: $CenturyGothic;
