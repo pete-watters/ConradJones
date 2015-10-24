@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f21f2c78-d0aa-4353-96b2-e1c242db3054" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_typography.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/archive.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/comments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-empty.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-empty.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-link.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-link.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-quote.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-quote.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-status.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop-status.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/loop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/main-nav.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/main-nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/nav-bottom.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/nav-bottom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-amenities.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-amenities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-location.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-the-houses.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-the-houses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/template-part-pagination.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/template-part-pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css" />
-    </list>
+    <list default="true" id="f21f2c78-d0aa-4353-96b2-e1c242db3054" name="Default" comment="" />
     <ignored path="ConradJones.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
