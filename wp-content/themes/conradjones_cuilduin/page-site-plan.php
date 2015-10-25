@@ -27,7 +27,7 @@ get_header(); ?>
 <!---->
 <!---->
 <!--<map name="Map" id="Map">-->
-<!--		<!-- legend -->-->
+<!--		<!-- legend -->
 <!--    <area alt="" title="" href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/Townhouse_Brochure_3__2_Bed1.png" shape="poly" coords="517,266,598,254,565,255,565,292,446,269,326,251,327,287,336,301,454,305,697,307,718,294,701,255,523,251,441,249,385,249,316,242,353,240,516,254" />-->
 <!--    <area alt="" title="" href="#" shape="poly" coords="312,238,312,308,730,302,726,250,722,242,722,236" />-->
 <!--    <area alt="" title="" href="#" shape="poly" coords="312,322,314,394,720,392,716,332,716,318" />-->
