@@ -1,7 +1,7 @@
 .site-header {
 	background-color: $grayishCyan;
 	overflow: hidden;
-	padding: 3em 0;
+	padding: 10px;
 	position:relative;
 	height: 150px;
 	border-bottom: 3px solid $goldGreen;
@@ -36,28 +36,31 @@
 
   @include media($small) {
 	@include span-columns(6);
-	margin: 10% 5%;
+	position: absolute;
+	top: 15%;
+	right: 2%;
   }
-	//float: left;
-	//position: absolute;
-	//top: 30px;
-	//right: 20px;
-	//padding: 5px;
+
+  @include media($medium) {
+	@include span-columns(6);
+	margin-left: 5%;
+
+  }
 }
 
 .contact-details{
   @include span-columns(3);
-
 	@include media($small) {
 	  @include span-columns(6);
-	  margin-left: 55%;
+	  margin-left: 5%;
 
   	}
-	//text-align: left;
-	//position: absolute;
-	//left: 20px;
-	//width: 200px;
-	//top: 20px;
+
+  @include media($medium) {
+	@include span-columns(6);
+	margin-left: 5%;
+
+  }
 		.contact-details-number{
 			font-size: 20px;
 			font-weight: bold;
