@@ -39,8 +39,8 @@ get_header(); ?>
 												<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">	REGISTER INTEREST</a>
 									</span>
 								</div>
-								<div class="download-brochure">
-										<span class="download-brochure-text">
+								<div class="download-brochure download-brochure-button">
+										<span class="download-brochure-text download-brochure-button-text">
 												DOWNLOAD BROCHURE
 										</span>
 								</div>

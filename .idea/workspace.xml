@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21f2c78-d0aa-4353-96b2-e1c242db3054" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_base.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_base.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_content.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_content.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_frontpage.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_frontpage.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_header.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_navigation.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_navigation.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_responsive.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/grunt/.sass-cache/44c2d39ad7d3ac7e84423df55bec2a8f4dc72a3f/_responsive.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_navigation.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_navigation.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/page-site-plan.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/page-site-plan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/page-specifications.php" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/page-specifications.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/css/wp-editor-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css" afterPath="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/dist/css/wp-editor-style.css" />
     </list>
     <ignored path="ConradJones.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,16 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_typography.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,8 +61,8 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.529411">
-              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state vertical-scroll-proportion="-3.5384614">
+              <caret line="53" column="10" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -68,9 +71,31 @@
       <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
-              <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+            <state vertical-scroll-proportion="-4.980392">
+              <caret line="291" column="20" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-site-plan.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22924902">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_content.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.72549">
+              <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="275" selection-end-column="1" />
+              <folding>
+                <element signature="e#3293#3846#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,18 +103,18 @@
       <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state vertical-scroll-proportion="-6.6666665">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14822134">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,18 +133,18 @@
       <file leaf-file-name="_frontpage.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+            <state vertical-scroll-proportion="-27.352942">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/header.php">
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state vertical-scroll-proportion="-4.1764708">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -137,11 +162,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_typography.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/style.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_navigation.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_content.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php" />
       </list>
     </option>
   </component>
@@ -204,6 +233,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conradjones_cuilduin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConradJones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conradjones_cuilduin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -213,6 +322,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yo_WordPressTheme/wp-content/themes/kontainers_WP_theme/kontainers_wp_theme" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -237,10 +368,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15836431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23717472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -498,42 +629,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-specifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.72549">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="275" selection-end-column="1" />
+          <folding>
+            <element signature="e#3293#3846#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.529411">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state vertical-scroll-proportion="-3.5384614">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1764708">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_frontpage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.352942">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+        <state vertical-scroll-proportion="-4.980392">
+          <caret line="291" column="20" selection-start-line="291" selection-start-column="20" selection-end-line="291" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/scss/_base.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/conradjones_cuilduin/page-site-plan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14822134">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.22924902">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>

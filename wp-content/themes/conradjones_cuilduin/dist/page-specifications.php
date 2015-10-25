@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-<section class="front-page slider-area ">
+<section class="front-page slider-area slider-area-specifications">
 	<div class="front-page slider-description">
 			<span class="slider-description-text">Super energy efficient ‘A’-rated houses</span>
 	</div>

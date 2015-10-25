@@ -15,12 +15,12 @@
 .logo{
 	display: block;
 	position: absolute;
-	left: 45%;
+	left: 42%;
 	top: 80px;
 	background-image: url(images/CuilDuin_Logo.png);
 	height: 150px;
 	width: 150px;
-	z-index: 9999999999999;
+	z-index: 99;
 	cursor:pointer;
 }
 
@@ -34,8 +34,11 @@
   @include span-columns(3);
   @include shift(6);
 
+  width: inherit;
+  padding: 5px;
+
   @include media($small) {
-	@include span-columns(6);
+	@include span-columns(2);
 	position: absolute;
 	top: 15%;
 	right: 2%;
