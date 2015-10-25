@@ -255,17 +255,21 @@ article {
 .specifications-container:nth-child(even){
 	background-color: whitesmoke;
 }
-
+.secondary-amenities{
+  display: table;
+}
 .secondary-amenities-container{
 		@include outer-container;
-		margin-bottom: -8px;
+		// margin-bottom: -8px;
+  		//display: flex;
+  		display: table-row;
 }
 .secondary-amenities-container-thumbnail,.secondary-amenities-container-content{
 	@include span-columns(6);
     width: 49.9%;
     margin: 0;
-
-    height: 326px;
+    //flex:1;
+    display: table-cell;
 }
 .secondary-amenities-container-content{
     padding: 2% 5%;
@@ -292,6 +296,7 @@ article {
 }
 .secondary-amenities-container-thumbnail{
 		background-color: $grayishCyan;
+  		margin-bottom: -8px;
 }
 
 .page-content.primary-contact-page{
@@ -312,4 +317,8 @@ article {
 	padding-bottom: 3px;
 	background-color: transparent;
   }
+}
+
+.slider-area-specifications{
+  padding-top: 75px;
 }
