@@ -1,38 +1,117 @@
-/* Picture Styles */
-#sitemap{
-  position: relative;
-  top: 20px;
-  width: 100%;
-  height: 600px;
-  margin: 0px auto;
-//  background: white url('http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/CuilDuin_SitePlan.jpg');
-  background: white url(images/CuilDuin_SitePlan.jpg);
-  overflow: hidden;
-  background-size: 100%;
-  background-repeat: no-repeat;
+.compass-graphic{
+    background: url(images/Compass.svg);
+    width: 151.755px;
+    height: 140.351px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
-  /* General More Button */
-  .more{ cursor:pointer; position:absolute; width:240px; height:25px; padding:5px; text-align:right; overflow:hidden; border:1px solid;}
-  .more span{ display:none;position:absolute; left:70px; top:8px; width:160px;  color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
-
-    .more span{
-      position: absolute;
-      left: 150px;
-      text-align: left;
-      padding-left: 2px;
-      padding-top: 2px;
-      top: 8px;
-      color: #FFF;
-      font: bold 13px Lucida Grande, Arial, sans-serif;
-      text-shadow: #000 1px 1px 0px;
-      width: 75px;
-      height: 50px;
-      background-color: green;
-    }
-
+.sitemap-legend-heading{
+  font-family: $Cabrito;
+  width: 400px;
+  color: #B3A283;
+  font-size: 15px;
+  text-align: left;
+}
+.sitemap-legend{
+  z-index: 100000;
+  position: absolute;
+}
   /* Item Specific More Button */
   #two-bed-mid-terrace{ top:55px; left:60px;}
   #three-bed-end-of-terrace{ top:160px; left:60px; }
   #three-bed-mid-terrace{ top:90px; left:60px; }
   #four-bed-semi-detached{ top:125px; left:60px; }
   #three-bed-semi-detached{ top:195px; left:60px; }
+
+
+/* PANZOOM */
+.panzoom { width: 100%; height: 100%; }
+
+/* custom input range */
+input[type=range].cuilDuinInputRange {
+  -webkit-appearance: none;
+  width: 60%;
+  margin: 21.15px 0;
+}
+input[type=range].cuilDuinInputRange:focus {
+  outline: none;
+}
+input[type=range].cuilDuinInputRange::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7.7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #4a5e69;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+input[type=range].cuilDuinInputRange::-webkit-slider-thumb {
+  box-shadow: 2px 2px 2px rgba(74, 94, 105, 0.49), 0px 0px 2px rgba(85, 107, 120, 0.49);
+  border: 2.9px solid #4a5e69;
+  height: 50px;
+  width: 15px;
+  border-radius: 2px;
+  background: rgba(179, 162, 131, 0.93);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -21.15px;
+}
+input[type=range].cuilDuinInputRange:focus::-webkit-slider-runnable-track {
+  background: #556b78;
+}
+input[type=range].cuilDuinInputRange::-moz-range-track {
+  width: 100%;
+  height: 7.7px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #4a5e69;
+  border-radius: 0px;
+  border: 0px solid #010101;
+}
+input[type=range].cuilDuinInputRange::-moz-range-thumb {
+  box-shadow: 2px 2px 2px rgba(74, 94, 105, 0.49), 0px 0px 2px rgba(85, 107, 120, 0.49);
+  border: 2.9px solid #4a5e69;
+  height: 50px;
+  width: 15px;
+  border-radius: 2px;
+  background: rgba(179, 162, 131, 0.93);
+  cursor: pointer;
+}
+input[type=range].cuilDuinInputRange::-ms-track {
+  width: 100%;
+  height: 7.7px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range].cuilDuinInputRange::-ms-fill-lower {
+  background: #3f515a;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range].cuilDuinInputRange::-ms-fill-upper {
+  background: #4a5e69;
+  border: 0px solid #010101;
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range].cuilDuinInputRange::-ms-thumb {
+  box-shadow: 2px 2px 2px rgba(74, 94, 105, 0.49), 0px 0px 2px rgba(85, 107, 120, 0.49);
+  border: 2.9px solid #4a5e69;
+  height: 50px;
+  width: 15px;
+  border-radius: 2px;
+  background: rgba(179, 162, 131, 0.93);
+  cursor: pointer;
+  height: 7.7px;
+}
+input[type=range].cuilDuinInputRange:focus::-ms-fill-lower {
+  background: #4a5e69;
+}
+input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
+  background: #556b78;
+}

@@ -30,35 +30,22 @@ get_header(); ?>
 				</svg>
 			</span>
 
-<!--		<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" rel="lightbox">View full size</a>-->
+				<h3 class="sitemap-legend-heading">Click house type to view floor plan</h3>
+					<div class="sitemap-legend">
+						<img src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/siteplan_key.gif" usemap="#Map"  alt="Site plan legend"/>
+					</div>
 
-		<h3 style="font-family: 'cabrito';width: 400px;color: #B3A283;font-size: 15px;text-align: left;">Click house type to view floor plan</h3>
-		<img src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/siteplan_key.gif" usemap="#Map"  alt="Site plan legend"/>
+					<div class="panzoom-parent">
+						<img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" alt="Site plan" />
+						<span class="compass-graphic"></span>
+					</div>
 
-		<img style="float:right;" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/Compass.gif" alt="Compass"/>
-
-
-				<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" rel="lightbox">
-			<img src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" alt="Site plan" />
-		</a>
-
-
-<!--		<section id="inverted-contain">-->
-<!--					<div class="panzoom-parent">-->
-<!--						<img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" alt="Site plan" />-->
-<!---->
-<!--			<!--			<img class="panzoom" src="http://blog.millermedeiros.com/wp-content/uploads/2010/04/awesome_tiger.svg" width="900" height="900">-->-->
-<!--					</div>-->
-<!--					<div class="buttons">-->
-<!--						<button class="zoom-in">Zoom In</button>-->
-<!--						<button class="zoom-out">Zoom Out</button>-->
-<!--						<input type="range" class="zoom-range">-->
-<!--						<button class="reset">Reset</button>-->
-<!--					</div>-->
-<!--					<style>-->
-<!--						#inverted-contain .panzoom { width: 100%; height: 100%; }-->
-<!--					</style>-->
-<!--			</section>-->
+					<div class="buttons">
+						<button title="Zoom In" class="zoom-in"><i class="fa fa-search-plus"> Zoom In </i></button>
+						<button title="Zoom Out"  class="zoom-out"><i class="fa fa-search-minus"> Zoom Out </i></button>
+						<button title="Reset Zoom"  class="reset"><i class="fa fa-arrows-alt"> Reset </i></button>
+						<input type="range" class="zoom-range cuilDuinInputRange">
+					</div>
 
 
 
