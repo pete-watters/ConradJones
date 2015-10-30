@@ -8,14 +8,17 @@
   @extend .front-page-action-button;
   width: 100%;
   height: 50px;
+  text-align: center;
 }
 .front-page .slider-area{
     border-top: 3px solid #b59857;
 }
 .slider-description-text{
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 33px;
+    //margin-left: 10%;
+    //margin-right: 10%;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
 }
 .page-content.primary{
   margin: 20px 30px;
@@ -26,8 +29,8 @@
     min-height: 410px;
     border-top: 4px solid $goldGreen;
     background-color: $darkBlueGreen;
-    padding-left: 20px;
-    padding-right: 70px;
+    //padding-left: 20px;
+    //padding-right: 70px;
 
     h1{
       color: $white;
@@ -48,6 +51,7 @@
     .view-gallery{
       float: right;
       padding: 0 2px;
+      margin-right: 30px;
     }
 
 }
@@ -65,7 +69,7 @@
       margin-bottom: -15px;
     }
     .page{
-      font-size: 20px;
+      font-size: 16px;
       font-weight: lighter;
     }
 }
@@ -76,26 +80,51 @@
   }
 }
 .page-content-primary-action-aside.download-brochure{
-    background: url(images/cuilDuin_brochureCover.png);
-    min-width: 200px;
-    min-height: 300px;
-    float: right;
-    display: inline-block;
-    background-size: 200px 300px;
-    background-repeat: no-repeat;
-    margin-top: 12.5px;
-    padding-left: 25px;
-       cursor: pointer;
 
+  display: inline-block;
     .download-brochure-text{
        padding: 30px;
      }
 }
 
+
+.download-brochure-background {
+  background: url(images/cuilDuin_brochureCover.png);
+  width: 200px;
+  height: 300px;
+  // float: right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+
+  display: block;
+  position: relative;
+}
+
+.download-brochure-background::after {
+  content: "";
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 200;
+  background-size: 100%;
+  width: 200px;
+  height: 280px;
+}
+
+
+
 .download-brochure-text{
   position: relative;
-  top: 150px;
-  left: 20px;
+  top: 60px;
+  left: 30px;
+  color: white;
+  z-index: 9999;
 }
 .page-content-primary-action-container{
   .register-interest{
@@ -104,15 +133,8 @@
     float: left;
     top: 0;
     width: 200px;
+
   }
-  .download-brochure{
-    float: right;
-    margin-left: 110px;
-    padding: 4px;
-  }
- .download-brochure-text{
-   position: static;
- }
 }
 
 .post-content .read-more{
@@ -131,13 +153,127 @@
   min-width: 190px;
 }
 
-.download-brochure{
-  width: 220px;
-  min-width: 220px;
+.download-brochure {
+  display: block;
+  background: url(images/downloadbro.gif);
+  width: 197px;
+  height:32px;
 }
+
+.view-gallery{
+  display: block;
+  background: url(images/viewgallery.gif);
+  width: 197px;
+  height:32px;
+}
+
+.register-interest-button{
+  display: block;
+  background: url(images/registeryourinterest.gif);
+  width: 196px;
+  height:32px;
+}
+
 .download-brochure-button{
   position: absolute;
 }
-.view-gallery-text{
 
+.frontpage-content-container{
+  @include outer-container;
+}
+.homepage-content-container{
+  @include span-columns(8);
+  @include outer-container;
+
+  @include media($medium) {
+     @include span-columns(12);
+   }
+  @include media($small) {
+       @include span-columns(12);
+  }
+
+}
+.download-brochure-container{
+  @include span-columns(3);
+  @include shift(1);
+
+  @include media($medium) {
+    @include span-columns(8);
+    @include shift(1);
+  }
+  @include media($small) {
+    @include span-columns(8);
+    @include shift(1);
+  }
+}
+.homepage-content-container-text{
+
+  @include span-columns(12);
+}
+.homepage-content-container-actions{
+  @include span-columns(12);
+
+  @include media($medium) {
+    @include span-columns(8);
+    @include shift(1);
+  }
+  @include media($small) {
+    @include span-columns(8);
+    @include shift(1);
+  }
+
+}
+.homepage-content-container-actions-download, .homepage-content-container-actions-register{
+  display: inline-block;
+}
+
+.homepage-content-container-actions-register{
+
+}
+.homepage-content-secondary-container{
+  @include outer-container;
+}
+.homepage-content-secondary-container-span-svg{
+  @include span-columns(8);
+  @include shift(3);
+  @include media($small) {
+    height: 35px;
+    width: 200px;
+    margin: 10px 0;
+    margin-left: 15%;
+  }
+
+}
+.homepage-content-secondary-container-span{
+
+  @include span-columns(8);
+  @include shift(3);
+
+
+  background: url(images/countryliving.gif);
+  width: 400px;
+  height: 71px;
+  background-size: 100%;
+  display: block;
+
+  @include media($small) {
+    height: 35px;
+    width: 200px;
+    margin: 10px 0;
+    margin-left: 15%;
+  }
+}
+
+.homepage-content-secondary-container-span-svg-desktop{
+  display: block;
+  @include media($small) {
+    display:none;
+  }
+}
+.homepage-content-secondary-container-span-svg-mobile{
+  display: none;
+
+  @include media($small) {
+    display:block;
+  }
 }

@@ -1,0 +1,76 @@
+@media (min-width: 481px) and (max-width: 769px){
+
+
+
+  .mainSliderDiv{
+    width: 640px !important;
+  }
+
+  .slider-description{
+    height: 30px;
+    padding: 0px 10%;
+
+  }
+
+  .slider-description-text{
+    font-size: 18px;
+    margin: 0;
+    padding: 0px 4%;
+  }
+
+  .logo{
+    left: 35%;
+  }
+
+
+  .specifications-container{
+    @include span-columns(5);
+    width: 100%;
+    min-height: initial;
+    padding: 0 5%;
+  }
+  .page-content.primary.primary-specifications{
+    margin-top: 50px;
+  }
+  .slider-area-specifications{
+    padding-top: 0px;
+  }
+  .register-interest {
+    margin-left: 45.53374%;
+  }
+
+
+  .page-content-primary-action-aside.download-brochure {
+    float: none;
+    margin-left: 10%;
+
+  }
+  .page-content-primary-article-container{
+    width: 100%;
+
+
+  }
+  .house-container {
+    @include span-columns(6);
+    margin-right: 0;
+
+  }
+  .house-container:last-child{
+    margin-right: 50%;
+  }
+
+  footer{
+    padding-top: 35px;
+
+  }
+}
+
+@media screen and (max-width: 800px){
+nav a {
+  padding-left: 10px;
+}
+  .logo {
+    left: 42%;
+  }
+;
+}

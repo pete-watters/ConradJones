@@ -21,10 +21,10 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section class="page-content primary" role="main">
-			<div class="page-content-primary-article-container">
+	<section class="page-content primary frontpage-content-container" role="main">
+		<div class="homepage-content-container">
 
-
+			<div class="page-content-primary-article-container homepage-content-container-text">
 					<?php
 								$my_id = 276;
 								$post_id_1 = get_post($my_id);
@@ -33,35 +33,60 @@ get_header(); ?>
 								echo '<h1 class="page-content-primary-article-container-h1">' . $title . '</h1>';
 								echo '<p>' . $content . '</p>';
 					?>
-						<div class="page-content-primary-action-container">
-								<div class="register-interest">
-									<span class="register-interest-text">
-												<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">	REGISTER INTEREST</a>
-									</span>
-								</div>
-								<div class="download-brochure download-brochure-button">
-										<span class="download-brochure-text download-brochure-button-text">
-												DOWNLOAD BROCHURE
-										</span>
-								</div>
-							</div>
-
 			</div>
 
+			<div class="page-content-primary-action-container homepage-content-container-actions">
+				<div class="homepage-content-container-actions-register">
+							<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">
+								<span class="register-interest-button">
 
+								</span>
+							</a>
 
-		<aside class="page-content-primary-action-aside download-brochure">
-			<span class="download-brochure-text">VIEW <br> BROCHURE</span>
-		</aside>
+						</div>
+
+					<div class="homepage-content-container-actions-download download-brochure">
+					</div>
+			</div>
+
+		</div>
+		<div class="download-brochure-container">
+
+			<div class="download-brochure-background">
+				<span class="download-brochure-text">VIEW BROCHURE</span>
+			</div>
+		</div>
+
 	</section>
 
 	<section class="page-content secondary">
-		<h1>Country Living &bull; City Life</h1>
+		<div class="homepage-content-secondary-container">
+<!--			<span class="homepage-content-secondary-container-span"></span>-->
+
+			<span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-desktop">
+				<h3 style="color:white;font-family: 'CenturyGothic';width:400px;">Country Living -  City Life</h3>
+				<svg width="400" height="50">
+					<line x1="0" y1="25" x2="290" y2="25" stroke="red" stroke-width="4"  />
+					<circle cx="300" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
+					<line x1="310" y1="25" x2="400" y2="25" stroke="red" stroke-width="4"  />
+					Sorry, your browser does not support inline SVG.
+				</svg>
+			</span>
+			<span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-mobile">
+				<h3 style="color:white;font-family: 'CenturyGothic';width:200px;">Country Living -  City Life</h3>
+				<svg width="200" height="50">
+					<line x1="0" y1="25" x2="140" y2="25" stroke="red" stroke-width="4"  />
+					<circle cx="150" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
+					<line x1="170" y1="25" x2="200" y2="25" stroke="red" stroke-width="4"  />
+					Sorry, your browser does not support inline SVG.
+				</svg>
+			</span>
+
+
+		</div>
 		<?php echo do_shortcode('[print_slider_plus_lightbox]'); ?>
 					<div class="view-gallery">
-							<span class="view-gallery">
-									VIEW GALLERY
-							</span>
+
 					</div>
 	</section>
 

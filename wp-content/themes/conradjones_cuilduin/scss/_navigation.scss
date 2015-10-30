@@ -1,79 +1,107 @@
-.menu-ul, .menu{
-	margin: 0;
-	padding:0;
+.nav-bottom{
+
+  ul.menu-ul li:nth-child(3) a{
+	padding-right: 0;
+  }
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  padding-top: 15px;
+
 }
 
-//.nav{
-//	padding-top: 50px;
-//}
+@include media( max-width 480px ) {
+  .mn-navigation-wrap {
+	margin-left: -15px;
+  }  .nav-bottom{
+	   display: none;
+	 }
+}
 
-nav {
-  position: relative;
-  text-align: center;
-  letter-spacing: 1px;
-			font-size: 12px;
+@include media( max-width 700px ) {
+  nav#menu.nav{
+	display: none;
+  }
+  .nav-bottom{
+	display: none;
+  }
+  .page-content-primary-action-aside.download-brochure{
+	float:none;
+  }
+}
+
+@include media(min-width 701px) {
+
+  .menu-ul, .menu{
+	margin: 0;
+	padding:0;
+  }
+
+  .nav{
+	padding-top: 20px;
+  }
+
+  nav {
+	position: relative;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 16px;
 
 	a {
 	  text-decoration: none;
 	  display: block;
-				color: #444;
-				font-weight: bold;
-				padding-left: 40px;
+	  color: #444;
+	  font-weight: bold;
+	  padding-left: 30px;
 	}
-		a:hover {
-			color: #4C9CF1;
-		}
 
-		ul {
-		  list-style: none;
-			    text-align: center;
-		}
+	a:hover {
+	  color: #4C9CF1;
+	}
 
-		li {
-		  float: left;
-		}
+	ul {
+	  list-style: none;
+	  text-align: center;
+	}
 
-		/* clear'n floats */
-		ul:after {
-		  clear: both;
-		}
+	li {
+	  float: left;
+	}
+	li:nth-child(4), li:nth-child(5), li:nth-child(6){
+	  float: right;
+	  padding-right: 15px;
+	}
 
-		ul:before,
-		ul:after {
-		    content: " ";
-		    display: table;
-		}
-}
+	  /* clear'n floats */
+	ul:after {
+	  clear: both;
+	}
 
-ul.menu-ul li:nth-child(3) a{
-	padding-right: 100px;
-}
-
-ul.menu-ul li:last-child a {
-  border-right: none;
-}
-
-ul.menu-ul li a:hover {
-  color: #000;
-}
-ul.menu-ul li a:after {
-    content:  "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00b7";
-}
-ul.menu-ul li:nth-child(3) a:after,
-ul.menu-ul li:nth-child(6) a:after{
-    content:  "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
-}
-
-@media only screen and (max-width: 600px) {
-   li {
-    float: none;
+	ul:before,
+	ul:after {
+	  content: " ";
+	  display: table;
+	}
   }
 
 
-  ul.primary li:hover ul {
-    display: block;
+  ul.menu-ul li:last-child a {
+	border-right: none;
   }
-  ul.menu-ul li a:after{
-    content: ""
+
+  ul.menu-ul li a:hover {
+	color: #000;
   }
+
+}
+
+@include media(max-width 1000px) {
+	.logo{
+
+	  height: 100px;
+	  width: 100px;
+	  background-size: 100%;
+	}
+
+
 }

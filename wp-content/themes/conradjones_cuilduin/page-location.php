@@ -17,37 +17,61 @@ get_header(); ?>
 </section>
 	<section class="page-content primary" role="main">
 
-		<?php
-			if ( have_posts() ) : the_post();
 
-				get_template_part( 'loop' ); ?>
+		<div class="page" title="Page 4">
+			<div class="section">
+				<div class="layoutArea">
+					<div class="column">
+						<?php
+						if ( have_posts() ) : the_post();
 
-				<aside class="post-aside"><?php
+							get_template_part( 'loop' ); ?>
 
-					wp_link_pages(
-						array(
-							'before'           => '<div class="linked-page-nav"><p>' . sprintf( __( '<em>%s</em> is separated in multiple parts:', 'conradjones_cuilduin' ), get_the_title() ) . '<br />',
-							'after'            => '</p></div>',
-							'next_or_number'   => 'number',
-							'separator'        => ' ',
-							'pagelink'         => __( '&raquo; Part %', 'conradjones_cuilduin' ),
-						)
-					); ?>
+							<aside class="post-aside"><?php
 
-					<?php
-						if ( comments_open() || get_comments_number() > 0 ) :
-							comments_template( '', true );
+							wp_link_pages(
+								array(
+									'before'           => '<div class="linked-page-nav"><p>' . sprintf( __( '<em>%s</em> is separated in multiple parts:', 'conradjones_cuilduin' ), get_the_title() ) . '<br />',
+									'after'            => '</p></div>',
+									'next_or_number'   => 'number',
+									'separator'        => ' ',
+									'pagelink'         => __( '&raquo; Part %', 'conradjones_cuilduin' ),
+								)
+							); ?>
+
+							<?php
+							if ( comments_open() || get_comments_number() > 0 ) :
+								comments_template( '', true );
+							endif;
+							?>
+
+							</aside><?php
+
+						else :
+
+							get_template_part( 'loop', 'empty' );
+
 						endif;
-					?>
+						?>
 
-				</aside><?php
+					</div>
 
-			else :
+					<div class="luas-map">
+<!--						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasline.gif" rel="lightbox">-->
+<!--							<img class="alignright wp-image-306 size-full"  src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasline.gif" alt="luasMap" data-id="306" />-->
+<!--						</a>-->
 
-				get_template_part( 'loop', 'empty' );
+						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasMap.jpg" rel="lightbox">
+							<img class="alignright wp-image-306 size-full"  src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasMap.jpg" alt="luasMap" width="2344" height="316" data-id="306" />
+						</a>
 
-			endif;
-		?>
+					</div>
+
+					&nbsp;
+
+				</div>
+			</div>
+		</div>
 
 	</section>
 

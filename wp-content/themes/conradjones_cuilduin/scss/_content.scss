@@ -82,12 +82,14 @@ article {
 	position: relative;
 	background: $grayishCyan;
 	color: $color1;
-	padding: 1.5em;
+	//padding: 1.5em;
+  	padding: 0;
 	margin-top: 1.5em;
 }
 
 .page .post-content {
-	margin-bottom:3.5em;
+	// margin-bottom:3.5em;
+
 }
 
 
@@ -183,7 +185,7 @@ article {
 
 .secondary-location{
 	p{
-    margin-top: 10px;
+   	 margin: 10px;
 	}
 }
 
@@ -194,33 +196,26 @@ article {
 .house-container{
 	@include span-columns(4);    // width: 30%;
 
-
-    padding: 20px;
-		margin-right: 0;
+	margin-right: 0;
+	margin: 10px 9px;
 
 		img{
 			border: solid $white 1px;
-			height: 174px;
-      width: 300px;
 		}
 
 		h3{
 				font-family: $CenturyGothic;
-			font-size: 20px;
-			color: $goldGreen;
-			margin: 2px;
+				font-size: 16px;
+				color: $goldGreen;
+				margin: 2px;
 		}
 		p{
 				font-family: $CenturyGothic;
-			font-size: 12px;
-			color: $white;
-			margin: 2px;
+				font-size: 12px;
+				color: $white;
+		        margin: 10px 0;
 		}
-			a{
-					font-family: $CenturyGothic;
-	    background-color: $goldGreen;
-	    padding: 2px;
-		}
+
 		// don't decorate image links
 		p:nth-child(1) a{
 			background-color: transparent;
@@ -239,10 +234,20 @@ article {
 		}
 }
 
+.specifications-warranty-container{
+  text-align: center;
+}
+.specifications-warranty-text{
+  display: inline-block;
+  vertical-align: middle;
+}
 .specifications-warranty-thumb{
-		width: 20px;
-		height: 20px;
-		background:url(images/specifications-warranty-thumb.png);
+  width: 50px;
+  height: 50px;
+  background: url(images/specifications-warranty-thumb.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
 }
 .specifications-container{
 	@include span-columns(4);
@@ -273,6 +278,10 @@ article {
 }
 .secondary-amenities-container-content{
     padding: 2% 5%;
+  		h3{
+		  margin-bottom: 10px;
+		  padding: 10px 0;
+		}
 	}
 
 .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
@@ -283,20 +292,29 @@ article {
 	color: $white;
 	h3{
 		color: $white;
-    border-bottom: 1px solid;
+        border-bottom: 1px solid;
 		font-weight: normal;
 	}
 }
+//.secondary-amenities-container-content:nth-of-type(even){
+//  background-color: $darkBlueGreen;
+//
+//}
+//.secondary-amenities-container-content:nth-of-type(odd){
+//  background-color: $grayishCyan;
+//
+//}
 .secondary-amenities-container:nth-of-type(odd){
 	h3{
 		color:$goldGreen;
-    border-bottom: 1px solid;
+        border-bottom: 1px solid;
 		font-weight: normal;
 	}
 }
 .secondary-amenities-container-thumbnail{
-		background-color: $grayishCyan;
-  		margin-bottom: -8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
 }
 
 .page-content.primary-contact-page{

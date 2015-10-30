@@ -7,310 +7,33 @@
 ********************************************/
 // min-width: 650px
 
-@include media($small) {
-
-  .site-header {
-    padding: 0;
-  }
-  .logo {
-    left: 35%;
-    top: 15%;
-    height: 75px;
-    width: 75px;
-    background-size: 100% 100%;
-  }
-  .slider-description {
-    height: 30px;
-    padding: 0px 5%;
-
-  }
-
-  .slider-description-text {
-    font-size: 12px;
-    margin: 0;
-  }
-  footer {
-    padding-bottom: 24px;
-    padding-top: 8px;
-    padding-left: 15px;
-    height: 0;
-  }
-
-  .page-content.primary h1 {
-    font-size: 20px;
-    margin-top: 0;
-  }
-  .page-content-primary-article-container .page {
-    font-size: 12px;
-  }
-  .page-content-primary-article-container {
-    width: 90%;
-  }
-  .page-content-primary-action-container .register-interest {
-    margin-left: 13%;
-    min-width: 200px;
-    max-width: 200px;
-    width: 200px;
-    text-align: center;
-    padding: 2%;
-  }
-  .page-content-primary-action-container .download-brochure {
-    float: none;
-    margin: 0;
-    margin-top: 2%;
-    margin-left: 11%;
-    min-width: 200px;
-    width: 200px;
-    text-align: center;
-  }
-  .page-content-primary-action-aside.download-brochure {
-    float: none;
-    margin-left: 10%;
-
-  }
-
-  .page-content.secondary {
-
-    min-height: 100px;
-    h1 {
-      font-size: 16px;
-      margin: 5%;
-    }
-    .view-gallery {
-      float: none;
-      width: 150px;
-      min-width: 150px;
-      margin-left: 20%;
-      text-align: left;
-    }
-  }
-
-  .harcourt-developments {
-    margin-left: 10px;
-  }
-  .hooke-mcdonald {
-    float: none;
-  }
-  .hooke-mcdonald-logo {
-    display: none;
-  }
-  .hooke-mcdonald-contact {
-    text-align: right;
-    margin-left: 10%;
-
-  }
-
-  .hooke-mcdonald-contact-phone, .hooke-mcdonald-contact-email {
-    font-size: 12px;
-    text-align: right;
-  }
-  // hide bottom carousel
-  .page-content.secondary table {
-    display: none;
-  }
-
-  // nav
-  .menu {
-    margin: 5px 0;
-  }
-  ul.menu-ul li:nth-child(3) a {
-    padding-right: 0px;
-  }
-  nav a {
-    width: 150px;
-    padding: 1px 25px;
-    text-align: left;
-  }
-
-  .page-content.primary .post-content {
-    font-size: 12px;
-    margin-bottom: 0;
-    padding: 2%;
-  }
-
-  .house-container {
-    @include span-columns(12);
-
-  }
-  .read-more{
-    display:none; // hide luas tracks
-  }
-
-  .specifications-container{
-    @include span-columns(12);
-    min-height: initial;
-    padding: 0 5%;
-  }
- .page-content.primary.primary-specifications{
-   margin-top: 50px;
- }
-  .slider-area-specifications{
-    padding-top: 70px;
-  }
-
-
-  .secondary-amenities-container-thumbnail,.secondary-amenities-container-content{
-    @include span-columns(12);
-    height: initial;
-    float: none;
-  }
-  .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
-    float: none;
-  }
-  .secondary-amenities-container-content{
-    //padding: 2% 5%;
-  }
-
-  .secondary-amenities-container-thumbnail{
-    img{
-      margin: -5px 0;
-    }
-  }
-  .download-brochure-button{
-    position: inherit;
-  }
-  .header-nav-container .register-interest{
-    width: 170px;
-  }
-}
-
-
-@include media($medium) {
-
-  .mainSliderDiv{
-    width: 640px !important;
-  }
-
-  .slider-description{
-    height: 30px;
-    padding: 0px 10%;
-
-  }
-
-  .slider-description-text{
-    font-size: 24px;
-    margin: 0;
-    padding: 0px 4%;
-  }
-
-  .logo{
-    left: 35%;
-  }
-}
-
-@include media($large) {
-
-  .logo{
-    left: 41%;
-  }
-
-
-}
-
-
-
-@include media($large) {
-  .logo{
-    left: 35%;
-    margin-top: 50px;
-  }
-  .page-content.primary{
-    margin: 0;
-  }
-  .page-content-primary-article-container{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .page-content-primary-article-container h1{
-    font-size: 20px;
-  }
-  .page-content-primary-article-container .page{
-    font-size: 12px;
-  }
-  .slider-description{
-    height: 30px;
-    padding-left: 5%;
-
-  }
-  .slider-description-text{
-    font-size: 18px;
-    margin: 0;
-  }
-  .download-brochure{
-    float: left;
-    margin: 10px 0;
-    margin-left: 55px;
-  }
-  .page-content-primary-action-container {
-    .register-interest{
-    margin-left: 25px;
-    }
-    .download-brochure{
-      margin-bottom: 20px;
-      margin-left: 0;
-      margin-right: 90px;
-    }
-  }
-  .page-content.secondary h1{
-      font-size: 20px;
-      margin-left: 45px;
-  }
-  .page-content.secondary .view-gallery{
-    margin: 0;
-    padding: 5px;
-  }
-  .footer-navigation-links-copyright{
-    margin-left: 60px;
-  }
-  .footer-navigation-links .footer-navigation-conradjones{
-    float: left;
-    margin-left: 95px;
-    padding-top: 0;
-  }
-  .page-content-primary-action-aside.download-brochure{
-    float:none;
-  }
-//  .mainSliderDiv {
-//    max-width: 221px;
-//}
-.page-content-primary-action-container .download-brochure{
-    float: left;
-    margin-top: 20px;
-}
-
-  .page-content-primary-action-aside.download-brochure{
-    float:none;
-  }
-
-}
 
 
 // LOGO
-@media all and (max-width: 900px) {
-  .logo{
-    left: 40%;
-  }
-
-}
-@media all and (max-width: 600px) {
-  .logo{
-    left: 35%;
-  }
-  .page-content.primary h1 {
-    font-size: 20px;
-  }
-  .page-content-primary-article-container .page {
-    font-size: 12px;
-  }
-}
-@media all and (max-width: 500px) {
-  .logo{
-  left: 40%;
-}
-}
-@media all and (max-width: 400px) {
-  .logo{
-    left: 40%;
-  }
-}
+//@media all and (max-width: 900px) {
+//  .logo{
+//    left: 40%;
+//  }
+//
+//}
+//@media all and (max-width: 600px) {
+//  .logo{
+//    left: 35%;
+//  }
+//  .page-content.primary h1 {
+//    font-size: 20px;
+//  }
+//  .page-content-primary-article-container .page {
+//    font-size: 12px;
+//  }
+//}
+//@media all and (max-width: 500px) {
+//  .logo{
+//  left: 40%;
+//}
+//}
+//@media all and (max-width: 400px) {
+//  .logo{
+//    left: 40%;
+//  }
+//}

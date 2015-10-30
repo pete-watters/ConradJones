@@ -14,10 +14,12 @@ get_header(); ?>
 	</div>
 </section>
 	<section class="page-content primary primary-specifications" role="main">
-		<span class="specifications-warranty-thumb"></span>
-		<span class="specifications-warranty-text">
-			Each home is covered by a <b>10 year structural warranty</b> insurance policy.
-		</span>
+		<div class="specifications-warranty-container">
+			<span class="specifications-warranty-thumb"></span>
+			<span class="specifications-warranty-text">
+				Each home is covered by a <b>10 year structural warranty</b> insurance policy.
+			</span>
+		</div>
 	</section>
 
   <section class="page-content secondary-specifications">

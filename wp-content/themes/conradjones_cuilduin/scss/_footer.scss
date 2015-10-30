@@ -29,13 +29,15 @@ footer{
 	.footer-navigation-links-copyright{
 		display: inline-block;
     float: left;
-    padding-top: 10px;
+	  font-size: 8px;
+	  padding-top: 18px;
 	}
 
 	.footer-navigation-conradjones{
     display: inline-block;
     float: right;
-    padding-top: 10px;
+	  padding-top: 18px;
+	  font-size: 8px;
 	}
 	.footer-navigation-conradjones-design-by{
 		border-right: 1px $darkBlueGreen solid;
@@ -45,12 +47,13 @@ footer{
 .harcourt-developments{
 		float: left;
 		margin-top: 20px;
-		margin-left: 50px;
+		margin-left: 110px;
 }
 .hooke-mcdonald{
 		float: right;
-    width: 300px;
+    	width: 300px;
 		margin-top: 20px;
+        margin-right: 70px;
 }
 
 .hooke-mcdonald-logo,.hooke-mcdonald-contact{
@@ -65,12 +68,21 @@ footer{
 	background-image: url(images/hooke_logo.png);
 	width: 82px;
 	height:51px;
+  	background-size: cover;
+	@include media($small) {
+	  width: 41px;
+	  height: 25px;
+	}
 }
 .harcourt-developments-logo{
 	background-image: url(images/harcourt_logo.png);
 	width: 99px;
 	height:56px;
-
+  	background-size: cover;
+	@include media($small) {
+	  width: 50px;
+	  height: 25px;
+	}
 }
 .hooke-mcdonald-contact-phone,.hooke-mcdonald-contact-email{
 	color: $darkBlueGreen;

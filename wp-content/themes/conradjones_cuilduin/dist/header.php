@@ -36,13 +36,18 @@
 						<span class="contact-details-number">01 631 8402</span>
 					</div>
 					<div class="register-interest">
-						<span class="register-interest-text">
-								<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">	REGISTER INTEREST</a>
+						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">
+						<span class="register-interest-button">
+
 						</span>
+						</a>
+
 					</div>
 				</div>
 
 					<?php include('main-nav.php') ?>
 			</header>
 
-			<span class="logo"></span>
+			<div class="logo-container">
+				<span class="logo"></span>
+			</div>

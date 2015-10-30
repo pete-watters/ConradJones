@@ -30,16 +30,23 @@ get_header(); ?>
 		?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<div class="secondary-amenities-container">
-					<div class="secondary-amenities-container-thumbnail">
 						<?php
 							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-								the_post_thumbnail();
-							}
-							?>
+							//	the_post_thumbnail();
+
+								$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+								$url = $thumb['0'];
+						?>
+					<div class="secondary-amenities-container-thumbnail"
+						style="background:url(<?php echo trim($url, ' ');?>);background-size:cover;">
+						<?php } ?>
+
+						<img src="<?php echo trim($url, ' ');?>" alt="" style="display: none;">
+						
 					</div>
 					<div class="secondary-amenities-container-content">
-	       	     <h3><?php the_title(); ?></h3>
-	       	     <?php the_content(); ?>
+						 <h3><?php the_title(); ?></h3>
+						 <?php the_content(); ?>
 					</div>
 			</div>
     <?php endwhile; endif; ?>

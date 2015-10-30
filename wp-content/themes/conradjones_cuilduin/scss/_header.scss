@@ -12,17 +12,26 @@
 	top:0;
 }
 
+.logo-container{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 75px;
+  z-index: 99999;
+}
+
+
 .logo{
 	display: block;
-	position: absolute;
-	left: 42%;
-	top: 80px;
 	background-image: url(images/CuilDuin_Logo.png);
 	height: 150px;
 	width: 150px;
-	z-index: 100;
-	cursor:pointer;
+	cursor: pointer;
+    background-size: 100%;
 }
+
+
 
 .header-nav-container{
   @include outer-container;
@@ -35,7 +44,10 @@
   @include shift(6);
 
   width: inherit;
-  padding: 5px;
+
+
+  height: 32px;
+  width: 197px;
 
   @include media($small) {
 	@include span-columns(2);
@@ -53,9 +65,10 @@
 
 .contact-details{
   @include span-columns(3);
+
 	@include media($small) {
-	  @include span-columns(6);
-	  margin-left: 5%;
+	  @include span-columns(4);
+	  margin-left: 2%;
 
   	}
 

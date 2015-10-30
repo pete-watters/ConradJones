@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
 }
   /* General More Button */
-  .more{ cursor:pointer; position:absolute; width:240px; height:25px; padding:5px; text-align:right; overflow:hidden; }
+  .more{ cursor:pointer; position:absolute; width:240px; height:25px; padding:5px; text-align:right; overflow:hidden; border:1px solid;}
   .more span{ display:none;position:absolute; left:70px; top:8px; width:160px;  color:#FFF; font:bold 13px Lucida Grande, Arial, sans-serif; text-shadow:#000 1px 1px 0px; }
 
     .more span{
@@ -31,8 +31,8 @@
     }
 
   /* Item Specific More Button */
-  #two-bed-mid-terrace{ top:85px; left:120px;}
-  #three-bed-end-of-terrace{ top:190px; left:120px; }
-  #three-bed-mid-terrace{ top:120px; left:120px; }
-  #four-bed-semi-detached{ top:155px; left:120px; }
-  #three-bed-semi-detached{ top:225px; left:120px; }
+  #two-bed-mid-terrace{ top:55px; left:60px;}
+  #three-bed-end-of-terrace{ top:160px; left:60px; }
+  #three-bed-mid-terrace{ top:90px; left:60px; }
+  #four-bed-semi-detached{ top:125px; left:60px; }
+  #three-bed-semi-detached{ top:195px; left:60px; }

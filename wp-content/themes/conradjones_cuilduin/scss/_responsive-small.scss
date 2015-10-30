@@ -1,0 +1,168 @@
+
+@include media($small) {
+
+
+  .page-content.primary{
+    padding: 0;
+  }
+
+  .contact-details-text{
+    font-size: 10px;
+  }
+  .contact-details .contact-details-number{
+    font-size: 12px;
+  }
+  .site-header {
+    padding: 0;
+    height: auto;
+  }
+
+  .logo-container {
+    margin-left: -50px;
+    margin-top: 6px;
+  }
+
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    background-size: 100% 100%;
+  }
+
+  .slider-description {
+    height: 30px;
+    text-align: center;
+  }
+
+  .slider-description-text {
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+  }
+  footer {
+    padding-bottom: 24px;
+    padding-top: 8px;
+    padding-left: 15px;
+    height: 0;
+  }
+
+  .page-content.primary h1 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .page-content-primary-article-container .page {
+    font-size: 12px;
+  }
+  .page-content-primary-article-container {
+    width: 90%;
+  }
+
+  .page-content.secondary {
+
+    min-height: 100px;
+    h1 {
+      font-size: 16px;
+      margin: 5%;
+    }
+    .view-gallery {
+      float: none;
+      margin-left: 15%;
+    }
+  }
+
+  .harcourt-developments {
+    //margin-left: 10px;
+    margin-left: 23px;
+    margin-top: 19px;
+  }
+  .hooke-mcdonald {
+    float: none;
+   // margin-top: 0px;
+    margin-top: 18px;
+    position: absolute;
+    left: 190px;
+  }
+
+  .hooke-mcdonald-contact {
+    text-align: right;
+    width: 60px;
+  }
+
+  .hooke-mcdonald-contact-phone, .hooke-mcdonald-contact-email {
+    font-size: 10px;
+    text-align: right;
+  }
+  .hooke-mcdonald-contact-email{
+    display: none;
+  }
+  // hide bottom carousel
+  .page-content.secondary table {
+    display: none;
+  }
+
+  // nav
+  .menu {
+    margin: 5px 0;
+  }
+  ul.menu-ul li:nth-child(3) a {
+    padding-right: 0px;
+  }
+  nav a {
+    width: 150px;
+    padding: 1px 25px;
+    text-align: left;
+  }
+
+  .page-content.primary .post-content {
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 2%;
+  }
+
+  .house-container {
+    @include span-columns(12);
+
+  }
+  .read-more{
+    display:none; // hide luas tracks
+  }
+
+  .specifications-container{
+    @include span-columns(12);
+    min-height: initial;
+    padding: 0 5%;
+  }
+  .page-content.primary.primary-specifications{
+    margin-top: 50px;
+  }
+  .slider-area-specifications{
+    padding-top: 0;
+  }
+
+
+  .secondary-amenities-container-thumbnail,.secondary-amenities-container-content{
+    @include span-columns(12);
+    height: initial;
+    float: none;
+  }
+  .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
+    float: none;
+  }
+  .secondary-amenities-container-thumbnail{
+    img{
+      display: block !important;
+    }
+  }
+  .download-brochure-button{
+    position: inherit;
+  }
+  .header-nav-container .register-interest{
+    right: 155px;
+    margin-top: 10px;
+  }
+ #sitemap{
+   height: 200px;
+   margin-bottom: 200px;
+ }
+}
+
