@@ -9,6 +9,15 @@
 	License: GNU General Public License v2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+/* double up on viewport to ensure best possible responsive behaviour */
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom; }
+
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0; }
+
 @font-face {
   font-family: 'CenturyGothic';
   src: url("fonts/Centurygothic.eot");
@@ -810,7 +819,8 @@ p ~ h1 {
 
 @media screen and (max-width: 480px) {
   .mn-navigation-wrap {
-    margin-left: -15px; }
+    margin-left: -15px;
+    position: absolute; }
   .nav-bottom {
     display: none; } }
 
@@ -1757,6 +1767,9 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-lower {
 
 input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
   background: #556b78; }
+
+.luas-map-section {
+  margin: 2% 0; }
 
 .luas-map {
   background: url(images/LuasLine.svg);

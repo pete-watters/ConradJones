@@ -10,16 +10,16 @@
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-//@font-face {
-//  font-family: CenturyGothic;
-//  src: local('CenturyGothic'), url(fonts/CenturyGothic.otf) format("opentype");
-//}
-//@font-face {
-//  font-family: CenturyGothic;
-//  src: local(CenturyGothic) ,url('fonts/CenturyGothic.otf') format('opentype');
-//  font-weight: normal;
-//  font-style: normal;
-//}
+/* double up on viewport to ensure best possible responsive behaviour */
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 @font-face {
   font-family: 'CenturyGothic';
   src: url('fonts/Centurygothic.eot');
@@ -27,18 +27,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-//
-//@font-face {
-//  font-family: cabrito;
-//  src: local('cabrito'), url(fonts/Cabrito-NorRegIt.otf) format("opentype");
-//}
-//@font-face {
-//  font-family: cabrito;
-//  src: local(cabrito) ,url('fonts/cabrito.otf') format('opentype');
-//  font-weight: normal;
-//  font-style: normal;
-//}
 
 @font-face {
   font-family: 'cabrito';

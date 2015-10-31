@@ -53,26 +53,15 @@ get_header(); ?>
 
 						endif;
 						?>
-
 					</div>
-
-					<div class="luas-map">
-<!--						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasline.gif" rel="lightbox">-->
-<!--							<img class="alignright wp-image-306 size-full"  src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasline.gif" alt="luasMap" data-id="306" />-->
-<!--						</a>-->
-
-						<!-- <a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasMap.jpg" rel="lightbox">
-							<img class="alignright wp-image-306 size-full"  src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/uploads/2015/10/luasMap.jpg" alt="luasMap" width="2344" height="316" data-id="306" />
-						</a> -->
-
-					</div>
-
-
 				</div>
 			</div>
 		</div>
 
 	</section>
+	<section class="page-content luas-map-section">
+			<div class="luas-map"></div>
+		</section>
 
   <section class="page-content secondary secondary-location">
     <?php query_posts('cat=5'); ?>
