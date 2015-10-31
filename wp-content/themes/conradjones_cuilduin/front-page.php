@@ -61,9 +61,9 @@ get_header(); ?>
 
 	<section class="page-content secondary">
 		<div class="homepage-content-secondary-container">
-<!--			<span class="homepage-content-secondary-container-span"></span>-->
+			<span class="homepage-content-secondary-container-span"></span>
 
-			<span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-desktop">
+			<!-- <span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-desktop">
 				<h3 style="color:white;font-family: 'CenturyGothic';width:400px;">Country Living -  City Life</h3>
 				<svg width="400" height="50">
 					<line x1="0" y1="25" x2="290" y2="25" stroke="red" stroke-width="4"  />
@@ -80,7 +80,7 @@ get_header(); ?>
 					<line x1="170" y1="25" x2="200" y2="25" stroke="red" stroke-width="4"  />
 					Sorry, your browser does not support inline SVG.
 				</svg>
-			</span>
+			</span> -->
 
 
 		</div>

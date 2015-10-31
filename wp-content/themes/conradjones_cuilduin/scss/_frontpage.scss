@@ -233,47 +233,22 @@
 .homepage-content-secondary-container{
   @include outer-container;
 }
-.homepage-content-secondary-container-span-svg{
-  @include span-columns(8);
-  @include shift(3);
-  @include media($small) {
-    height: 35px;
-    width: 200px;
-    margin: 10px 0;
-    margin-left: 15%;
-  }
 
-}
 .homepage-content-secondary-container-span{
 
   @include span-columns(8);
   @include shift(3);
 
-
-  background: url(images/countryliving.gif);
-  width: 400px;
-  height: 71px;
-  background-size: 100%;
-  display: block;
+      background: url(images/CountryLiving-05.svg);
+      width: 400px;
+      height: 100px;
+      background-size: 100%;
+      display: block;
 
   @include media($small) {
-    height: 35px;
+    height: 50px;
     width: 200px;
     margin: 10px 0;
     margin-left: 15%;
-  }
-}
-
-.homepage-content-secondary-container-span-svg-desktop{
-  display: block;
-  @include media($small) {
-    display:none;
-  }
-}
-.homepage-content-secondary-container-span-svg-mobile{
-  display: none;
-
-  @include media($small) {
-    display:block;
   }
 }
