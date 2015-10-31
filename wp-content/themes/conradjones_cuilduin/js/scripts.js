@@ -46,6 +46,8 @@
 		var className = $(this).attr("class");
 
 		$("#" + className).click();
+			// could change colour of background to match menu item selected
+		//$("#swipebox-overlay").css("background","green");
 	});
 
 

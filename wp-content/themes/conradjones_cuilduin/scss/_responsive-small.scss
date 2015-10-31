@@ -60,7 +60,7 @@
 
   .page-content.secondary {
 
-    min-height: 100px;
+    min-height: 120px;
     h1 {
       font-size: 16px;
       margin: 5%;
@@ -133,6 +133,9 @@
     min-height: initial;
     padding: 0 5%;
   }
+  .specifications-container .column p:last-child{
+    padding-right: 15px;
+  }
   .page-content.primary.primary-specifications{
     margin-top: 50px;
   }
@@ -145,6 +148,8 @@
     @include span-columns(12);
     height: initial;
     float: none;
+
+    padding-right: 15%;
   }
   .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
     float: none;

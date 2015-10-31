@@ -38,20 +38,15 @@ get_header(); ?>
 			<div class="page-content-primary-action-container homepage-content-container-actions">
 				<div class="homepage-content-container-actions-register">
 							<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">
-								<span class="register-interest-button">
-
-								</span>
+								<span class="register-interest-button"></span>
 							</a>
-
 						</div>
-
 					<div class="homepage-content-container-actions-download download-brochure">
 					</div>
 			</div>
 
 		</div>
 		<div class="download-brochure-container">
-
 			<div class="download-brochure-background">
 				<span class="download-brochure-text">VIEW BROCHURE</span>
 			</div>
@@ -62,27 +57,6 @@ get_header(); ?>
 	<section class="page-content secondary">
 		<div class="homepage-content-secondary-container">
 			<span class="homepage-content-secondary-container-span"></span>
-
-			<!-- <span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-desktop">
-				<h3 style="color:white;font-family: 'CenturyGothic';width:400px;">Country Living -  City Life</h3>
-				<svg width="400" height="50">
-					<line x1="0" y1="25" x2="290" y2="25" stroke="red" stroke-width="4"  />
-					<circle cx="300" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
-					<line x1="310" y1="25" x2="400" y2="25" stroke="red" stroke-width="4"  />
-					Sorry, your browser does not support inline SVG.
-				</svg>
-			</span>
-			<span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-mobile">
-				<h3 style="color:white;font-family: 'CenturyGothic';width:200px;">Country Living -  City Life</h3>
-				<svg width="200" height="50">
-					<line x1="0" y1="25" x2="140" y2="25" stroke="red" stroke-width="4"  />
-					<circle cx="150" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
-					<line x1="170" y1="25" x2="200" y2="25" stroke="red" stroke-width="4"  />
-					Sorry, your browser does not support inline SVG.
-				</svg>
-			</span> -->
-
-
 		</div>
 		<?php echo do_shortcode('[print_slider_plus_lightbox]'); ?>
 					<div class="view-gallery">

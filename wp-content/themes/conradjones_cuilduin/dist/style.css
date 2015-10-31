@@ -1803,7 +1803,8 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
     background-size: 100% 100%; }
   .slider-description {
     height: 30px;
-    text-align: center; }
+    text-align: left;
+    padding-left: 10%; }
   .slider-description-text {
     font-size: 12px;
     margin: 0;
@@ -1821,7 +1822,7 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
   .page-content-primary-article-container {
     width: 90%; }
   .page-content.secondary {
-    min-height: 100px; }
+    min-height: 120px; }
     .page-content.secondary h1 {
       font-size: 16px;
       margin: 5%; }
@@ -1876,6 +1877,8 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
     padding: 0 5%; }
     .specifications-container:last-child {
       margin-right: 0; }
+  .specifications-container .column p:last-child {
+    padding-right: 15px; }
   .page-content.primary.primary-specifications {
     margin-top: 50px; }
   .slider-area-specifications {
@@ -1886,7 +1889,8 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
     margin-right: 3.0674846626%;
     width: 100%;
     height: initial;
-    float: none; }
+    float: none;
+    padding-right: 15%; }
     .secondary-amenities-container-thumbnail:last-child, .secondary-amenities-container-content:last-child {
       margin-right: 0; }
   .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail {
@@ -1896,7 +1900,7 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
   .download-brochure-button {
     position: inherit; }
   .header-nav-container .register-interest {
-    right: 155px;
+    right: 185px;
     margin-top: 10px; }
   #sitemap {
     height: 200px;
