@@ -243,6 +243,9 @@ article {
 .specifications-warranty-text{
   display: inline-block;
   vertical-align: middle;
+	b{
+		// font-family: $CenturyGothicBold;
+	}
 }
 .specifications-warranty-thumb{
   width: 50px;

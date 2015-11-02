@@ -29,6 +29,13 @@
 }
 
 @font-face {
+  font-family: 'CenturyGothicBold';
+  src: url('fonts/century-gothic-bold.ttf');
+  src: local(NOFontForceBrowser_), url('fonts/Centurygothic.woff') format('woff'), url('fonts/Centurygothic.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
   font-family: 'cabrito';
   src: url('fonts/Cabrito-NorRegIt.eot');
   src: local(NOFontForceBrowser_), url('fonts/Cabrito-NorRegIt.otf') format('otf'), url('fonts/Cabrito-NorRegIt.woff') format('woff'), url('fonts/Cabrito-NorRegIt.ttf') format('truetype'), url('fonts/Cabrito-NorRegIt.svg#webfontd60hyItJ') format('svg');
