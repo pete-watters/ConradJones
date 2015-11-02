@@ -557,7 +557,7 @@ p ~ h1 {
 
 .page-content.primary h1 {
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 30px;
   font-style: italic;
   border-bottom: 1px solid #B3A283;
   margin-bottom: -15px;
@@ -722,7 +722,7 @@ p ~ h1 {
 .logo-container {
   position: absolute;
   top: 0%;
-  left: 50%;
+  left: 47%;
   margin-left: -75px;
   margin-top: 75px;
   z-index: 99999; }
@@ -782,7 +782,8 @@ p ~ h1 {
   float: left;
   display: block;
   margin-right: 3.0674846626%;
-  width: 22.6993865031%; }
+  width: 22.6993865031%;
+  padding-left: 3%; }
   .contact-details:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
@@ -1306,6 +1307,10 @@ footer {
 .hooke-mcdonald-logo, .hooke-mcdonald-contact {
   display: inline-block;
   width: 150px; }
+
+.hooke-mcdonald-contact {
+  position: relative;
+  bottom: 2px; }
 
 .harcourt-developments-logo {
   display: block; }
@@ -1878,7 +1883,11 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
     .specifications-container:last-child {
       margin-right: 0; }
   .specifications-container .column p:last-child {
-    padding-right: 15px; }
+    padding-right: 60px; }
+  .specifications-container:nth-child(3) {
+    margin-bottom: 5%; }
+  .specifications-warranty-container {
+    padding-right: 60px; }
   .page-content.primary.primary-specifications {
     margin-top: 50px; }
   .slider-area-specifications {
