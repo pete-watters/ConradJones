@@ -90,7 +90,7 @@ add_action( 'init', 'conradjones_cuilduin_editor_style' );
  * @return void
  */
 function conradjones_cuilduin_enqueue_scripts() {
-	wp_enqueue_style( 'conradjones_cuilduin-styles', get_stylesheet_uri(), array(), '1.5' );
+	wp_enqueue_style( 'conradjones_cuilduin-styles', get_stylesheet_uri(), array(), '1.5.1' );
 	wp_register_style('fontAwesome', "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css", false, null);
 	wp_enqueue_style('fontAwesome');
 	wp_deregister_script('jquery');
