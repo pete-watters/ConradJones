@@ -1649,6 +1649,9 @@ footer {
   position: absolute;
   bottom: 0;
   right: 0; }
+  @media screen and (max-width: 480px) {
+    .compass-graphic {
+      display: none; } }
 
 .sitemap-legend-heading {
   font-family: "cabrito";
@@ -1656,10 +1659,18 @@ footer {
   color: #B3A283;
   font-size: 15px;
   text-align: left; }
+  @media screen and (max-width: 480px) {
+    .sitemap-legend-heading {
+      width: 100%;
+      padding-top: 15%; } }
 
 .sitemap-legend {
   z-index: 100000;
   position: absolute; }
+
+@media screen and (max-width: 480px) {
+  .sitemap-container {
+    margin-top: 250px; } }
 
 /* Item Specific More Button */
 #two-bed-mid-terrace {
@@ -1868,7 +1879,8 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
     float: left;
     display: block;
     margin-right: 3.0674846626%;
-    width: 100%; }
+    width: 100%;
+    widows: 85%; }
     .house-container:last-child {
       margin-right: 0; }
   .read-more {

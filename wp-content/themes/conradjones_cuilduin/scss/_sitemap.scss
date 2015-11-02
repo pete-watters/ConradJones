@@ -6,6 +6,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
+      @include media($small) {
+          display:none;
+      }
 }
 .sitemap-legend-heading{
   font-family: $Cabrito;
@@ -13,11 +16,25 @@
   color: #B3A283;
   font-size: 15px;
   text-align: left;
+
+
+  @include media($small) {
+    width: 100%;
+    padding-top: 15%;
+  }
 }
 .sitemap-legend{
   z-index: 100000;
   position: absolute;
 }
+
+.sitemap-container{
+  @include media($small) {
+      margin-top: 250px;
+  }
+}
+
+
   /* Item Specific More Button */
   #two-bed-mid-terrace{ top:55px; left:60px;}
   #three-bed-end-of-terrace{ top:160px; left:60px; }
