@@ -1091,6 +1091,8 @@ article {
     margin-right: 0; }
   .house-container img {
     border: solid #ffffff 1px; }
+  .house-container img[alt='viewfloorplans'] {
+    border: 0; }
   .house-container h3 {
     font-family: "CenturyGothic";
     font-size: 16px;
