@@ -11,27 +11,8 @@ get_header(); ?>
 
 	<section class="page-content primary" role="main">
 
-		<h1 class="post-title">Site Map</h1>
-			<!-- <span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-desktop">
-				<h3 style="font-family: 'cabrito';width: 400px;color: #B3A283;font-size: 40px;text-align: center;">Site Plan</h3>
-				<svg width="400" height="50">
-					<line x1="0" y1="25" x2="290" y2="25" stroke="red" stroke-width="4"  />
-					<circle cx="300" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
-					<line x1="310" y1="25" x2="400" y2="25" stroke="red" stroke-width="4"  />
-					Sorry, your browser does not support inline SVG.
-				</svg>
-			</span>
-
-			<span class="homepage-content-secondary-container-span-svg homepage-content-secondary-container-span-svg-mobile">
-				<h3 style="font-family: 'cabrito';width: 200px;color: #B3A283;font-size: 40px;text-align: center;">Site Plan</h3>
-				<svg width="200" height="50">
-					<line x1="0" y1="25" x2="140" y2="25" stroke="red" stroke-width="4"  />
-					<circle cx="150" cy="25" r="10" stroke="red" stroke-width="4" fill="none" />
-					<line x1="170" y1="25" x2="200" y2="25" stroke="red" stroke-width="4"  />
-					Sorry, your browser does not support inline SVG.
-				</svg>
-			</span> -->
-
+		<h1>Site Map</h1>
+	
 				<h3 class="sitemap-legend-heading">Click house type to view floor plan</h3>
 					<div class="sitemap-legend">
 						<img src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/siteplan_key.gif" usemap="#Map"  alt="Site plan legend"/>
