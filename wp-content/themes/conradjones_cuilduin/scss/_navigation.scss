@@ -14,7 +14,7 @@
   .mn-navigation-wrap {
 	  margin-left: -15px;
     position: absolute;
-  }  
+  }
   .nav-bottom{
 	   display: none;
 	 }
@@ -47,7 +47,7 @@
 	position: relative;
 	text-align: center;
 	letter-spacing: 1px;
-	font-size: 16px;
+	font-size: 15px;
 
 	a {
 	  text-decoration: none;
@@ -94,6 +94,12 @@
   ul.menu-ul li a:hover {
 	color: #000;
   }
+
+  // give second 2 menu items extra padding
+#menu-main-menu li:nth-child(3), #menu-main-menu li:nth-child(2){
+  padding-left: 40px;
+}
+
 
 }
 

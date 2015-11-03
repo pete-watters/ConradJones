@@ -3,7 +3,7 @@
 	overflow: hidden;
 	padding: 10px;
 	position:relative;
-	height: 150px;
+	height: 120px;
 	border-bottom: 3px solid $goldGreen;
 }
 
@@ -15,9 +15,9 @@
 .logo-container{
   position: absolute;
   top: 0%;
-  left: 47%;
+  left: 50%;
   margin-left: -75px;
-  margin-top: 75px;
+  margin-top: 25px;
   z-index: 99999;
 }
 
@@ -67,7 +67,7 @@
   @include span-columns(3);
 
 	padding-left: 3%;
-	
+
 	@include media($small) {
 	  @include span-columns(4);
 	  margin-left: 2%;
