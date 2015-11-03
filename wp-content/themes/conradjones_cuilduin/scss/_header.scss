@@ -48,6 +48,7 @@
 
   height: 32px;
   width: 197px;
+	margin-left: 52%;
 
   @include media($small) {
 	@include span-columns(2);

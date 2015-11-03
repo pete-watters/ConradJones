@@ -11,13 +11,14 @@ body {
 	background: whitesmoke;
 	color: $colorBodyText;
   	width: 100%;
+		overflow-x: hidden;
 
 }
 
 
 @include media($small) {
   body {
-	width: 110%;
+	//width: 110%;
   }
 }
 

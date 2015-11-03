@@ -717,7 +717,7 @@ p ~ h1 {
   overflow: hidden;
   padding: 10px;
   position: relative;
-  height: 150px;
+  height: 120px;
   border-bottom: 3px solid #B3A283; }
 
 .custom-header {
@@ -727,9 +727,9 @@ p ~ h1 {
 .logo-container {
   position: absolute;
   top: 0%;
-  left: 47%;
+  left: 50%;
   margin-left: -75px;
-  margin-top: 75px;
+  margin-top: 25px;
   z-index: 99999; }
 
 .logo {
@@ -759,7 +759,8 @@ p ~ h1 {
   margin-left: 51.5337423313%;
   width: inherit;
   height: 32px;
-  width: 197px; }
+  width: 197px;
+  margin-left: 52%; }
   .register-interest:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
@@ -848,7 +849,7 @@ p ~ h1 {
     position: relative;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 15px;
     /* clear'n floats */ }
     nav a {
       text-decoration: none;
@@ -875,7 +876,9 @@ p ~ h1 {
   ul.menu-ul li:last-child a {
     border-right: none; }
   ul.menu-ul li a:hover {
-    color: #000; } }
+    color: #000; }
+  #menu-main-menu li:nth-child(3), #menu-main-menu li:nth-child(2) {
+    padding-left: 40px; } }
 
 @media screen and (max-width: 1000px) {
   .logo {
@@ -1392,7 +1395,8 @@ footer {
 .slider-description-text {
   font-size: 30px;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  list-style: 50px; }
 
 .page-content.primary {
   margin: 20px 0; }
@@ -1535,7 +1539,8 @@ footer {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 3%; }
+  margin-left: 3%;
+  padding-left: 4%; }
   .homepage-content-container:last-child {
     margin-right: 0; }
   .homepage-content-container:before, .homepage-content-container:after {
@@ -1841,7 +1846,8 @@ img[src='http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/
   .slider-description-text {
     font-size: 12px;
     margin: 0;
-    width: 100%; }
+    width: 100%;
+    line-height: 30px; }
   footer {
     padding-bottom: 24px;
     padding-top: 8px;
