@@ -184,6 +184,7 @@
 .homepage-content-container{
   @include span-columns(8);
   @include outer-container;
+  margin-left: 3%;
 
   @include media($medium) {
      @include span-columns(12);

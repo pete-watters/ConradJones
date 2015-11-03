@@ -1527,7 +1527,8 @@ footer {
   *zoom: 1;
   max-width: 980px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-left: 3%; }
   .homepage-content-container:last-child {
     margin-right: 0; }
   .homepage-content-container:before, .homepage-content-container:after {
@@ -1660,9 +1661,9 @@ footer {
       display: none; } }
 
 .sitemap-legend-heading {
-  font-family: "cabrito";
+  font-family: "CenturyGothic";
   width: 400px;
-  color: #B3A283;
+  color: black;
   font-size: 15px;
   text-align: left; }
   @media screen and (max-width: 480px) {
@@ -1671,7 +1672,7 @@ footer {
       padding-top: 15%; } }
 
 .sitemap-legend {
-  z-index: 100000;
+  z-index: 99999;
   position: absolute; }
 
 @media screen and (max-width: 480px) {

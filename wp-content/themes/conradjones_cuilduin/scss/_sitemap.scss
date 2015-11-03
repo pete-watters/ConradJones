@@ -11,9 +11,9 @@
       }
 }
 .sitemap-legend-heading{
-  font-family: $Cabrito;
+  font-family: $CenturyGothic;
   width: 400px;
-  color: #B3A283;
+  color: black;
   font-size: 15px;
   text-align: left;
 
@@ -24,7 +24,7 @@
   }
 }
 .sitemap-legend{
-  z-index: 100000;
+  z-index: 99999;
   position: absolute;
 }
 
