@@ -48,7 +48,7 @@ get_header(); ?>
 		</div>
 		<div class="download-brochure-container">
 			<div class="download-brochure-background">
-				<span class="download-brochure-text">VIEW BROCHURE</span>
+				<div class="download-brochure-text">VIEW BROCHURE</div>
 			</div>
 		</div>
 

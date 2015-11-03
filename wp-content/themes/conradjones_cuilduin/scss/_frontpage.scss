@@ -117,14 +117,19 @@
   height: 280px;
 }
 
+.download-brochure-background:hover::after{
+  opacity: 0.1;
+}
 
 
 .download-brochure-text{
   position: relative;
-  top: 60px;
-  left: 30px;
+  top: 115px;
   color: white;
   z-index: 9999;
+  width: 200px;
+  text-align: center;
+  background-color: $goldGreen;
 }
 .page-content-primary-action-container{
   .register-interest{
