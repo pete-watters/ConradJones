@@ -12,7 +12,7 @@ get_header(); ?>
 	<section class="page-content primary" role="main">
 
 		<h1>Site Map</h1>
-	
+
 				<h3 class="sitemap-legend-heading">Click house type to view floor plan</h3>
 					<div class="sitemap-legend">
 
@@ -2167,9 +2167,8 @@ get_header(); ?>
 					</div>
 
 					<div class="buttons">
-						<button title="Zoom In" class="zoom-in"><i class="fa fa-search-plus"> Zoom In </i></button>
-						<button title="Zoom Out"  class="zoom-out"><i class="fa fa-search-minus"> Zoom Out </i></button>
-						<button title="Reset Zoom"  class="reset"><i class="fa fa-arrows-alt"> Reset </i></button>
+						<button title="Zoom In" class="zoom-in">+</button>
+						<button title="Zoom Out"  class="zoom-out">-</button>
 						<input type="range" class="zoom-range cuilDuinInputRange">
 					</div>
 
