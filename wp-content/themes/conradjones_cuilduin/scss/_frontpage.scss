@@ -14,11 +14,10 @@
     border-top: 3px solid #b59857;
 }
 .slider-description-text{
-    //margin-left: 10%;
-    //margin-right: 10%;
     font-size: 30px;
     text-align: center;
     width: 100%;
+    list-style: 50px;
 }
 .page-content.primary{
   //margin: 20px 30px;
@@ -190,6 +189,7 @@
   @include span-columns(8);
   @include outer-container;
   margin-left: 3%;
+  padding-left: 4%;
 
   @include media($medium) {
      @include span-columns(12);
