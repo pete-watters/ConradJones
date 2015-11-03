@@ -69,16 +69,16 @@ get_header(); ?>
 		</section>
 
   <section class="page-content secondary secondary-location">
-    <?php query_posts('cat=5'); ?>
+    <!-- <?php query_posts('cat=5'); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
        <?php the_content(); ?>
-    <?php endwhile; endif; ?>
+    <?php endwhile; endif; ?> -->
 
-		<div id="map" style="height:600px;"></div>
+		<div id="map" style="height:600px;margin:10px;bargin-bottom:0;"></div>
 				<script type="text/javascript">
 					var map;
 					function initMap() {
-							var cuilDuin_LatLng = {lat: 53.285589, lng: -6.427167, icon: "",title:"Cuil Duin"};
+							var cuilDuin_LatLng = {lat: 53.285589, lng: -6.427167, icon: "http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/CuilDuin_Logo_map.png",title:"Cuil Duin"};
 							var phoenixPark_LatLang = {lat: 53.3558823, lng: -6.332002, icon: "",title:"Phoenix Park"};
 							var tymonPark_LatLang = {lat: 53.300099, lng: -6.3500998, icon: "",title:"Tymon Park"};
 							var marlayPark_LatLang = {lat: 53.2732853, lng: -6.2710532, icon: "",title:"Marlay Park"};
@@ -110,18 +110,25 @@ get_header(); ?>
 								parkWestBusinessCampus_LatLang,
 							//	liffeyValleyShoppingCentre_LatLang,
 								dublinAirport_LatLang,
-								ballsbridge_LatLang,
-								rathmines_LatLang,
+								// ballsbridge_LatLang,
+								// rathmines_LatLang,
 								donnybrook_LatLang,
 								milltown_LatLang,
 								terenure_LatLang,
-								dundrum_LatLang
+							//	dundrum_LatLang
 							];
+
 
 
 						  var mapOptions = {
 								center: {lat: 53.32458, lng: -6.2903352}, // centered @ harolds cross
-								zoom: 12
+								zoom: 12,
+								style:  {
+							    "featureType": "transit.line.rail",
+							    "stylers": [
+							      { "hue": "#ff1a00" }
+							    ]
+							  }
 						  }
 						  var map = new google.maps.Map(document.getElementById("map"),mapOptions);
 
@@ -153,8 +160,8 @@ get_header(); ?>
 
 										function calculateAndDisplayRoute(directionsService, directionsDisplay) {
 										  directionsService.route({
-										    origin: {lat: 53.3475084, lng: -6.2305443}, // Point Luas
-										    destination: {lat: 53.2808389, lng: -6.4519389}, // Saggart Luas
+										    origin: "89-90 N Wall Quay, North Wall, Dublin 1, Ireland",//{lat: 53.3475084, lng: -6.2305443}, // Point Luas
+										    destination: "8 Millrace Gardens, Saggart, Co. Dublin, Ireland", //{lat: 53.2808389, lng: -6.4519389}, // Saggart Luas
 										    travelMode: google.maps.TravelMode.TRANSIT
 										  }, function(response, status) {
 										    if (status === google.maps.DirectionsStatus.OK) {
