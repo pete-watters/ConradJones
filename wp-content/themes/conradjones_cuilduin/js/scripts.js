@@ -37,7 +37,9 @@
 					alert("click");
 				});
 
-
+   $(".luas-map").on("click", function(){
+		 $(".luas-map-enlarge").click();
+	 });
 
 	$('img[usemap]').rwdImageMaps();
 

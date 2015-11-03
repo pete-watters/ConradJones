@@ -1219,13 +1219,15 @@ article {
     margin-bottom: 30px;
     margin-top: 70px; }
 
-.luas-map a {
-  position: inherit !important;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  padding-bottom: 3px;
-  background-color: transparent; }
+.luas-map {
+  cursor: pointer; }
+  .luas-map a {
+    position: inherit !important;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-bottom: 3px;
+    background-color: transparent; }
 
 .slider-area-specifications {
   padding-top: 75px; }
@@ -1800,6 +1802,9 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
   height: 120px;
   background-size: 100%;
   background-repeat: no-repeat; }
+
+img[src='http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/LuasLine.svg'] {
+  background: white; }
 
 /*******************************************
    Style menu for larger screens

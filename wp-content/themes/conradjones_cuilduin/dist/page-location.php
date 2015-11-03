@@ -60,7 +60,11 @@ get_header(); ?>
 
 	</section>
 	<section class="page-content luas-map-section">
-			<div class="luas-map"></div>
+			<div class="luas-map" title="Luas map - Click for full size">
+			</div>
+			<a class="luas-map-enlarge" href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/LuasLine.svg" data-rel="lightbox-0" title="LUAS Line">
+				<img class="aligncenter size-full wp-image-305" href="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/LuasLine.svg" alt="" >
+			</a>
 		</section>
 
   <section class="page-content secondary secondary-location">
