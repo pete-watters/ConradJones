@@ -74,40 +74,41 @@ get_header(); ?>
        <?php the_content(); ?>
     <?php endwhile; endif; ?>
 
-		<div id="map_CuilDuin" style="height:100%"></div>
+		<div id="map" style="height:600px;"></div>
 				<script type="text/javascript">
 					var map;
 					function initMap() {
-							var cuilDuin_LatLng = {lat: 53.285589, lng: -6.427167, icon: ""};
-							var phoenixPark_LatLang = {lat: 53.3558823, lng: -6.332002, icon: ""};
-							var tymonParkPark_LatLang = {lat: 53.300099, lng: -6.3500998, icon: ""};
-							var marlayParkPark_LatLang = {lat: 53.2732853, lng: -6.2710532, icon: ""};
-							var corkaghPark_LatLang = {lat: 53.3195741, lng: -6.4061051, icon: ""};
-							var cityWestHotel_LatLang = {lat: 53.2859733, lng: -6.4523219, icon: ""};
-							var cityWestBusinessCampus_LatLang = {lat: 53.2917814, lng: -6.4319854, icon: ""};
-							var cityWestShoppingCentre_LatLang = {lat:53.282511, lng: -6.4251771, icon: ""};
-							var theSquareTallaght_LatLang = {lat: 53.2866673, lng: -6.373633, icon: ""};
-							var parkWestBusinessCampus_LatLang = {lat: 53.3309755, lng: -6.3777673, icon: ""};
-							var liffeyValleyShoppingCentre_LatLang = {lat: 53.3530363, lng: -6.3925885, icon: ""};
-							var dublinAirport_LatLang = {lat: 53.4264481, lng:-6.2520985 , icon: ""};
-							var ballsbridge_LatLang = {lat: 53.3288689, lng: -6.2392783, icon: ""};
-							var rathmines_LatLang = {lat: 53.3198626, lng:-6.275405 , icon: ""};
-							var donnybrook_LatLang = {lat: 53.3192578, lng:-6.2407717 , icon: ""};
-							var milltown_LatLang = {lat: 53.3105978, lng: -6.2567941, icon: ""};
-							var terenure_LatLang = {lat: 53.3111151, lng: -6.308345, icon: ""};
-							var dundrum_LatLang = {lat: 53.2891313, lng:-6.2520191 , icon: ""};
+							var cuilDuin_LatLng = {lat: 53.285589, lng: -6.427167, icon: "",title:"Cuil Duin"};
+							var phoenixPark_LatLang = {lat: 53.3558823, lng: -6.332002, icon: "",title:"Phoenix Park"};
+							var tymonPark_LatLang = {lat: 53.300099, lng: -6.3500998, icon: "",title:"Tymon Park"};
+							var marlayPark_LatLang = {lat: 53.2732853, lng: -6.2710532, icon: "",title:"Marlay Park"};
+							var corkaghPark_LatLang = {lat: 53.3195741, lng: -6.4061051, icon: "",title:"Corkagh Park"};
+							var cityWestHotel_LatLang = {lat: 53.2859733, lng: -6.4523219, icon: "",title:"Citywest Hotel"};
+							var cityWestBusinessCampus_LatLang = {lat: 53.2917814, lng: -6.4319854, icon: "",title:"Citywest Business Campus"};
+							var cityWestShoppingCentre_LatLang = {lat:53.282511, lng: -6.4251771, icon: "",title:"Citywest Shopping Centre"};
+							var theSquareTallaght_LatLang = {lat: 53.2866673, lng: -6.373633, icon: "",title:"The Square, Tallaght"};
+							var parkWestBusinessCampus_LatLang = {lat: 53.3309755, lng: -6.3777673, icon: "",title:"Parkwest Business Park"};
+							var liffeyValleyShoppingCentre_LatLang = {lat: 53.3530363, lng: -6.3925885, icon: "",title:"Liffey Valley Shopping Centre"};
+							var dublinAirport_LatLang = {lat: 53.4264481, lng:-6.2520985 , icon: "",title:"Dublin Airport"};
+							var ballsbridge_LatLang = {lat: 53.3288689, lng: -6.2392783, icon: "",title:"Ballsbridge"};
+							var rathmines_LatLang = {lat: 53.3198626, lng:-6.275405 , icon: "",title:"Rathmines"};
+							var donnybrook_LatLang = {lat: 53.3192578, lng:-6.2407717 , icon: "",title:"Donnybrook"};
+							var milltown_LatLang = {lat: 53.3105978, lng: -6.2567941, icon: "",title:"Milltown"};
+							var terenure_LatLang = {lat: 53.3111151, lng: -6.308345, icon: "",title:"Terenure"};
+							var dundrum_LatLang = {lat: 53.2891313, lng:-6.2520191 , icon: "",title:"Dundrum"};
+							var redCow_LatLang = {lat: 53.3237422, lng:-6.3512739 , icon: "",title:"Red Cow Roundabout"};
 
 							var LatLng_Array = [
 								cuilDuin_LatLng,
 								phoenixPark_LatLang,
-								tymonParkPark_LatLang,
-								marlayParkPark_LatLang,
+								tymonPark_LatLang,
+								marlayPark_LatLang,
 								cityWestHotel_LatLang,
 								cityWestBusinessCampus_LatLang,
 								cityWestShoppingCentre_LatLang,
 								theSquareTallaght_LatLang,
 								parkWestBusinessCampus_LatLang,
-								liffeyValleyShoppingCentre_LatLang,
+							//	liffeyValleyShoppingCentre_LatLang,
 								dublinAirport_LatLang,
 								ballsbridge_LatLang,
 								rathmines_LatLang,
@@ -118,40 +119,55 @@ get_header(); ?>
 							];
 
 
+						  var mapOptions = {
+								center: {lat: 53.32458, lng: -6.2903352}, // centered @ harolds cross
+								zoom: 12
+						  }
+						  var map = new google.maps.Map(document.getElementById("map"),mapOptions);
 
 							for	( var i = 0; i < LatLng_Array.length; i++) {
 
+								var infowindow = new google.maps.InfoWindow({
+							    content: LatLng_Array[i].title
+							  });
 
-								var marker + "_" + i = new google.maps.Marker({
-									 position:  {lat: LatLng_Array[i].lat, lng: LatLng_Array[i].lng},
-									 map: map,
-									 title: 'Cuil Duin',
-									 label: 'Cuil Duin',
-									 icon: LatLng_Array[i].icon
-								 });
-								 
+									var marker = new google.maps.Marker({
+										 position:  {lat: LatLng_Array[i].lat, lng: LatLng_Array[i].lng},
+										 map: map,
+										 title: LatLng_Array[i].title,
+										 //label: 'Cuil Duin',
+										 icon: LatLng_Array[i].icon
+									 });
+									}
+
+									marker.addListener('click', function() {
+								    infowindow.open(map, marker);
+								  });
+
+									var transitLayer = new google.maps.TransitLayer();
+									  transitLayer.setMap(map);
+
+										var directionsService = new google.maps.DirectionsService;
+									  var directionsDisplay = new google.maps.DirectionsRenderer;
+  									directionsDisplay.setMap(map);
+
+										function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+										  directionsService.route({
+										    origin: {lat: 53.3475084, lng: -6.2305443}, // Point Luas
+										    destination: {lat: 53.2808389, lng: -6.4519389}, // Saggart Luas
+										    travelMode: google.maps.TravelMode.TRANSIT
+										  }, function(response, status) {
+										    if (status === google.maps.DirectionsStatus.OK) {
+										      directionsDisplay.setDirections(response);
+										    } else {
+										      window.alert('Directions request failed due to ' + status);
+										    }
+										  });
 
 
 									}
+								}
 
-						  var mapOptions = {
-								center: cuilDuinLatLng,
-								zoom: 8
-								//,streetViewControl: false
-						  }
-						  var map = new google.maps.Map(document.getElementById("map"),
-						       mapOptions);
-
-									 var cuilDuinIcon = 'images/beachflag.png';
-
-									 var marker = new google.maps.Marker({
-									    position: cuilDuin_LatLng,
-									    map: map,
-									    title: 'Cuil Duin',
-											label: 'Cuil Duin',
-    									icon: cuilDuinIcon
-									  });
-						}
 				</script>
 				<script async defer
 					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUkLw9opYBcOCcS9OA7Ac6yERecwYUCTc&callback=initMap">
