@@ -1257,10 +1257,11 @@ article {
   font-style: italic; }
 
 footer {
-  background: url(images/BottomBanner.jpg);
+  background: url(images/BottomBanner.svg);
   background-size: cover;
   padding-bottom: 24px;
-  padding-top: 60px; }
+  padding-top: 60px;
+  background-color: #4a5e69; }
 
 .footer-widgets {
   *zoom: 1;
@@ -1655,7 +1656,8 @@ footer {
   width: 400px;
   height: 100px;
   background-size: 100%;
-  display: block; }
+  display: block;
+  margin-left: 0px; }
   .homepage-content-secondary-container-span:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {

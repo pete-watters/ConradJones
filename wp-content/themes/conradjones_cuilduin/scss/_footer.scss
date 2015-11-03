@@ -1,8 +1,9 @@
 footer{
-		background: url(images/BottomBanner.jpg);
+		background: url(images/BottomBanner.svg);
     background-size: cover;
     padding-bottom: 24px;
 		padding-top: 60px;
+    background-color: #4a5e69;
 }
 
 .footer-widgets {
@@ -63,6 +64,7 @@ footer{
 .hooke-mcdonald-contact{
 		position: relative;
     bottom: 2px;
+		line-height: 20px;
 }
 .harcourt-developments-logo{
 	display:block;
