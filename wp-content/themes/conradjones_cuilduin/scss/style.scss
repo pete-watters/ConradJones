@@ -72,3 +72,8 @@
 #fancybox-wrap, #fancybox-overlay{
 	display: none !important;
 }
+
+#swipebox-overlay {
+    // give opacity to swipebox
+    background: rgba(0,0,0,0.9);
+}

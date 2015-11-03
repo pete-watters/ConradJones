@@ -2036,3 +2036,6 @@ input[type=range].cuilDuinInputRange:focus::-ms-fill-upper {
 
 #fancybox-wrap, #fancybox-overlay {
   display: none !important; }
+
+#swipebox-overlay {
+  background: rgba(0, 0, 0, 0.9); }
