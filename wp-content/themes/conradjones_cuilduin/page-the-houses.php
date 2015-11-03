@@ -12,7 +12,7 @@ get_header(); ?>
 <section class="front-page slider-area">
 	<?php if( function_exists('cyclone_slider') ) cyclone_slider('house-slideshow'); ?>
 	<div class="front-page slider-description">
-			<span class="slider-description-text">High-quality, innovative design</span>
+			<span class="slider-description-text slider-description-text-houses">High-quality, innovative design</span>
 	</div>
 </section>
 	<section class="page-content primary" role="main">
