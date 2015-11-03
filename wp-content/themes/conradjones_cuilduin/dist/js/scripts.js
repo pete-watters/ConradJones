@@ -43,14 +43,59 @@
 
 	$('img[usemap]').rwdImageMaps();
 
-	$('area').on("click" , function(e){
-		e.preventDefault();
-		var className = $(this).attr("class");
+	//$('area').on("click" , function(e){
+	//	e.preventDefault();
+	//	var className = $(this).attr("class");
+    //
+	//	$("#" + className).click();
+	//		// could change colour of background to match menu item selected
+	//	//$("#swipebox-overlay").css("background","green");
+	//});
 
-		$("#" + className).click();
-			// could change colour of background to match menu item selected
-		//$("#swipebox-overlay").css("background","green");
+	$('.2-bed-mid').on("click" , function(e){
+		e.preventDefault();
+		$("#2-bed-mid").click();
 	});
+	$('.3-bed-end').on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-end").click();
+	});
+	$('.3-bed-mid').on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-mid").click();
+	});
+	$('.4-bed-semi').on("click" , function(e){
+		e.preventDefault();
+		$("#4-bed-semi").click();
+	});
+	$('.3-bed-semi').on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-semi").click();
+	});
+
+
+	$('.2-bed-mid').children().on("click" , function(e){
+		e.preventDefault();
+		$("#2-bed-mid").click();
+	});
+	$('.3-bed-end').children().on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-end").click();
+	});
+	$('.3-bed-mid').children().on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-mid").click();
+	});
+	$('.4-bed-semi').children().on("click" , function(e){
+		e.preventDefault();
+		$("#4-bed-semi").click();
+	});
+	$('.3-bed-semi').children().on("click" , function(e){
+		e.preventDefault();
+		$("#3-bed-semi").click();
+	});
+
+
 
 
 $('.panzoom').panzoom({
