@@ -33,7 +33,7 @@
 					<div class="contact-details">
 						<span class="contact-details-text">contact Hooke &amp; MacDonald</span>
 						<br>
-						<span class="contact-details-number">01 631 8402</span>
+						<!-- <span class="contact-details-number">01 631 8402</span> -->
 					</div>
 					<div class="register-interest">
 						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">

@@ -77,3 +77,7 @@
     // give opacity to swipebox
     background: rgba(0,0,0,0.9);
 }
+
+html.mn-open .mn-navigation-wrap {
+    z-index: 10000000 !important; // force responsive nav above all content
+  }

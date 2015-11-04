@@ -17,7 +17,9 @@
     redirectWindow.location;
 	});
 
-
+	$(".contact-details-text").on("click", function(){
+			window.location = "http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/";
+	});
 
 	$(".view-gallery").on("click", function(){
 		$(".sliderimgLi a")[0].click();

@@ -14,7 +14,7 @@
   }
   .site-header {
     padding: 0;
-    height: auto;
+    height: 60px;
   }
 
   .logo-container {
@@ -32,7 +32,7 @@
   .slider-description {
     height: 30px;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 7%;
   }
 
   .slider-description-text {
@@ -72,6 +72,7 @@
     .view-gallery {
       float: none;
       margin-left: 15%;
+      margin-top: 20%;
     }
   }
 
@@ -162,7 +163,7 @@
     height: initial;
     float: none;
 
-    padding-right: 15%;
+    //padding-right: 15%;
   }
   .secondary-amenities-container:nth-of-type(even) .secondary-amenities-container-thumbnail{
     float: none;

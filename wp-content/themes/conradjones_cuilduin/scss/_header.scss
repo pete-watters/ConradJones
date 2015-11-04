@@ -3,7 +3,7 @@
 	overflow: hidden;
 	padding: 10px;
 	position:relative;
-	height: 120px;
+	height: 100px;
 	border-bottom: 3px solid $goldGreen;
 }
 
@@ -89,5 +89,6 @@
 		}
     .contact-details-text{
       font-size: 12px;
+			cursor: pointer;
     }
 }
