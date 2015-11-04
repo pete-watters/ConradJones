@@ -15,7 +15,7 @@ get_header(); ?>
 		endif; ?>
 	</div>
 	<section class="front-page slider-area">
-		<?php if( function_exists('cyclone_slider') ) cyclone_slider('house-slideshow'); ?>
+		<?php if( function_exists('cyclone_slider') ) cyclone_slider('homepageslideshow'); ?>
 		<div class="front-page slider-description">
 				<span class="slider-description-text">Superb new 2, 3 and 4 bedroom 'A' -rated houses</span>
 		</div>

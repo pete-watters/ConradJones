@@ -2168,6 +2168,7 @@ get_header(); ?>
 					</div>
 
 					<div class="buttons">
+<<<<<<< HEAD
 							<input type="range" class="zoom-range cuilDuinInputRange">
 							<div class="zoom-container">
 									<button title="Zoom In" class="zoom-in">+</button>
@@ -2175,6 +2176,11 @@ get_header(); ?>
 							</div>
 
 							<button title="Reset Zoom"  class="reset">Reset</button>
+=======
+						<button title="Zoom In" class="zoom-in">+</button>
+						<button title="Zoom Out"  class="zoom-out">-</button>
+						<input type="range" class="zoom-range cuilDuinInputRange">
+>>>>>>> 5b69fcf45f874c66e6d867906de99fcc327cf04f
 					</div>
 
 
