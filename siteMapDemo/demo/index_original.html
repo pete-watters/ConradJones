@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Panzoom for jQuery</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      body { background: #F5FCFF; color: #333666; }
+      section { text-align: center; margin: 50px 0; }
+      .panzoom-parent { border: 2px solid #333; }
+      .panzoom-parent .panzoom { border: 2px dashed #666; }
+      .buttons { margin: 40px 0 0; }
+    </style>
+    <script src="../test/libs/jquery.js"></script>
+    <script src="../dist/jquery.panzoom.js"></script>
+    <script src="../test/libs/jquery.mousewheel.js"></script>
+  </head>
+  <body>
+    <!-- <section>
+      <h1>Panning and zooming with CSS3</h1>
+      <div class="parent">
+        <div class="panzoom">
+          <img src="http://blog.millermedeiros.com/wp-content/uploads/2010/04/awesome_tiger.svg" width="900" height="900">
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="zoom-in">Zoom In</button>
+        <button class="zoom-out">Zoom Out</button>
+        <input type="range" class="zoom-range">
+        <button class="reset">Reset</button>
+      </div>
+      <script>
+        (function() {
+          var $section = $('section').first();
+          $section.find('.panzoom').panzoom({
+            $zoomIn: $section.find(".zoom-in"),
+            $zoomOut: $section.find(".zoom-out"),
+            $zoomRange: $section.find(".zoom-range"),
+            $reset: $section.find(".reset")
+          });
+        })();
+      </script>
+    </section>
+      <hr> -->
+    <section id="inverted-contain">
+      <h1>SVG</h1>
+      <div class="panzoom-parent">
+        <img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SiteMap.svg" width="952" height="735">
+    </div>
+      <div class="buttons">
+        <button class="zoom-in">Zoom In</button>
+        <button class="zoom-out">Zoom Out</button>
+        <input type="range" class="zoom-range">
+        <button class="reset">Reset</button>
+      </div>
+      <style>
+        panzoom { width: 100%; height: 100%; }
+      </style>
+      <script>
+        (function() {
+          var $section = $('#inverted-contain');
+          $section.find('.panzoom').panzoom({
+            $zoomIn: $section.find(".zoom-in"),
+            $zoomOut: $section.find(".zoom-out"),
+            $zoomRange: $section.find(".zoom-range"),
+            $reset: $section.find(".reset"),
+            startTransform: 'scale(1.1)',
+            increment: 0.1,
+            minScale: 1,
+            contain: 'invert'
+          }).panzoom('zoom');
+        })();
+      </script>
+    </section>
+
+    <section id="inverted-contain-2">
+      <h1>PNG</h1>
+      <div class="panzoom-parent">
+        <img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" width="952" height="735">
+      </div>
+      <div class="buttons">
+        <button class="zoom-in">Zoom In</button>
+        <button class="zoom-out">Zoom Out</button>
+        <input type="range" class="zoom-range">
+        <button class="reset">Reset</button>
+      </div>
+      <style>
+      .panzoom { width: 50%; height: 50%; }
+      </style>
+      <script>
+        (function() {
+          var $section = $('#inverted-contain-2');
+          $section.find('.panzoom').panzoom({
+            $zoomIn: $section.find(".zoom-in"),
+            $zoomOut: $section.find(".zoom-out"),
+            $zoomRange: $section.find(".zoom-range"),
+            $reset: $section.find(".reset"),
+            startTransform: 'scale(1.1)',
+            increment: 0.1,
+            minScale: 1,
+            contain: 'invert'
+          }).panzoom('zoom');
+        })();
+      </script>
+    </section>
+
+    <section id="inverted-contain-3">
+      <h1>JPEG</h1>
+      <div class="panzoom-parent">
+        <img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SiteMap.jpeg" width="952" height="735">
+      </div>
+      <div class="buttons">
+        <button class="zoom-in">Zoom In</button>
+        <button class="zoom-out">Zoom Out</button>
+        <input type="range" class="zoom-range">
+        <button class="reset">Reset</button>
+      </div>
+      <style>
+      .panzoom { width: 50%; height: 50%; }
+      </style>
+      <script>
+        (function() {
+          var $section = $('#inverted-contain-3');
+          $section.find('.panzoom').panzoom({
+            $zoomIn: $section.find(".zoom-in"),
+            $zoomOut: $section.find(".zoom-out"),
+            $zoomRange: $section.find(".zoom-range"),
+            $reset: $section.find(".reset"),
+            startTransform: 'scale(1.1)',
+            increment: 0.1,
+            minScale: 1,
+            contain: 'invert'
+          }).panzoom('zoom');
+        })();
+      </script>
+    </section>
+
+    <!-- Load livereload if not phantom or github -->
+    <script>
+      if ( !window.phantom && !/github/.test(window.location.hostname) ) document.write('<scr' + 'ipt src="http://' + location.hostname + ':35711/livereload.js"></scr' + 'ipt>');
+    </script>
+  </body>
+</html>
