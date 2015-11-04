@@ -1,4 +1,4 @@
-<?php
+hea<?php
 /**
  * conradjones_cuilduin template for displaying Pages
  *
@@ -2163,7 +2163,7 @@ get_header(); ?>
 					</div>
 		</div>
 					<div class="panzoom-parent">
-						<img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SitePlan_conv.png" alt="Site plan" />
+						<img class="panzoom" src="http://comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin/images/SiteMap-01-min.jpg" alt="Site plan" />
 						<span class="compass-graphic"></span>
 					</div>
 

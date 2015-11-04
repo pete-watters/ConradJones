@@ -31,7 +31,7 @@
 				<div class="header-nav-container">
 
 					<div class="contact-details">
-						<span class="contact-details-text">contact Hooke &amp; MacDonald</span>
+						<span class="contact-details-text"><span class="contact-details-text-contact">Contact</span> Hooke &amp; MacDonald</span>
 						<br>
 						<!-- <span class="contact-details-number">01 631 8402</span> -->
 					</div>

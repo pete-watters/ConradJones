@@ -815,6 +815,8 @@ p ~ h1 {
   .contact-details .contact-details-text {
     font-size: 12px;
     cursor: pointer; }
+  .contact-details .contact-details-text-contact {
+    text-decoration: underline; }
 
 .nav-bottom {
   font-size: 12px;
@@ -1768,18 +1770,6 @@ footer {
 .zoom-in, .zoom-out {
   display: block;
   width: 25px; }
-
-.sitemap-legend-container {
-  left: 50%;
-  position: absolute;
-  margin-left: -200px;
-  margin-top: -100px; }
-  @media screen and (max-width: 480px) {
-    .sitemap-legend-container {
-      left: 10%;
-      position: absolute;
-      top: 15%;
-      margin-left: 0; } }
 
 .sitemap-legend-container .sitemap-legend-heading {
   text-align: center;

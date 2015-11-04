@@ -97,19 +97,19 @@
       width: 25px;
 }
 
-
-.sitemap-legend-container {
-  left: 50%;
-  position: absolute;
-  margin-left: -200px;
-  margin-top: -100px;
-  @include media($small) {
-    left: 10%;
-    position: absolute;
-    top: 15%;
-    margin-left: 0;
-  }
-}
+// 
+// .sitemap-legend-container {
+//   left: 50%;
+//   position: absolute;
+//   margin-left: -200px;
+//   margin-top: -100px;
+//   @include media($small) {
+//     left: 10%;
+//     position: absolute;
+//     top: 15%;
+//     margin-left: 0;
+//   }
+// }
 .sitemap-legend-container .sitemap-legend-heading {
    text-align: center;
    margin-top: 20px;
