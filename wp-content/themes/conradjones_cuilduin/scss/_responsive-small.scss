@@ -80,6 +80,7 @@
     //margin-left: 10px;
     margin-left: 23px;
     margin-top: 19px;
+    margin-bottom: 5px;
   }
   .hooke-mcdonald {
     float: none;
@@ -92,6 +93,8 @@
   .hooke-mcdonald-contact {
     text-align: right;
     width: 60px;
+    position: absolute;
+    bottom: 6px;
   }
 
   .hooke-mcdonald-contact-phone, .hooke-mcdonald-contact-email {
