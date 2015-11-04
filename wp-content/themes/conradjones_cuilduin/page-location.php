@@ -74,7 +74,7 @@ get_header(); ?>
        <?php the_content(); ?>
     <?php endwhile; endif; ?> -->
 
-		<div id="map" style="height:600px;margin:10px;bargin-bottom:0;"></div>
+		<div id="map" style="height:600px;margin:10px;margin-bottom:0;"></div>
 				<script type="text/javascript">
 					var map;
 					function initMap() {
