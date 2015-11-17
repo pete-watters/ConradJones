@@ -1,11 +1,11 @@
 .compass-graphic{
     background: url(images/Compass.svg);
-    width: 151.755px;
-    height: 140.351px;
+    width: 72.549px;
+    height: 72.767px;
     display: block;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 50px;
+    right: 50px;
       @include media($small) {
           display:none;
       }

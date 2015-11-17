@@ -36,7 +36,7 @@
 						<!-- <span class="contact-details-number">01 631 8402</span> -->
 					</div>
 					<div class="register-interest">
-						<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">
+						<a href="contact/">
 						<span class="register-interest-button">
 
 						</span>

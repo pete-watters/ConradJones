@@ -148,18 +148,24 @@ module.exports = function(grunt) {
 			}
 		},
 		'ftp-deploy': {
-  build: {
-    auth: {
-			host: 'peterjwatters.com',
-      port: 21,
-      authKey: 'key1'
-    },
-    src: '../dist/',
-    dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
-    exclusions: ['../dist/node_modules/*', '../dist/images/*', '../dist/fonts/*','path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
-		forceVerbose: true
-  }
-}
+   build: {
+   auth: {
+      host: 'peterjwatters.com',port: 21,authKey: 'key1'},
+      src: '../dist/',
+      dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
+      exclusions: ['../dist/node_modules/*', '../dist/images/*', '../dist/fonts/*','path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
+			forceVerbose: true
+		}
+		},
+		'ftp-deploy-live': {
+      build: {
+        auth: { host: 'peterjwatters.com', port: 21, authKey: 'key1' },
+				src: '../dist/',
+				dest: '/public_html/comhairleteicneolaiochta.ie/projects/cuilduin/wp-content/themes/conradjones_cuilduin',
+				exclusions: ['../dist/node_modules/*', '../dist/images/*', '../dist/fonts/*','path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp'],
+				forceVerbose: true
+			}
+		}
 
 	});
 
@@ -177,12 +183,14 @@ grunt.registerTask('default', ['ftpPut']);
 		'sass:editorstyles'
 	]);
 
-	grunt.registerTask('ftp', [
+	grunt.registerTask('ftp-demo', [
 		'ftp-deploy'
 	]);
-
-	// Production task
-	grunt.registerTask('dist', function() {
+	grunt.registerTask('ftp-live', [
+		'ftp-deploy-live'
+	]);
+	// Demo Production task
+	grunt.registerTask('dist-demo', function() {
 		grunt.task.run([
 			'jshint',
 			'uglify',
@@ -191,7 +199,21 @@ grunt.registerTask('default', ['ftpPut']);
 			'clean:dist',
 			'copyto:dist',
 			'notify:dist',
-			'ftp'
+			'ftp-demo'
+		]);
+	});
+
+	// Live Production task
+	grunt.registerTask('dist-production', function() {
+		grunt.task.run([
+			'jshint',
+			'uglify',
+			'sass:prod',
+			'sass:editorstyles',
+			'clean:dist',
+			'copyto:dist',
+			'notify:dist',
+			'ftp-live'
 		]);
 	});
 };

@@ -1,7 +1,7 @@
 (function($) {
 	// jquery goodness
 		$(".logo").on("click",function(){
-				window.location = "http://comhairleteicneolaiochta.ie/projects/cuilduin/";
+				window.location = "/";
 		});
 
 	$(".post-content a").addClass("read-more");
@@ -18,7 +18,7 @@
 	});
 
 	$(".contact-details-text").on("click", function(){
-			window.location = "http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/";
+			window.location = "contact/";
 	});
 
 	$(".view-gallery").on("click", function(){

@@ -37,7 +37,7 @@ get_header(); ?>
 
 			<div class="page-content-primary-action-container homepage-content-container-actions">
 				<div class="homepage-content-container-actions-register">
-							<a href="http://comhairleteicneolaiochta.ie/projects/cuilduin/contact/">
+							<a href="contact/">
 								<span class="register-interest-button"></span>
 							</a>
 						</div>
